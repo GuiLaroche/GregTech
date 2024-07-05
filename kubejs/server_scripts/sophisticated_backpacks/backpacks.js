@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "sophisticatedbackpacks:gold_backpack" });
   event.remove({ id: "sophisticatedbackpacks:diamond_backpack" });
   event.remove({ id: "sophisticatedbackpacks:netherite_backpack" });
-
+  //test
   event.shaped("sophisticatedbackpacks:backpack", ["SLS", "LBL", "FPF"], {
     S: "#forge:screws/wrought_iron",
     L: "minecraft:leather",
