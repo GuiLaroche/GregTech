@@ -1,0 +1,9 @@
+#47F minecraft:birch_forest
+#6D8 regions_unexplored:boreal_taiga
+#4E1 regions_unexplored:clover_plains
+#010 minecraft:forest
+#4FD regions_unexplored:magnolia_woodland
+#1DF minecraft:old_growth_birch_forest
+#11D regions_unexplored:pine_taiga
+#3DC minecraft:plains
+#169 minecraft:taiga

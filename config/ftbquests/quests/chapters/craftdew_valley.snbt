@@ -1,0 +1,1077 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "craftdew_valley"
+	group: ""
+	icon: "farmersdelight:tomato"
+	id: "69BB31D9EC08B046"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["In this modpack it is possible to create a multitude of &5wines&r using a &brealistic method&r."]
+			icon: "vinery:wine_bottle"
+			id: "04E1813AAFE913F6"
+			rewards: [{
+				count: 6
+				id: "14DAC28B56F7963C"
+				item: "vinery:wine_bottle"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Sophia would be proud!"
+			tasks: [{
+				id: "498FCD1E58470641"
+				title: "Blue Moon Vineyard"
+				type: "checkmark"
+			}]
+			title: "Wine Maker"
+			x: -6.375d
+			y: -8.25d
+		}
+		{
+			description: ["&2Growing&r and &2harvesting&r different &avegetables&r and &afruits&r is central to the discovery of &6new food&r."]
+			icon: "farmersdelight:tomato"
+			id: "617BF6A8438F4217"
+			rewards: [{
+				id: "70212DA4169BCFA2"
+				item: {
+					Count: 1
+					id: "gtceu:iron_hoe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Salad time"
+			tasks: [{
+				id: "4EE527F9C2CCF6C9"
+				title: "Dedicated Farmer"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -8.25d
+		}
+		{
+			description: ["The other part of creating new &afood&r is harvesting new &cmeat&r, it's time for you to go &6hunting&r."]
+			icon: "nethersdelight:hoglin_sirloin"
+			id: "7AD2619DD7FBF852"
+			rewards: [{
+				id: "26C828937C50F359"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Kill them all, test them all"
+			tasks: [{
+				id: "583C26FD1896D369"
+				title: "Carnivore Territories"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -8.25d
+		}
+		{
+			description: ["Regular bread in &2Minecraft&r is a bit boring isn't it? I mean being a &ebaker&r is much more than lining up &7&o3 wheats on a crafting table&r&r. Well here you can become the baker you always dreamed of being."]
+			icon: "bakery:baguette"
+			id: "1FF3D878B95D1E17"
+			rewards: [{
+				id: "076030F52D892163"
+				item: "bakery:crafting_bowl"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "''Les gens qui parlent en français, ils ont tellement de charisme''"
+			tasks: [{
+				id: "7E54D5E53243D162"
+				title: "Oui, oui Baguette"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -8.25d
+		}
+		{
+			description: ["Yes, yes you are not dreaming, it is indeed &ebeer&r in &2Minecraft&r, with all the &6process&r that comes with it."]
+			icon: "brewery:beer_wheat"
+			id: "28FFFB0FD668E286"
+			rewards: [{
+				count: 16
+				id: "4A602C68D5E2DE95"
+				item: "brewery:beer_mug"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Sing like Elves. Drink like Dwarfs. Smoke like Wizards. Party like Hobbits!"
+			tasks: [{
+				id: "50DD99FEF1F0497D"
+				title: "Microbrewery"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			description: ["After a &6stressful exploration&r, it's not bad to drink a little &atea&r, and that's a good thing! Because this &emodpack&r adds a whole &2tea infusion system&r."]
+			icon: "herbalbrews:black_tea"
+			id: "6F4B53D782A44A4C"
+			rewards: [{
+				id: "5CCF238C223345D2"
+				item: "herbalbrews:tea_blossom"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "England is my city"
+			tasks: [{
+				id: "605BC0FB84B9A963"
+				title: "Tea Time!"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -8.25d
+		}
+		{
+			dependencies: ["04E1813AAFE913F6"]
+			description: [
+				"You may have noticed many &5varieties of grapes&r in your world, they are not only there to be &eeaten&r, they can also be used as &ebasic materials&r in the creation of &dwine&r."
+				""
+				"The &5grapes&r grow like &csweet berries&r, that is to say directly on the &2grass&r. But to make an efficient vineyard I advise you to use &9&lgrapevine stems&r&r. (Place the block and right click with a grape seed on it) this allows you to make a much more compact farm."
+			]
+			icon: "vinery:red_grape"
+			id: "67452EBFB632D0E7"
+			rewards: [
+				{
+					id: "0ED1F79EBBBD68BE"
+					item: "vinery:basket"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2CC3DFF4916814FB"
+					item: "vinery:grapevine_stem"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			tasks: [{
+				id: "7750451F7257768E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:grape"
+					}
+				}
+				title: "Any Grapes!"
+				type: "item"
+			}]
+			title: "The Wine Pearls"
+			x: -6.375d
+			y: -9.75d
+		}
+		{
+			dependencies: ["67452EBFB632D0E7"]
+			description: ["The &9grapevine pot&r is used to process &dgrapes&r into &5grape juice&r. To do this, &6&lright click&r&r with a grape on the pot until it is completely filled. Then &e&ljump repeatedly&r&r in the pot until you have crushed each &dgrape&r. Finally collect the &5juice&r using a &2&lwine bottle&r&r."]
+			id: "27160B64202D75BA"
+			size: 0.75d
+			tasks: [{
+				id: "6DECBFBDE68DB0B6"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: -6.375d
+			y: -11.25d
+		}
+		{
+			dependencies: ["27160B64202D75BA"]
+			description: [
+				"The &6aging barrel&r is the main tool used for &5wine crafting&r. It is very easy to use and you can use &c&lJEI&r&r to see the list of all craft available."
+				""
+				"For the &6Apple Press&r this is an &8optional craft&r, it allows you to transform apples into Apple Mash. This can already be done with a &2Create Mechanical Press&r, so if you want to use this method &bit's up to you!&r"
+			]
+			icon: "vinery:fermentation_barrel"
+			id: "6491DA7CF227D292"
+			rewards: [
+				{
+					id: "4294814FC9535533"
+					item: {
+						Count: 1
+						id: "vinery:jo_special_mixture"
+						tag: {
+							Year: 24
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67AB08270F0E6DD1"
+					item: "vinery:wine_box"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			tasks: [
+				{
+					count: 4L
+					id: "7D681437CA26857E"
+					item: "vinery:fermentation_barrel"
+					type: "item"
+				}
+				{
+					id: "4509755E3ABEAD78"
+					item: "vinery:apple_press"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Keg and Press"
+			x: -6.375d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6491DA7CF227D292"]
+			description: ["The &5Winemaker's armor&r doesn't seem very interesting seen like that but it &aallows the bone meal to no longer be consumed when used&r."]
+			icon: {
+				Count: 1
+				id: "vinery:straw_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2FD08611816D1B7E"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Idk why they add Luffy clothes but whatever its cool"
+			tasks: [
+				{
+					id: "23074DA9A0E90E0C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C58D3F00DF3A58C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "vinery:winemaker_apron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1715AAFA8D5DDB53"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "vinery:winemaker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66855631A27F2D2C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "vinery:winemaker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Monkey D Luffy"
+			x: -6.375d
+			y: -14.625d
+		}
+		{
+			dependencies: ["617BF6A8438F4217"]
+			description: [
+				"Phew! He has plenty of vegetables to harvest, but how are you going to find it all?"
+				""
+				"&e&oEasy&r&r. Most can be found ''&ain the wild&r'' almost everywhere in &2each biome&r. Otherwise, &2village chests&r often have a lot of them too."
+				""
+				"I advise you to &dcultivate them all&r because &dthey all offer new recipes&r which will be very useful to increase your &cmaximum life total&r."
+			]
+			icon: "vintagedelight:cucumber"
+			id: "2CEDB6811E8E62D4"
+			rewards: [{
+				id: "2C5D8935F192C2EB"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "4A65386689D09EF9"
+					item: "vintagedelight:cucumber"
+					type: "item"
+				}
+				{
+					id: "74EB66E35D5F7C97"
+					item: "vintagedelight:peanut"
+					type: "item"
+				}
+				{
+					id: "5B04C7FA2F7FF5A9"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					id: "1377AE82AF167D8C"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "7C47C2B1F8D025D6"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "4D8CD2D7F50FB98A"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					id: "7BB23554F96968B5"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					id: "3CA67BA1FF2B2FD9"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					id: "0E50F7F72769C5E0"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					id: "26E249F088B3881F"
+					item: "miners_delight:cave_carrot"
+					type: "item"
+				}
+			]
+			title: "Fine Collector"
+			x: -4.125d
+			y: -9.75d
+		}
+		{
+			dependencies: ["7AD2619DD7FBF852"]
+			description: [
+				"There is a lot of new meat to try, but to start, let's stick with &cwhat we already know&r."
+				""
+				"I advise you to &d&lbuild an enclosure for each of these animals&r&r, as many crafts will need their &5meat&r."
+				""
+				"This is also the time to remind you that the &2&lCarry On&r&r mod is present in the modpack (default keybind set to &eLeft ALT&r) which allows you to transport animals without needing the &8usual methods.&r"
+			]
+			icon: "minecraft:beef"
+			id: "5CE95B8B0F6FBD15"
+			rewards: [{
+				id: "0513765825934D70"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "165D1D4F992AF83E"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					id: "7F4336A5B5EA63AB"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					id: "27011935DE8781E7"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					id: "2BC597C96AA5806B"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+			]
+			title: "Local Butcher"
+			x: -3.375d
+			y: -9.75d
+		}
+		{
+			dependencies: ["7AD2619DD7FBF852"]
+			description: [
+				"There are many &3new fish&r in the &9river&r and &9ocean&r. They will be very useful in the preparation of many maritime &ddishes&r."
+				""
+				"&c&lPro Tip&r&r: &1The Hearth Of The Sea&r can be used to craft the &bSoulspring Lamp&r. This is a good strategy if no wreck is nearby!"
+			]
+			icon: "minecraft:cod"
+			id: "7FD6B64D21D672AB"
+			rewards: [{
+				id: "667BD43B8CAE8C96"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "15B5A540A09ED744"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					id: "704FDC4BD881F59C"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					id: "35086624216406ED"
+					item: "upgrade_aquatic:pike"
+					type: "item"
+				}
+				{
+					id: "3D3E4BAA858026CA"
+					item: "upgrade_aquatic:perch"
+					type: "item"
+				}
+				{
+					id: "6B5F376B9BADD962"
+					item: "naturalist:catfish"
+					type: "item"
+				}
+				{
+					id: "0327FAD5AA2AFF0B"
+					item: "naturalist:bass"
+					type: "item"
+				}
+			]
+			title: "Bass Pro Shops"
+			x: -2.625d
+			y: -9.75d
+		}
+		{
+			dependencies: [
+				"5CE95B8B0F6FBD15"
+				"2CEDB6811E8E62D4"
+				"70424213DBD1E3F7"
+				"7FD6B64D21D672AB"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&9&nFinally&r&r, it's time for your &dfirst dishes&r."
+				""
+				"Here are some explanations if you are not familiar with the &2&lFarmer Delight&r&r &2mod&r."
+				""
+				"The &6Cooper Pot&r is a tool used to cook various dishes. It requires a &cheat source below it&r, as well as a &7container&r (like a bowl for example) to collect the cooking contents."
+				""
+				"The &6Cutting Board&r is a tool used to cut several vegetables and meats. All you have to do is &bright click&r on the board with the &8object uou want to cut&r and then make another &bright click&r on the board with a &8knife&r."
+				""
+				"&nNote&r: All recipes are available on &c&lJEI&r&r"
+			]
+			icon: "miners_delight:copper_pot"
+			id: "391F4533D7E24E36"
+			rewards: [
+				{
+					id: "14071E324200A864"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "116F98BF72640016"
+					item: "bakery:brick_counter"
+					type: "item"
+				}
+				{
+					id: "2ECE6A32B865CAF3"
+					item: "vintagedelight:white_chefs_hat"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			tasks: [
+				{
+					id: "2C39FF00F778D953"
+					item: "miners_delight:copper_pot"
+					type: "item"
+				}
+				{
+					id: "5BB61B32E569833D"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "New Chef In Town"
+			x: -3.75d
+			y: -11.25d
+		}
+		{
+			dependencies: ["391F4533D7E24E36"]
+			description: [
+				"It's time to &bupgrade&r your &ekitchen tools&r. These are the most efficient tools that will allow you to craft almost any food imaginable!"
+				""
+				"&3Industrial Cooking Pot&r: The &aimproved version&r of the &6Copper Cooking Pot&r, it is &82 slots larger&r, which allows the cooking of larger dishes."
+				""
+				"&3Skillet&r: Allows you to do the equivalent of cooking at a &6campfire&r, but without the danger of staying close to it."
+				""
+				"&3Cheese Mold&r: Allows you to make &8cheese&r! To do this, fill the mold with &dCheese Curds&r then wait."
+				""
+				"&3Fermanting Jar&r: Allows you to &6ferment&r various foods, it is among other things the means used to make &7pickles&r! I advise you to stock up on &dKitchen Salt&r, as most recipes use it."
+			]
+			icon: "farmersdelight:cooking_pot"
+			id: "1FB9BD881A0E33CB"
+			rewards: [
+				{
+					id: "3D7F2199B56AFD28"
+					item: "bakery:kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "31D90DD82145BF15"
+					item: "bakery:street_sign"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "727E863A7E3D6D21"
+					item: "bakery:iron_table"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "747C6DD3F6E339B0"
+					item: "bakery:iron_chair"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1C69EE821111D7B7"
+					item: "handcrafted:white_plate"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			tasks: [
+				{
+					id: "15583CE3E4897B24"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "3E6EA715C765BD7A"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F14FFD407050A48"
+					item: "vintagedelight:cheese_mold"
+					type: "item"
+				}
+				{
+					id: "223428658DC766EB"
+					item: "vintagedelight:fermenting_jar"
+					type: "item"
+				}
+			]
+			title: "5 Stars Restaurant"
+			x: -3.75d
+			y: -12.75d
+		}
+		{
+			dependencies: ["617BF6A8438F4217"]
+			description: ["There are a &blot&r of &enew fruits&r to discover. Present in many &6environments&r, from &cdesert&r to &9taiga&r. Finding them all will be a real &dchallenge&r."]
+			icon: "minecraft:apple"
+			id: "70424213DBD1E3F7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30F412542E2964FE"
+					table_id: 3715638695972792329L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40B5A13CDF76163F"
+					table_id: 3715638695972792329L
+					type: "loot"
+				}
+			]
+			size: 0.75d
+			tasks: [
+				{
+					id: "29F072150664E776"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:berries"
+						}
+					}
+					title: "Any Berries!"
+					type: "item"
+				}
+				{
+					id: "5DBE104B496E5892"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:fruits"
+						}
+					}
+					title: "Any Fruits!"
+					type: "item"
+				}
+				{
+					id: "0479FA091862EDD8"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			title: "Sweet Nature"
+			x: -4.875d
+			y: -9.75d
+		}
+		{
+			dependencies: ["70424213DBD1E3F7"]
+			description: [
+				"The &6cauldron&r now finally has a use! It allows you to make &3jam&r and &3jello&r."
+				""
+				"Nothing could be simpler, simply place a &9heat source&r below the &8cauldron&r and follow the &c&lJEI&r&r instructions."
+				""
+				"Don't forget that we collect the contents of the &ajams&r in a &2glass bottle&r, and the contents of the &djello&r in a &5bowl&r."
+			]
+			id: "61132CBEF145F92D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33CA01A1B118C03D"
+					table_id: 3715638695972792329L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EBAC97FB1123633"
+					table_id: 3715638695972792329L
+					type: "loot"
+				}
+			]
+			size: 0.75d
+			tasks: [{
+				id: "77E0EF803DCC1A15"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			title: "Jam to Jello"
+			x: -4.875d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1FF3D878B95D1E17"]
+			description: [
+				"If you try to craft &ebread&r, you will notice that the crafting is now &bdifferent&r."
+				""
+				"So in reality, to make anything remotely related to &ebread&r, you need &6flour&r!"
+				""
+				"There are many methods to make it, such as a &3Crafting Bowl&r or a &3Create Mixer&r."
+			]
+			icon: "create:dough"
+			id: "47F5F328306C53A3"
+			rewards: [
+				{
+					id: "45445308E7B2AFD0"
+					item: {
+						Count: 1
+						id: "bakery:bread_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "596E1594EDFAD359"
+					item: {
+						Count: 1
+						id: "bakery:small_cooking_pot"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.75d
+			tasks: [
+				{
+					count: 3L
+					id: "52BBD71D42EB4AB9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dough"
+						}
+					}
+					title: "Any Dough"
+					type: "item"
+				}
+				{
+					id: "669133A6350D660A"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "Realistic Bread"
+			x: -1.5d
+			y: -9.75d
+		}
+		{
+			dependencies: ["47F5F328306C53A3"]
+			description: [
+				"&eBread&r is all well and good, but who wouldn't want a &6waffle&r or a &6baguette&r?"
+				""
+				"Well it’s possible with the &d&lBrick Oven&r&r!"
+				""
+				"With this tool you can become the perfect baker."
+				""
+				"Don't forget to use &c&lJEI&r&r for all recipes!"
+			]
+			id: "549B3E101566C3B8"
+			rewards: [
+				{
+					id: "7E5DDF334E700DF9"
+					item: "bakery:breadbox"
+					type: "item"
+				}
+				{
+					id: "672970B99E689A73"
+					item: "bakery:wall_display"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			tasks: [{
+				id: "30FD5EAFAC0C20DF"
+				item: "bakery:brick_stove"
+				type: "item"
+			}]
+			title: "Lets Start Baking"
+			x: -1.875d
+			y: -11.25d
+		}
+		{
+			dependencies: ["47F5F328306C53A3"]
+			description: [
+				"Want something &bsweeter&r?"
+				""
+				"Build a &d&lCaking Station&r&r, place it on top of the &dCake Dough&r then complete your recipe!"
+				""
+				"All crafts are available on &c&lJEI&r&r."
+			]
+			icon: "bakery:baker_station"
+			id: "45A9FB33468B3886"
+			rewards: [
+				{
+					id: "4614FA8FAD63A398"
+					item: "bakery:cake_stand"
+					type: "item"
+				}
+				{
+					id: "7CD1AD8121B3EE85"
+					item: "bakery:cupcake_display"
+					type: "item"
+				}
+				{
+					id: "010015EC49ADBF6B"
+					item: "bakery:cake_display"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			tasks: [
+				{
+					id: "23A89897C93C6E4D"
+					item: "bakery:baker_station"
+					type: "item"
+				}
+				{
+					id: "54FFEA57D9BA0BCE"
+					item: "bakery:cake_dough"
+					type: "item"
+				}
+			]
+			title: "Happy Birthday!"
+			x: -1.125d
+			y: -11.25d
+		}
+		{
+			dependencies: ["6F4B53D782A44A4C"]
+			description: [
+				"The basis of the &5tea infusion&r is the &dplants used&r. You will find many different kinds as you explore."
+				""
+				"Note for &2Tea Leaf&r: The tea leaves that you find &ccannot be directly&r used for this you must make a &ablock of tea leaf&r, place it and let it dry so that it becomes a block of &2\"Dried\" tea leaf block&r."
+			]
+			icon: "herbalbrews:green_tea_leaf"
+			id: "3202783F801C2700"
+			rewards: [{
+				id: "76502CD23D43FA73"
+				item: "herbalbrews:black_tea"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "31EDD4ABF2A58A91"
+					item: "herbalbrews:coffee_beans"
+					type: "item"
+				}
+				{
+					id: "5D47943271DE7E9C"
+					item: "herbalbrews:rooibos_leaf"
+					type: "item"
+				}
+				{
+					id: "34943BC5613C2659"
+					item: "herbalbrews:yerba_mate_leaf"
+					type: "item"
+				}
+				{
+					id: "2B036367FB2E78C6"
+					item: "herbalbrews:green_tea_leaf"
+					type: "item"
+				}
+				{
+					id: "573F7C67FFD38389"
+					item: "herbalbrews:hibiscus"
+					type: "item"
+				}
+				{
+					id: "16A17CE8FD43036E"
+					item: "herbalbrews:lavender_blossom"
+					type: "item"
+				}
+			]
+			title: "Herbalist"
+			x: 1.5d
+			y: -9.75d
+		}
+		{
+			dependencies: ["3202783F801C2700"]
+			description: [
+				"The &d&lTea Kettle&r&r is the tool used to create &atea&r."
+				""
+				"This requires a &6heat source underneath to operate&r."
+				""
+				"All crafts are available on &c&lJEI&r&r."
+			]
+			id: "482C52ECED4A0625"
+			size: 0.75d
+			tasks: [{
+				id: "2601B532BCC99BDA"
+				item: "herbalbrews:tea_kettle"
+				type: "item"
+			}]
+			title: "Tasty Hot Water"
+			x: 1.125d
+			y: -11.25d
+		}
+		{
+			dependencies: ["3202783F801C2700"]
+			description: [
+				"The &d&lBrewing Cauldron&r&r is a tool used to craft &epotions&r with different plants."
+				""
+				"Potions are &aweaker&r but &alast longer&r than their &6Brewing Stand&r counterpart."
+				""
+				"All crafts are available on &c&lJEI&r&r."
+			]
+			id: "1CB9241C4EA97554"
+			size: 0.75d
+			tasks: [{
+				id: "51BAFCB7B533140D"
+				item: "herbalbrews:cauldron"
+				type: "item"
+			}]
+			title: "Better Not Ask What Is Inside"
+			x: 1.875d
+			y: -11.25d
+		}
+		{
+			dependencies: ["28FFFB0FD668E286"]
+			description: [
+				"The very first step in &ebeer brewing&r is indeed &6harvesting&r the appropriate plants."
+				""
+				"For the different variants of wheat this should not be very complicated, on the other hand for &aHops&r it is a different story. Hops is a plant found in biomes labeled as &2Taiga&r. "
+				""
+				"&8&oSo the Taiga Vanilla biome, as well as all biomes modded with this tag.&r&r"
+			]
+			icon: "brewery:corn"
+			id: "5503CC5E3D4FFFED"
+			rewards: [{
+				count: 2
+				id: "75BC619A7D8EB974"
+				item: "brewery:barrel_main"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					count: 16L
+					id: "0563E12F289811EF"
+					item: "brewery:hops"
+					type: "item"
+				}
+				{
+					id: "48A51B12B98CA3C3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "brewery:wheat"
+						}
+					}
+					title: "Any Brewable Plant!"
+					type: "item"
+				}
+			]
+			title: "Party Harvest"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["5503CC5E3D4FFFED"]
+			description: [
+				"Once you have harvested a good quantity of &aBrewable plants&r, it is time to &edry&r them. And there is only one solution for that. A &d&lSilo&r&r!"
+				""
+				"This is a very simple &5multi-block&r. A simple &b4x4 tower going up&r."
+				""
+				"&7Right click&r on the plants you want to dry to place them inside. "
+				""
+				"The &9hatch&r at the bottom of the silo can be closed to prevent the grain from coming out when it is ready."
+			]
+			id: "7C5C2A96ADB129DA"
+			rewards: [
+				{
+					id: "7B0E316449257108"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "herbalbrews:top_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "1966CF5CF83B28DF"
+					item: "brewery:bar_counter"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			tasks: [{
+				count: 24L
+				id: "59135F406C542E87"
+				item: { Count: 24, id: "brewery:silo_wood" }
+				type: "item"
+			}]
+			title: "Dry Drum"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["7C5C2A96ADB129DA"]
+			description: [
+				"The last stop before brewing beer is the &d&lBrewing Station&r&r."
+				""
+				"Its use consists of a small &9mini-game&r. To begin, place a &bbucket of water&r in the &3hole on the machine&r, then &7right click&r with a &bcoal&r on the &bfurnace of the machine&r."
+				"Then place the ingredients you wish to brew using a right click in the hole."
+				""
+				"The machine will start emitting &cred particles&r, this means that the mini-game has &cstarted&r. This &9mini-game&r consists of &7adding&r or &7removing&r &bwater&r in the hole so that the volume of water is always constant."
+				""
+				"After about 30 seconds, if you have been quick enough, the beer will be ready, it can then be scooped up with a &aBeer Mug&r."
+				""
+				"For crafts, I advise you to simply write \"&oBeer&r\" in &c&lJEI&r&r and look at the different recipes available."
+			]
+			id: "10A427A2628E865D"
+			rewards: [
+				{
+					count: 12
+					id: "34770D90F90C8458"
+					item: "brewery:table"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "099509798A8D0F8A"
+					item: "brewery:bench"
+					type: "item"
+				}
+				{
+					id: "77C29100493E8515"
+					item: "brewery:breathalyzer"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			tasks: [{
+				id: "03329DF10C78BCF1"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			title: "La Souche"
+			x: 0.0d
+			y: -12.75d
+		}
+	]
+	title: "Craftdew Valley"
+}

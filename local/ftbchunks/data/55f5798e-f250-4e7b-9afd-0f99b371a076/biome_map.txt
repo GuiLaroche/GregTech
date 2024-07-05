@@ -1,0 +1,4 @@
+#556 minecraft:beach
+#34D minecraft:deep_lukewarm_ocean
+#4B0 minecraft:jungle
+#79A minecraft:lukewarm_ocean

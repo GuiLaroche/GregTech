@@ -1,0 +1,8 @@
+#4E1 regions_unexplored:clover_plains
+#4FD regions_unexplored:magnolia_woodland
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#704 regions_unexplored:rocky_meadow
+#02B regions_unexplored:shrubland
+#77B regions_unexplored:temperate_grove
+#5F8 regions_unexplored:willow_forest

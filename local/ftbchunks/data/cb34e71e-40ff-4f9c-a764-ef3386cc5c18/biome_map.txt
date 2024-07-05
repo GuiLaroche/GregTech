@@ -1,0 +1,3 @@
+#010 minecraft:forest
+#1DF minecraft:old_growth_birch_forest
+#3DC minecraft:plains

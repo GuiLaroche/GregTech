@@ -1,0 +1,19 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "bloodmagic:guide": {
+      "viewedEntries": [
+        "bloodmagic:utility/changelog",
+        "bloodmagic:demon_will/item_routing/node_router"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "extendedcrafting:guide": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

@@ -1,0 +1,12 @@
+#6F6 minecraft:badlands
+#05B minecraft:bamboo_jungle
+#34D minecraft:deep_lukewarm_ocean
+#008 minecraft:desert
+#4B0 minecraft:jungle
+#79A minecraft:lukewarm_ocean
+#498 minecraft:lush_caves
+#5FF minecraft:river
+#421 minecraft:stony_peaks
+#51A minecraft:stony_shore
+#2B7 minecraft:warm_ocean
+#1C9 minecraft:wooded_badlands

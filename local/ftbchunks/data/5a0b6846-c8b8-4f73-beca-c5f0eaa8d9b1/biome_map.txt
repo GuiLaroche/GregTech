@@ -1,0 +1,12 @@
+#47F minecraft:birch_forest
+#4F9 minecraft:dark_forest
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#508 minecraft:frozen_peaks
+#286 minecraft:grove
+#51E minecraft:jagged_peaks
+#498 minecraft:lush_caves
+#2D6 minecraft:meadow
+#4F1 minecraft:ocean
+#1DF minecraft:old_growth_birch_forest
+#51A minecraft:stony_shore

@@ -1,0 +1,16 @@
+#05B minecraft:bamboo_jungle
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#460 minecraft:cherry_grove
+#4F9 minecraft:dark_forest
+#34D minecraft:deep_lukewarm_ocean
+#010 minecraft:forest
+#286 minecraft:grove
+#4B0 minecraft:jungle
+#79A minecraft:lukewarm_ocean
+#498 minecraft:lush_caves
+#4F1 minecraft:ocean
+#1DF minecraft:old_growth_birch_forest
+#3DC minecraft:plains
+#5FF minecraft:river
+#51A minecraft:stony_shore

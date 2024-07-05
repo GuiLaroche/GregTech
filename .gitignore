@@ -1,0 +1,17 @@
+aes/
+XaeroWaypoints/
+XaeroWaypoints_BACKUP032021/
+XaeroWorldMap/
+backups/
+*.log
+logs/
+saves/
+screenshots/
+servers.dat
+servers.dat_old
+shaderpacks/
+usercache.json
+usernamecache.json
+.curseclient
+crash-reports/
+rhino.local.properties

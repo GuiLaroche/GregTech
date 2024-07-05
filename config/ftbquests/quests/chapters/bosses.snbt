@@ -1,0 +1,394 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: ""
+	icon: "cataclysm:the_incinerator"
+	id: "6592464885250722"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The story of this &6ancient legendary warrior&r is known in every village. "
+				""
+				"He was a &8legendary knight&r who made a pact with the &4Ignis&r to obtain the &1&lstrongest&r&r &9armor&r and &9weapon&r, made of &dthousands of metal&r. "
+				""
+				"He won many battles but this armor had a &aprice&r, it transformed the adventurer, he was no longer capable of separating an enemy from an ally. "
+				""
+				"And before he completely lost control, he locked himself in a &3vault underground&r, hoping to &0&lnever be found&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:wrought_helmet"
+				tag: { }
+			}
+			id: "1236F12320145DBC"
+			subtitle: "The Ancient Hero"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "5DE4A69CDAEAAE12"
+				title: "Ferrous Wroughtnaut"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Ferrous Wroughtnaut"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Humans were not the first intelligent beings in the world. "
+				"Millions of years ago some dinosaurs developed intelligence. "
+				"They create their own &etribe&r and &eculture&r. Living in a &6&llarge pyramid&r&r, these people were managed by a &9large dinosaur&r who also served as a &9shaman&r. "
+				""
+				"After a certain time, this shaman began to see visions, it was the &capocalypse&r, a huge meteorite would soon destroy everything. That's when he came up with a plan. Bind the souls of the people to the earth for &beternity&r. So all of them would survive."
+				""
+				"The shaman was not sure if his plan would succeed, so he had to build a &6&lmedallion&r&r to counter his soul. He then cursed the &6pyramid&r to survive for &beternity&r."
+				""
+				"Today no one knows the &a&ltruth&r&r about this story, or even if the &6&lpyramid&r&r really exists."
+			]
+			id: "58E3B4C21CF4A428"
+			rewards: [{
+				id: "168D5A2695954377"
+				item: "cataclysm:music_disc_ancient_remnant"
+				type: "item"
+			}]
+			subtitle: "The Undying Beast"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:remnant_skull"
+				id: "0B50A954AEFD765A"
+				title: "Ancient Remnant"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Ancient Remnant"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"No one knows &3where&r this &dcreature&r comes from, but one thing is certain, it is &cdangerous&r."
+				""
+				"Acting as a dimensional parasite, the &3Void Worm&r is a creature that defies all &bphysical laws&r."
+				""
+				"The only way to make it &aappear&r is to kill one of these children."
+				"Yes, throwing a &3&lMysterious Worm&r&r into the &0&lvoid&r&r."
+			]
+			icon: "alexsmobs:void_worm_eye"
+			id: "58F9F63B6C243755"
+			rewards: [{
+				id: "48BE87BABF85C6CA"
+				item: {
+					Count: 1
+					id: "alexsmobs:dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The Eater of World"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:mysterious_worm"
+				id: "4D12D039069C30AE"
+				title: "Void Worm"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Void Worm"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"In the &b&lsnowy mountains&r&r everyone knows the legend of the legendary &b&lFrostmaw&r&r. Half monkey, half ice cream."
+				""
+				"The testimonies about him are &econfused&r. Some describe it as a &7giant creature covered in white hair&r, others as a &7snowstorm freezing anyone on the spot&r, it was even expected that it was a &7peaceful creature just sleeping&r."
+				""
+				"These testimonies must have some &5&ltruth&r&r, but what is this &dcreature&r?"
+			]
+			id: "09DA362914CAEFFF"
+			subtitle: "The Sleepy Yeti"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5244C0181CC2826C"
+				title: "Frostmaw"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Frostmaw"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Deep in the barren and dry &esavannahs&r lies &6Umvuthi the SunBird&r and his tribute. These sun-worshiping birdmen are known to be &5violent&r and &5territorial&r."
+				""
+				"&6Umvuthi&r &4&lsees&r&r and &4&lhears&r&r everything, impossible to hide, to win you have to go in berserker mode."
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:sol_visage"
+				tag: { }
+			}
+			id: "5EE4F0DEC55B4523"
+			rewards: [{
+				id: "500A98DA11E59DA8"
+				item: "mowziesmobs:grant_suns_blessing"
+				type: "item"
+			}]
+			subtitle: "The Heliomancer Bird"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "0B6325CA5DE580BF"
+				title: "Umvuthi, the Sunbird"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Umvuthi, the Sunbird"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Fishermen have been talking about this place for &9thousands of years&r. &1&lThe Sunken City&r&r. A legendary city long forgotten &1under the ocean&r. It is said that these inhabitants survived the &62nd cataclysm&r thanks to the help of a mysterious &9creature&r, as much &3feared&r as &3admired&r. &9&lThe Leviathan&r&r."
+				""
+				"Legends compare his power to that of the legendary &4Ignis&r. Some even say that he is the &2&lmost powerful creature in the overworld&r&r."
+			]
+			icon: "cataclysm:abyssal_sacrifice"
+			id: "2204EC48ABC6310C"
+			rewards: [{
+				id: "718925304F6667FF"
+				item: "cataclysm:music_disc_the_leviathan"
+				type: "item"
+			}]
+			subtitle: "The Lovecraftian Horror"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "682B7C1B5090622F"
+				title: "Kill The Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"This &bcreature&r is said to be the &creason&r why the piglins never again rebelled behind their creator. An &4immense machine&r, both a &cgolem&r and a &cmonster&r. A true &cliving fortress&r."
+				""
+				"Store in a &4&lhuge forge&r&r in the &4nether&r."
+				"It is said that the creature possesses the &bsouls&r of the &e2 million&r piglin who led the revolt."
+				""
+				"Today the piglins have forgotten this story, but the &emachine&r is still there..."
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:monstrous_helm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7941E9054B9E04A2"
+			rewards: [{
+				id: "6BEC1A052BA711A5"
+				item: "cataclysm:music_disc_netherite_monstrosity"
+				type: "item"
+			}]
+			subtitle: "The Infernal Golem"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "648C9A405E3957DD"
+				title: "Kill Netherite Monstrosity"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Who could have predicted such a &dcatastrophe&r?"
+				""
+				"When the &dShulkers&r were created, those who are today the &0endermans&r thought that it would be relevant to train one specifically for the defense of the &b&lcitadel&r&r. All this was going well, but after the incident everything degenerated, those who had become &0endermans&r were &8massacred&r by the &5creature&r and the &5&lcitadel&r&r fell into oblivion."
+			]
+			icon: "cataclysm:void_core"
+			id: "4FF0AA2D5103FBDE"
+			rewards: [{
+				id: "520A418936956E89"
+				item: "cataclysm:music_disc_ender_guardian"
+				type: "item"
+			}]
+			subtitle: "The Bulk Shulker"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "113714B183DA5D79"
+				title: "Kill Ender Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"After the first defeat against the &4Ignis&r, the &aancient builders&r set up a new strategy, fighting fire with fire. Create a &dcreature&r even more dangerous than the enemy to defeat it. &5&lA vast factory operated&r&r by the best engineers was created &5&lunderground&r&r. Their objective? &dMechanize the Wither&r, take this creature and turn it into a weapon."
+				""
+				"The weapon was finished but the centerpiece was missing. A &b&lNether Star&r&r to give &alife&r to the &5creature&r."
+				""
+				"Unfortunately the project was never completed because at the same time the &62nd cataclysm&r began, killing all the members working on the project."
+				""
+				"Today no one knows where this &5&lfactory&r&r was and even that our ancestors had such &d&ladvanced technology&r&r."
+			]
+			id: "12AB2BA16EC4D036"
+			rewards: [
+				{
+					id: "228ED1F8ED7CCB26"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "70BA9D7BAA689C95"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "The Mech Wither"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:mech_eye"
+				id: "70CC0A692382BF48"
+				title: "Kill The Harbinger"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Archaeologists have been searching for this place for a long time. &5&lA maze&r&r, &5deep underground&r, where the very &dfirst spawner&r was created."
+				""
+				"It is said that this &dspawner&r is so old that it would have &3grown&r and even developed its own &3personality&r, but obviously these are just legends, &b&lit is impossible for a block to become alive, right?&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "dungeonnowloading:skull_of_chaos"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "79D35C150E4C846A"
+			rewards: [{
+				count: 16
+				id: "5434AD2F0B3B98BC"
+				item: "dungeonnowloading:spawner_frame"
+				type: "item"
+			}]
+			subtitle: "The Father of Spawner"
+			tasks: [{
+				entity: "dungeonnowloading:chaos_spawner"
+				id: "343AF82AF4373EDE"
+				title: "Kill Chaos Spawner"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The mere mention of his name causes the entire &5Nether&r to tremble. &6&lIgnis, lord of the underworld&r&r."
+				""
+				"He is one of, if not the, &cmost powerful&r creature in the &eworld&r. A condenser of &cchaos&r and &cpure hatred&r, a &ckilling machine&r."
+				""
+				"A true &cmanipulator&r who created the &8Ferrous Wroughnaut&r and transformed the &8piglins&r back to a &7primitive state&r."
+				""
+				"Received in a &4&lburning arena&r&r in the &5Nether&r, he awaits an opponent worthy of him."
+				""
+				"No one knows where he comes from or how to defeat him but everyone knows the same &3fear&r of meeting his gaze and &4&lknowing that no matter what you do you will die in horrible suffering.&r&r"
+			]
+			id: "5B4B5CEABF799793"
+			rewards: [
+				{
+					count: 8
+					id: "1DDC738054DBFDD5"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "16E5118231F6EB7D"
+					item: "cataclysm:music_disc_ignis"
+					type: "item"
+				}
+			]
+			subtitle: "The Lord of the Underworld"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:burning_ashes"
+				id: "3497BF08DFC7A48F"
+				title: "Kill Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Before being cursed by &4Ignis&r. The &0&lWither&r&r was the most &9feared creature&r in the entire &5Nether&r. A true monster of power that &edesiccates&r everything it touches, absorbing the &alife&r energy of every individual around it."
+				""
+				"If it could be found naturally it is many years old, today &3&lwe must make it appear&r&r."
+			]
+			icon: "minecraft:nether_star"
+			id: "6169B5F4FE6CF678"
+			rewards: [{
+				id: "42B65AC48658F70F"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			subtitle: "The Lord of Death"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "1B3B6BCD828A4B9B"
+				title: "Kill The Wither"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: ["Information on the &5Enderdragon&r is vague, but we know that it is &edirectly&r or &eindirectly&r linked to the creation of &5endermans&r. One thing is certain, he is now the &dwatcher of the end&r dimension. And anyone wanting to find the truth will have to deal with it."]
+			id: "175BE20BCC41805D"
+			rewards: [{
+				id: "32ADA7A81A5B9F3D"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			subtitle: "The Watcher of the End"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "4B77B965FE1D1DC5"
+				title: "Kill The Enderdragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+	]
+	title: "Bosses"
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "NegativeSnoofiak",
+      "uniqueId": "d3b80f20-bdb4-420f-b6e2-ed91414ed63d"
+    },
+    "time": 1718084084712,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/hkjTeBX9K6"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "NegativeSnoofiak",
+      "uniqueId": "d3b80f20-bdb4-420f-b6e2-ed91414ed63d"
+    },
+    "time": 1718083952073,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/SYwaEous6F"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "NegativeSnoofiak",
+      "uniqueId": "d3b80f20-bdb4-420f-b6e2-ed91414ed63d"
+    },
+    "time": 1718083785524,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/X9bPDt4THW"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "NegativeSnoofiak",
+      "uniqueId": "d3b80f20-bdb4-420f-b6e2-ed91414ed63d"
+    },
+    "time": 1718082337405,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/MvgsGYuBEp"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "NegativeSnoofiak",
+      "uniqueId": "d3b80f20-bdb4-420f-b6e2-ed91414ed63d"
+    },
+    "time": 1718082319614,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Nu48d993Ok"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "NegativeSnoofiak",
+      "uniqueId": "d3b80f20-bdb4-420f-b6e2-ed91414ed63d"
+    },
+    "time": 1718080963993,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/A1y9hM4Qu7"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "NegativeSnoofiak",
+      "uniqueId": "d3b80f20-bdb4-420f-b6e2-ed91414ed63d"
+    },
+    "time": 1718080493900,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/tzYTszu2K8"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+minecraft:overworld
+minecraft:the_nether
+ad_astra:moon_orbit
+javd:void
+ad_astra:moon
+ad_astra:mars
+minecraft:the_end
+ad_astra:venus
+ad_astra:mercury
+ad_astra:glacio

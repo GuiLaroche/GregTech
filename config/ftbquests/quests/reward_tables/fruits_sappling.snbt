@@ -1,0 +1,22 @@
+{
+	icon: "fruitsdelight:orange_sapling"
+	id: "339099B52B276809"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "fruitsdelight:orange_sapling" }
+		{ item: "fruitsdelight:pear_sapling" }
+		{ item: "fruitsdelight:hawberry_sapling" }
+		{ item: "fruitsdelight:lychee_sapling" }
+		{ item: "fruitsdelight:mango_sapling" }
+		{ item: "fruitsdelight:persimmon_sapling" }
+		{ item: "fruitsdelight:peach_sapling" }
+		{ item: "fruitsdelight:apple_sapling" }
+		{ item: "fruitsdelight:mangosteen_sapling" }
+		{ item: "fruitsdelight:bayberry_sapling" }
+		{ item: "fruitsdelight:kiwi_sapling" }
+		{ item: "fruitsdelight:blueberry_bush" }
+		{ item: "fruitsdelight:lemon_tree" }
+	]
+	title: "fruits_sappling"
+}

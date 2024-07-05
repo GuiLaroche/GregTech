@@ -1,0 +1,1381 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "gtceu"
+	group: ""
+	icon: {
+		Count: 1
+		id: "gtceu:iron_wrench"
+		tag: {
+			Damage: 0
+			GT.Tool: {
+				Damage: 0
+			}
+		}
+	}
+	id: "2F8B0AFE317363C9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&o&7\"My adventure starts with some tree punching!? Huh, I thought GregTech was supposed to shake things up a bit...\"&r"
+				""
+				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. GTCEu does include its fair share - take a look at the crafting recipes for &eBuckets&r or &ePaper&r. However, we'll ease off the insanity in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
+				""
+				"Here, take this &6Prospector&r. You can use it to scan for ores underground - this should give you a small boost."
+				""
+				"{@pagebreak}"
+				""
+				"Here is also an &eID&r, this is very useful if you play &6multiplayer&r because it allows the banking system to recognize you. If you are playing &asolo&r, you are free to &a&lthrow this item away&r&r."
+				""
+				"And finally here is a &6backpack&r! You will collect a lot of different materials, and it is natural to say that the size of the current inventory no longer adapts to the size of the game. So you now have &6&ldouble the inventory space&r&r."
+			]
+			icon: "minecraft:oak_log"
+			id: "0EAF2C5B5EB755C5"
+			rewards: [
+				{
+					id: "1D434B1A3A4A1E6A"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.lv"
+						tag: {
+							Charge: 100000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E47E61B6FDEDD0D"
+					item: "numismatics:red_id_card"
+					type: "item"
+				}
+				{
+					id: "62E425187FC9E54A"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			subtitle: "Begin your playthrough as before"
+			tasks: [
+				{
+					count: 6L
+					id: "34F2867EAF0914BF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					match_nbt: false
+					title: "Any Logs"
+					type: "item"
+				}
+				{
+					id: "22B6D3C1033D47DA"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "The Beginning of it All"
+			x: -0.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"Here's a &6nifty&r list of some resources that you'll need in bulk for early-game. Collect more than we're asking for in this quest - you'll end up running out before you know it, and it's always a good habit to gather more than you need in &aGregTech&r."
+				""
+				"We'd actually advise that you &etackle this quest first&r, so that you can claim its &breward&r. That way, you can do a little bit of main (read: &ointeresting&r) progression &4&lBEFORE&r you're forced to go mining."
+				""
+				"Eight furnaces might seem &cexcessive&r if you're new to &aGregTech,&r but trust us... you can never have too many."
+			]
+			icon: "minecraft:sugar_cane"
+			id: "0436F7B60BDEB091"
+			rewards: [{
+				count: 24
+				id: "2D2C971E9E651C2C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Gather some resources!"
+			tasks: [
+				{
+					count: 4L
+					id: "37DD7A28A3A7CB26"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "0F60FE32A8F7720E"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "23A44568A9FAACA2"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00328CEF98F57407"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C05A84175DBD3A9"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "What do I need to progress?"
+			x: -0.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"The ore generation in &2GregTech&r is very different to vanilla or normal modded Minecraft. All ores generate in &6huge veins&r, which can contain &dhundreds&o&r of ore blocks."
+				""
+				"The full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:"
+				""
+				"&9-&r Ore veins generate in a &4Grid&r. Every vein is &9spaced by (approximately) 3 chunks&r from one to another in a cardinal direction."
+				""
+				"&9-&r It's a good practice to make &dWaypoints&r (default &4N&r) for every vein you find, and to label their type. You may want to come back to the vein several times."
+			]
+			icon: "gtceu:cobaltite_ore"
+			id: "0C690272ED4FB1C3"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				id: "3FA401CACE8BBE5D"
+				title: "Woah, ores sure sound exciting."
+				type: "checkmark"
+			}]
+			title: "Ore Generation"
+			x: -2.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"Were you aware that &aGregTech&r comes with its own set of tools? If not, you'll be pleasantly surprised to hear that they &6&lsurpass&r their vanilla equivalents."
+				""
+				"Let's use the GregTech Axe as an example. If you use one to mine a log in a tree, it'll fell the &2entire tree&r for you. Timber!"
+				""
+				"Constant \"lumberjacking\" will eat through your Axe's &9durability&r in seconds, so you may want to make your Axe out of a &estronger material&r such as &bDiamond&r. Just be careful you don't make a vanilla Diamond Axe!"
+				""
+				"As a reward, take these &2Spruce saplings&r and use them to make some big trees. You'll need to do a lot of smelting in the near future, and planks will tide you over as an &deffective&r fuel source!"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:steel_axe"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
+				}
+			}
+			id: "13354F24F80F65FB"
+			rewards: [{
+				count: 8
+				id: "60E07F9D0763E8E1"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Who needs Veinminer?"
+			tasks: [{
+				id: "3880A08A72884627"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:aluminium_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 767
+										ToolSpeed: 8.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:vanadium_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1535
+										ToolSpeed: 5.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:naquadah_alloy_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										RelocateMinedBlocks: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 5
+										MaxDamage: 3071
+										ToolSpeed: 42.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:flint_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 63
+										ToolSpeed: 3.5f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:red_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 2559
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:blue_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1023
+										ToolSpeed: 17.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:rose_gold_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:fortune"
+										lvl: 2s
+									}]
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 767
+										ToolSpeed: 14.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:hsse_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 3071
+										ToolSpeed: 7.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:iron_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 255
+										ToolSpeed: 4.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:titanium_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1535
+										ToolSpeed: 10.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:neutronium_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										RelocateMinedBlocks: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 6
+										MaxDamage: 65534
+										ToolSpeed: 182.0f
+									}
+									HideFlags: 2
+									Unbreakable: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:duranium_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										RelocateMinedBlocks: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 5
+										MaxDamage: 8191
+										ToolSpeed: 16.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:bronze_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 191
+										ToolSpeed: 5.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:invar_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [
+										{
+											id: "minecraft:efficiency"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:bane_of_arthropods"
+											lvl: 3s
+										}
+									]
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 383
+										ToolSpeed: 6.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:sterling_silver_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:smite"
+										lvl: 3s
+									}]
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 767
+										ToolSpeed: 5.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:cobalt_brass_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 1023
+										ToolSpeed: 4.5f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:tungsten_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 2047
+										ToolSpeed: 11.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:damascus_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:fortune"
+										lvl: 3s
+									}]
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1023
+										ToolSpeed: 8.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:tungsten_carbide_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 1023
+										ToolSpeed: 62.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:wrought_iron_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 383
+										ToolSpeed: 4.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:ultimet_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 2047
+										ToolSpeed: 12.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 511
+										ToolSpeed: 7.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:stainless_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1023
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:diamond_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 767
+										ToolSpeed: 8.0f
+									}
+									HideFlags: 2
+								}
+							}
+						]
+					}
+				}
+				title: "Grab any Lumber Axe!"
+				type: "item"
+			}]
+			title: "Lumbering On"
+			x: -2.31d
+			y: -4.29d
+		}
+		{
+			dependencies: ["36DD94945D5B4A80"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Wrought Iron has a very low carbon content, but that's enough to make it &btougher&r than regular Iron."
+				""
+				"&aGregTech&r tools made of Wrought Iron are &650% more durable&r than their Iron cousins. You might want to consider using Wrought Iron until you unlock &2something better&r."
+				""
+				"To obtain Wrought Iron, you can &6smelt&r Iron Nuggets into Wrought Iron Nuggets, then recombine them into an ingot. Make sure you don't convert all of your Iron supply, as the two &4&laren't&r interchangeable."
+				""
+				"This may be time-consuming, but rest assured, you'll unlock a &ebetter way&r to produce Wrought Iron before long."
+			]
+			icon: "gtceu:wrought_iron_ingot"
+			id: "563C96885A227C9F"
+			rewards: [{
+				count: 5
+				id: "3CDB383AFEBDB519"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Murder, she Wrought"
+			tasks: [{
+				id: "3DAB1D757B3B049D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/wrought_iron"
+					}
+				}
+				title: "Wrought Iron Ingot"
+				type: "item"
+			}]
+			title: "Better Than Iron"
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ECBA1CBFFB9F625"]
+			description: [
+				"Alright - your first &oproper&r &aGregTech&r tool. The first of &dmany&r."
+				""
+				"GT tools can be made out of many different materials. When used in crafting recipes, they &baren't consumed&r, instead losing durability. You'll want to start with an Iron tool - but you could opt for Wrought Iron if you already tackled that quest."
+				""
+				"&9&lHammer&f:&r A crafting tool that shows up in a lot of earlygame recipes. Its secondary function is muting machines by &msmacking&r right-clicking them."
+				""
+				"As a sidenote on all &aGregTech&r tools, you can repair them in an Anvil using the material of the tool itself, just like any vanilla tool. If you are finding yourself short on experience, &eBottles o' Enchanting&r are now craftable."
+			]
+			id: "7DEB73FD649BDFB6"
+			rewards: [{
+				id: "6C50A2A3D43D3FEE"
+				item: "gtceu:iron_plate"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.75d
+			subtitle: "Your first GT Tool!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:steel_hammer"
+					tag: {
+						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
+					}
+				}
+				id: "1A4DDB914D7D2F3C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/hammers"
+					}
+				}
+				title: "Any Hammer!"
+				type: "item"
+			}]
+			title: "STOP! Hammer time!"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"This hammer isn't quite like the ones you'll use for crafting. It actually works as a &d3x3 pickaxe&r!"
+				""
+				"If you're familiar with &a&lTinker's Construct&r, it behaves &esimilarly&r to hammers from that mod."
+				""
+				"Make &bgood use&r of these hammers! They'll help you to clear out an entire vein in &6record time&r."
+				""
+				"&eNote:&r Any quest with GregTech tools can be complete with tools crafted from any material - not just the one displayed."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:steel_mining_hammer"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
+				}
+			}
+			id: "4A365A7CC9E374F9"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Mining just became efficient"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:steel_mining_hammer"
+					tag: {
+						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
+					}
+				}
+				id: "4F372C393ADC6CE2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/mining_hammers"
+					}
+				}
+				title: "Any Mining Hammer will do."
+				type: "item"
+			}]
+			title: "Hammer down!"
+			x: 3.63d
+			y: -4.29d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"In the real world, iron isn't &oonly&r found as pure Iron Ore. Instead, it's found in a &avariety&r of &eoxide forms&r or &eminerals&r."
+				""
+				"You'll want to go and collect quite a bit of Iron, because you're going to need &9a bunch&r very soon. If you're struggling to find some, the &aOre Generation&r quest tab contains a lot of information on &eore veins&r. You may also want to check the Ore Spawn Information and Ore Byproduct List tabs in &2JEI&r."
+				""
+				"Any of the raw ores we're asking for can be directly smelted into Iron. That comes to &dfour different veins&r that can give you Iron."
+				"{@pagebreak}"
+				"Whilst it may be common habit to hoard ore in &bmodded Minecraft&r prior to unlocking some kind of &aore multiplication&r, don't worry about ore processing yet. Direct smelting remains the most efficient method for a long, &olong&r while, given how easy it is to obtain a lot of ore in a &emining trip&r."
+				""
+				"Gather &l&cany&r of the requested &dRaw Ores&r to complete this quest!"
+			]
+			icon: "minecraft:iron_ingot"
+			id: "1ECBA1CBFFB9F625"
+			rewards: [{
+				count: 32
+				id: "5CD664F60E977214"
+				item: "gtceu:magnetite_ore"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Isn't it ironic... don't you think?"
+			tasks: [{
+				id: "063705687ED657F5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:raw_iron"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_yellow_limonite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_magnetite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_basaltic_mineral_sand"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_granitic_mineral_sand"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_pyrite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_goethite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_hematite"
+							}
+						]
+					}
+				}
+				title: "Iron-bearing Ores"
+				type: "item"
+			}]
+			title: "Iron, Iron, Iron!"
+			x: 0.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7DEB73FD649BDFB6"]
+			description: [
+				"More GregTech tools are required for progression - here are the ones to lay eyes on."
+				""
+				"&9&lWrench:&r A crafting tool, but also the correct tool for GregTech machines... perfect if you think using pickaxes is unethical. It can also double as a &6wrench for other mods&r. Right-click allows you to set the output side of GregTech machines, and sneak-right-clicking rotates machines."
+				""
+				"&9&lFile:&r A crafting tool... and that's it. Yay!"
+				""
+				"&9&lSaw:&r Yet another crafting tool. If we were any more evil, we would force its use if you wanted to obtain 4 Planks and 4 Sticks from their respective crafting recipes. That being said, you can still use it to get &a6 Planks per Log&r, if you wish."
+				"{@pagebreak}"
+				"&eNote:&r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_wrench"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
+				}
+			}
+			id: "2001CB4968D3E0A2"
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "54E092F42DA65B86"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wrenches"
+						}
+					}
+					title: "Any Wrench!"
+					type: "item"
+				}
+				{
+					id: "4D6B7E2B4C8E5747"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/files"
+						}
+					}
+					title: "Any File!"
+					type: "item"
+				}
+				{
+					id: "23D6CF49FC7E82A9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/saws"
+						}
+					}
+					title: "Any Saw!"
+					type: "item"
+				}
+			]
+			title: "Important Tools"
+			x: 4.125d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"More tools - they're not critically important right now, but you'll need to make these at some point."
+				""
+				"&9&lScrewdriver:&r A crafting tool. It's used for special configuration of machines and covers."
+				""
+				"&9&lWire Cutter:&r A crafting tool. You'll need it if you want to configure wire connections. Right-clicking on wires will enable or disable connection to other blocks."
+				""
+				"&9&lMortar:&r A crafting tool, used to grind various things down into dust form."
+				""
+				"&9&lKnife:&r A pretty mediocre weapon, better suited as - &oyou guessed it&r - a crafting tool!"
+				""
+				"&9&lSoft Mallet:&r A tool to toggle machine operation with a simple right-click."
+				"{@pagebreak}"
+				"There are a couple of other tools that are quite niche, but deserve a mention."
+				""
+				"&9&lCrowbar:&r A helpful tool that can remove covers from &aGregTech&r machines by right-clicking the side."
+				""
+				"&9&lScythe:&r A powerful farming tool that can automatically replant your crops in a large area. It's also a surprisingly good weapon!"
+				""
+				"&9&lPlunger:&r A tool to clear stuck fluids from GregTech&a machines."
+				""
+				"&9&lButchery Knife:&r A weapon that comes pre-enchanted with &6Looting III&r. You might want to use it to gather leather and food."
+				"{@pagebreak}"
+				"&e&lNote:&r This quest's reward is &3Damascus Steel&r - a rare material which can only be found as overworld loot. It far surpasses the materials you have now, so be sure to use it."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_screwdriver"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
+				}
+			}
+			id: "5C3501DD3B4788FA"
+			rewards: [{
+				count: 16
+				id: "433F0ED89B586383"
+				item: "gtceu:damascus_steel_ingot"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "4055931FAD6A5087"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/screwdrivers"
+						}
+					}
+					title: "Any Screwdriver!"
+					type: "item"
+				}
+				{
+					id: "0CB546DCA11BB335"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wire_cutters"
+						}
+					}
+					title: "Any Wire Cutter!"
+					type: "item"
+				}
+				{
+					id: "4DF1C23D7DD1FAD6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mortars"
+						}
+					}
+					title: "Any Mortar!"
+					type: "item"
+				}
+				{
+					id: "397DD831CA0665E7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/knives"
+						}
+					}
+					title: "Any Knife!"
+					type: "item"
+				}
+				{
+					id: "1BFE642ED0595A93"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mallets"
+						}
+					}
+					title: "Any Soft Mallet!"
+					type: "item"
+				}
+			]
+			title: "More Tools"
+			x: 5.625d
+			y: -3.75d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"The &e&lCoke Oven&r will likely be your first &aGregTech&r multiblock. Congratulations!"
+				""
+				"It is used to make &aCoke&r from &eCoal&r, or &aCharcoal&r from &eWood&r, in addition to &dliquid Creosote&r as a &3bonus&r output."
+				""
+				"Take a look at the &6Multiblock Preview&r tab in JEI to see the structure pattern."
+				"{@pagebreak}"
+				"&9Note:&r &lAny&r Brick block can be replaced with a &3Coke Oven Hatch&r. You can have up to five of them."
+				""
+				"The Hatch allows for automation - it'll &dauto-export&r both Fluid and Items! It also works for insertion into the Coke Oven (you can use Hoppers)."
+				""
+				"If the Coke Oven happens to fully fill up on &eCreosote&r that you are not using, break and replace the Coke Oven block. &3Automated fluid voiding&r is available later in the game."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o The concept of multiblocks is a modded Minecraft classic. Think of IC2's Nuclear Reactor, or Railcraft's Coke Oven - truly revolutionary at the time!&r"
+			]
+			icon: "gtceu:coke_oven"
+			id: "4946FC5BCA4CCA88"
+			min_required_dependencies: 1
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Your first big project... hopefully"
+			tasks: [{
+				id: "3545479A7C09CDFC"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			title: "Coke Oven"
+			x: 5.3999999999999995d
+			y: -4.8d
+		}
+		{
+			dependencies: ["7DEB73FD649BDFB6"]
+			description: [
+				"The bucket recipe has been &d&lchanged.&r It now requires plates - &owahoo&r."
+				""
+				"Plates are used absolutely &beverywhere&r in &aGregTech&r. Combining two ingots with your new &9hammer&r in a crafting table will make a plate. This ratio is kind of &cexpensive,&r but better recipes for plates will come later."
+				""
+				"Take this &6Wooden Barrel&r full of &bWater&r as a reward. Huh... isn't that an odd reward? We just wanted to show you that all &aGTCEu&r tanks are portable."
+			]
+			icon: "minecraft:bucket"
+			id: "592BD683A48C2AA2"
+			rewards: [{
+				id: "68D4ECFA9AD5349A"
+				item: {
+					Count: 1
+					id: "gtceu:wood_drum"
+					tag: {
+						Fluid: {
+							Amount: 16000L
+							FluidName: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "#realism"
+			tasks: [{
+				id: "5DD165E4EB34C022"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			title: "Greg has struck"
+			x: 2.97d
+			y: -1.32d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"Okay, we were generous enough to leave Wood-to-Plank-ratios &cuntouched&r, but this is GregTech - charcoal smelting is &4&lnot possible&r in a Furnace. You'll need to make a &d&lCoke Oven&r to get your grubby hands on some &6charcoal&r."
+				""
+				"Wooden planks are still pretty good as &6furnace fuel&r, especially since you get &l&3four&r from one log."
+				""
+				"If this displeases you - normally you'd be able to &brevert this back&r to vanilla behaviour in the &aGTCEu&r configs, but the configuration option is bugged. To &erevert&r the nerf, you can delete the \"charcoal.js\" script in &bkubejs/server_scripts&r!"
+			]
+			icon: "minecraft:charcoal"
+			id: "36DD94945D5B4A80"
+			rewards: [{
+				count: 16
+				id: "5408859E43668198"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Not here!"
+			tasks: [{
+				count: 48L
+				id: "3DF01E4FACBB1D53"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "We demand more logs."
+				type: "item"
+			}]
+			title: "Charcoal?"
+			x: 0.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"Crafting can quickly get &etiresome&r. How about making use of your &2new saw&r to make this Crafting table?"
+				""
+				"It allows you to craft from adjacent inventories, making classic &aGregTech&r microcrafting so much less &4tedious&r."
+				""
+				"Saw the table again for a lower-profile Slab version."
+			]
+			icon: "craftingstation:crafting_station"
+			id: "411AB552514EA14C"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "No, Tinkers' is not in this modpack"
+			tasks: [{
+				id: "30D40010C8E6E115"
+				item: "craftingstation:crafting_station"
+				type: "item"
+			}]
+			title: "Crafting Station"
+			x: 4.29d
+			y: -4.62d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"Rubber Trees can be found in &aForest&r, &2Jungle&r or &aSwamp&r biomes."
+				""
+				"Breaking Rubber Logs will yield &6Resin,&r which will be important moving forwards."
+				""
+				"The logs also offer &duseful resources&r when processed in future."
+			]
+			id: "5193DD03C0742548"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "No, this isn't IC2"
+			tasks: [{
+				count: 8L
+				id: "76851CD51E99CA38"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			title: "Gettin' Shaded under a Rubber Tree"
+			x: 0.66d
+			y: -4.29d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"Andesite Alloy is a primitive Alloy use to create most of the basics machines of the mod &2Create&r. "
+				""
+				"Inexpensive and solid, this material is perfect for creating a quantity of medieval machines which will make your beginnings much &aeasier&r in this hostile world!"
+				""
+				"&bAndesite&r can be found underground all over the world. It would be a good idea to &n&6stock up&r&r on it because &bAndesite Alloy&r is extremely used in all crafts from the Medieval era."
+			]
+			id: "2806655BDA66FF8B"
+			rewards: [{
+				count: 32
+				id: "500BE0E347E4D607"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Now the fun start!"
+			tasks: [{
+				id: "676A96CAE18886AD"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Work Smart Not Hard"
+			x: 4.125d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2806655BDA66FF8B"]
+			description: [
+				"&9Andesite casing&r is your entry ticket into this new era. Prepare yourself to tame the sea, the wind and the sacred mechanical energy."
+				""
+				"Soon your energy can be put elsewhere as &dmachines&r will replace your hard manual labor."
+				""
+				"&l&cCongratulations&r&r on having gone through the tutorial, see you in the next chapter, the first in a long list. Medieval times!"
+				""
+				"&6&lProgression now continues in the Medieval Age Chapter.&r&r"
+			]
+			id: "377D88FF8AA6EE85"
+			rewards: [
+				{
+					count: 16
+					id: "52FE0C70D480883D"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "48EF206B401F60D9"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "011E08036A065901"
+					item: "smallships:oak_cog"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.4d
+			subtitle: "Automation can only be describe as a drug - Average Factorio Player"
+			tasks: [{
+				id: "20B10746B448A409"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "It Will Never Be The Same"
+			x: 5.6d
+			y: 0.7d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"If you look at the &abottom right&r of your screen, you can see a &bnumber&r. This represents the &5&ltemperature&r&r around you. "
+				""
+				"To &dsurvive&r you will have to pay attention to the temperature so as not to die of &1hypothermia&r and &4hyperthermia&r. "
+				""
+				"To do this it will be possible to pad your &3armor&r with different &3materials&r to either increase &9resistance to cold&r or increase &cresistance to heat&r."
+			]
+			icon: "cold_sweat:thermometer"
+			id: "7E34F9E1662717E5"
+			rewards: [{
+				id: "24C110781E7F7E46"
+				item: "cold_sweat:sewing_table"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				id: "76889BA527B79529"
+				title: "Temperature System"
+				type: "checkmark"
+			}]
+			x: -2.31d
+			y: -1.65d
+		}
+		{
+			dependencies: ["7DEB73FD649BDFB6"]
+			description: [
+				"If you want to decorate there are many pieces of &3furniture&r to add using the &eHandcrafted&r mod."
+				""
+				"For the case of the &dhammer&r that you have crafted, it is used to &achange the model&r of certain blocks present in the mod."
+			]
+			id: "21ED7C7C4FD75EA6"
+			rewards: [
+				{
+					count: 6
+					id: "614B3346BCFE3E4C"
+					item: "handcrafted:oak_table"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1D9F3D105CDFD474"
+					item: "handcrafted:oak_chair"
+					type: "item"
+				}
+				{
+					id: "350BC69B99C58D4A"
+					item: "handcrafted:fancy_painting"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Wait this is getting confusing"
+			tasks: [{
+				id: "658CBF4D95B08ECC"
+				item: "handcrafted:hammer"
+				type: "item"
+			}]
+			title: "The Other Hammer"
+			x: 2.97d
+			y: -4.29d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"Surviving can be difficult with the new challenges that await you, it would be so convenient if you could gain a &clittle more life&r than your 10 hearts."
+				""
+				"This is where &2Spice of Life: Carrot Edition&r comes in."
+				"This mod allows you to &4&nincrease your maximum amount of health&r&r depending on the &enumber of different foods&r you have eaten. And believe me, there is no shortage of diversity on this side."
+				""
+				"I invite you to take a look at the ''&a&lFood Book&r&r'' it is your best friend in the search for new flavors."
+				""
+				"&5&lTo help you with all the new possibilities, I invite you to look at the Craftdew Valley chapter.&r&r"
+			]
+			icon: "solcarrot:food_book"
+			id: "70D0029B9A9C9D61"
+			rewards: [{
+				id: "5505753A2AA0C01A"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Gotta taste 'em all!"
+			tasks: [{
+				id: "06BB083CF8D3751A"
+				title: "Food Odyssey"
+				type: "checkmark"
+			}]
+			x: 5.61d
+			y: -1.98d
+		}
+	]
+	subtitle: ["Welcome to &6GTCP&r! Glad to have you here."]
+	title: "Introduction"
+}

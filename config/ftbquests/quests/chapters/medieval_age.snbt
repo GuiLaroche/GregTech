@@ -1,0 +1,1288 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "medieval_age"
+	group: "693226878D58638A"
+	icon: "create:cogwheel"
+	id: "29DAF6B4130E4055"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5258747B3F9BA31A"]
+			description: [
+				"The handcrank is the simplest way to produce mechanical energy. Also call &dStress Unit&r (su)."
+				""
+				"This energy is the basis of the &2Create&r base, and it will be used throughout this chapter."
+				""
+				"&eMore information on the next page.&r"
+				"{@pagebreak}"
+				"It is a unit that represents the mechanical energy in a system. It is always expressed in its simple form without a prefix."
+				""
+				"It is also &ealways positive and whole&r."
+				""
+				"&bIt cannot be accumulated&r."
+				""
+				"It is created from movement transformation."
+				""
+				"Example, a windmill or watermill. It also acts in accumulation. The best way to describe this phenomenon would be this example. I create a system with a water mill which produces 500 su, I add to the same system a steam engine which adds 1000 su. I finally build a machine to automatically harvest wood, this one takes 200 su. So I produce (1000 + 500) = 1500 su and my system uses 200. So I have 1500-200 = 1300 su left. If my su ratio becomes negative, my system \"overstress\" and all the machines stop working."
+			]
+			id: "519AFFE32F2CBFE3"
+			rewards: [{
+				id: "71332038144AAE12"
+				item: "create:depot"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Wait wasnt manual labor over?"
+			tasks: [{
+				id: "16B15A1F5C07AA1D"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Hand Crank"
+			x: -0.375d
+			y: -1.125d
+		}
+		{
+			description: [
+				"Most of the &2Create&r mod machines require the presence of &asheets&r of different metals. And these are created by the magnificent machine you built."
+				""
+				"It is important to understand that this machine can only crush certain materials &bweak enough&r to yield under their weight. So it's not a &emiracle solution&r but it's good enough for now."
+			]
+			id: "5258747B3F9BA31A"
+			size: 0.75d
+			subtitle: "Now nothing can stop you"
+			tasks: [{
+				id: "45293B2E8F71C16B"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Sheet or Plate?"
+			x: 0.375d
+			y: -0.375d
+		}
+		{
+			dependencies: ["5258747B3F9BA31A"]
+			description: [
+				"The &aWater Wheel&r is the first way to create energy automatically. It is very important to use it because from now on, your arm strength &cwill no longer be sufficient&r."
+				""
+				"It is advisable to add several in the same system so that it has more energy."
+			]
+			id: "72BB2136CB851337"
+			size: 0.75d
+			subtitle: "You see hydropower, I see more free time"
+			tasks: [{
+				id: "7BB4B31124DF7381"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Power Of The Sea!"
+			x: 0.375d
+			y: 0.75d
+		}
+		{
+			dependencies: ["72BB2136CB851337"]
+			description: ["It's quite simple, bigger water wheel means more &aenergy&r."]
+			id: "106855C35A0F81C8"
+			size: 0.75d
+			subtitle: "Size do actually matter"
+			tasks: [{
+				id: "4067FB03776526B3"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "Big Water Wheel"
+			x: 0.375d
+			y: 1.875d
+		}
+		{
+			dependencies: ["5258747B3F9BA31A"]
+			description: [
+				"If you want to use the &2Create&r mod effectively, you need these tools."
+				""
+				"The &eWrench&r allows you to instantly destroy all the machines in the Create mod, as well as rotate certain ones, which is very practical."
+				""
+				"The &eEngineer's Goggle&r allow you to visualize the impact of each of your machines."
+				""
+				"These two tools are &aessential&r when using the mod!"
+			]
+			icon: "create:goggles"
+			id: "71B6201E6E310D10"
+			rewards: [
+				{
+					id: "12F73B669D1C38F1"
+					item: "create:clipboard"
+					type: "item"
+				}
+				{
+					id: "0E027D7417A9256D"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A3A9924859E053A"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "Why all mods have to add their own wrench?"
+			tasks: [{
+				id: "7D99A09B012EB500"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "Engineer's Tool's"
+			x: 2.25d
+			y: -0.375d
+		}
+		{
+			dependencies: ["5258747B3F9BA31A"]
+			description: [
+				"The &aWind Wheel&r is one of the first way to create energy automatically. It is very important to use it because from now on, your arm strength &cwill no longer be sufficient&r."
+				""
+				"It is advisable to add several in the same system so that it has more energy."
+				""
+				"&6Warning : This may be a little more complicated to set-up than the water wheel.&r"
+			]
+			id: "6C402C25F4D3202C"
+			size: 0.75d
+			subtitle: "You see wind power, I see more free time"
+			tasks: [{
+				id: "76BD882C79738630"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "Power Of The Wind!"
+			x: 0.375d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C402C25F4D3202C"]
+			description: [
+				"The windmill in &2Create&r works in a special way. Sails or blocks of wool must be &3glued&r after bering to work, "
+				"and sometimes the presence of &aSuper Glue&r is necessary for this. "
+				"If you don't have this &aitem&r try making a simple design!"
+			]
+			id: "53DA93C13FAF5543"
+			size: 0.75d
+			subtitle: "Yeah, it's better when it's actually rotating"
+			tasks: [{
+				count: 16L
+				id: "7D2EE21C57CB4158"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			x: 0.375d
+			y: -2.625d
+		}
+		{
+			dependencies: ["5258747B3F9BA31A"]
+			description: [
+				"The &bgear&r will be one of your best friend to increase the &5speed&r of your contraption."
+				""
+				"Indeed, turning a small gear from a large gear will increase its speed, and this process can be repeated almost &dinfinitely&r."
+				""
+				"This is practical, a machine that releases energy faster, is even &efaster&r! Note, however, that its impact on &cstress&r will also be greater."
+			]
+			icon: "create:large_cogwheel"
+			id: "7A2B9D2011DA1765"
+			rewards: [{
+				id: "50C3526296FB7C44"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "\"Reaching Mach 9 with a Particle Accelerator Powered by Wooden Cogs\""
+			tasks: [
+				{
+					id: "4A8368C74C2C59C9"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "7AED997B2F3FAA43"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Small And Big Gears"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5258747B3F9BA31A"]
+			description: [
+				"The &2Create&r mod adds many ways to transform objects, these steps are often &eessential&r in the transformation of different resources."
+				""
+				"These objects have many uses and I advise you to look with &dJEI&r to find the quantity of different recipes that these machines have."
+			]
+			icon: "create:mechanical_mixer"
+			id: "56AB92918F4945F3"
+			rewards: [
+				{
+					id: "7A53A6272CED70C1"
+					item: "create:stressometer"
+					type: "item"
+				}
+				{
+					id: "5278EFCCB02B7FD3"
+					item: "create:speedometer"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "There is so much more than a crafting table"
+			tasks: [
+				{
+					id: "35F8D938F9783FE0"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "57A3B5040650C040"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "3543D9D280FE7292"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "6B97C2FB5C55F29C"
+					item: "create:millstone"
+					type: "item"
+				}
+			]
+			title: "Processing Toys"
+			x: 1.125d
+			y: 0.375d
+		}
+		{
+			dependencies: ["5258747B3F9BA31A"]
+			description: [
+				"In modded Minecraft, many crafts require a certain &bliquid&r. And it is therefore important to store it in order to use it when needed."
+				""
+				"For now this may seem strange and unnecessary, but knowing how to properly manage line transport will be &6essential&r later."
+			]
+			icon: "create:fluid_tank"
+			id: "2E99AB1280EB9C84"
+			rewards: [
+				{
+					id: "3F6F53D033BEE877"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "386B963765FD6BF1"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "\"Yeah but the Create pipe is cooler\""
+			tasks: [
+				{
+					count: 8L
+					id: "2BFE57B6582085B1"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "617A78514997054D"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0BB5F07E9D2206E8"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "Store Some Fluid"
+			x: -0.375d
+			y: 0.375d
+		}
+		{
+			dependencies: ["71B6201E6E310D10"]
+			description: [
+				"With these new toys you can really start building machines that will make your life easier."
+				"You can &amine&r, &bcut&r and &eharvest&r anything imaginable with just a little stress unit."
+			]
+			icon: "create:mechanical_drill"
+			id: "5E9A270B9C2668B7"
+			rewards: [
+				{
+					id: "678FC4FF69EEFFB6"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "097DE2DEBE3DF038"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+				{
+					id: "6C224DD7A2631220"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "There is so much more than a pickaxe"
+			tasks: [
+				{
+					count: 4L
+					id: "04DEF93B32C59A0C"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "30DE17F3520E9C94"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "61981013AB81D2B1"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+			]
+			title: "Excavation Toys"
+			x: 2.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["71B6201E6E310D10"]
+			description: [
+				"&6Item transportation&r is an extremely important concept in modded Minecraft. It makes it possible to &bautomate&r production lines with numerous &emachines&r. "
+				""
+				"It is important to familiarize yourself with this concept because it will make your life much &aeasier&r."
+			]
+			icon: "create:belt_connector"
+			id: "30DD5EAA337D0376"
+			rewards: [
+				{
+					count: 8
+					id: "078E14E02233BEFD"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					id: "63B595D46C216526"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					id: "4EBAE705BB0A2C20"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "\"Yeah but the Create belt is cooler\""
+			tasks: [
+				{
+					count: 16L
+					id: "7237D9CCD51F8D0C"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "30F1538C700E323E"
+					item: "create:chute"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F237406AD662EA8"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+			]
+			title: "Logistic Junkie"
+			x: 2.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71B6201E6E310D10"]
+			description: [
+				"Many farms in &2create&r use ways to move a set of blocks to perform different tasks on the ground."
+				""
+				"Like a &etunnel diggers&r for example."
+				""
+				"These sets of blocks are glued together using &aSuper Glue&r, a very practical object in the design of contraption in the mod."
+			]
+			icon: "create:rope_pulley"
+			id: "24635A8AED983497"
+			rewards: [{
+				count: 8
+				id: "5857EB2AF1B171E3"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "It's Alive!!"
+			tasks: [
+				{
+					id: "6DDAA4CC0B03C1F2"
+					item: "create:rope_pulley"
+					type: "item"
+				}
+				{
+					id: "62D584791A6D37D0"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "5EED90747BF4FA0A"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1F1C9AF2E124E24E"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+			]
+			title: "Mecanical Motion"
+			x: 3.0d
+			y: -1.125d
+		}
+		{
+			dependencies: ["71B6201E6E310D10"]
+			description: [
+				"It is possible to &2create&r contraptions using a minecart."
+				"So, this can expand the build possibilities."
+				"Also, no it's not the &etrains&r, but don't worry they're coming soon"
+				"These also work with &bSuper Glue&r."
+			]
+			icon: "create:cart_assembler"
+			id: "69B06F8A17979F1B"
+			rewards: [{
+				count: 8
+				id: "6BDB4ABC215FDC17"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "No, it's not the train yet"
+			tasks: [
+				{
+					id: "23C6E743699351E1"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "5B475EC0D8FECD3F"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "5FC2E6A8D7C2D430"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3890982343B6EE40"
+					item: "create:minecart_coupling"
+					type: "item"
+				}
+				{
+					id: "374C3D3EE92430A6"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+			]
+			title: "Minecart Contraption"
+			x: 3.0d
+			y: 0.375d
+		}
+		{
+			dependencies: ["71B6201E6E310D10"]
+			description: [
+				"This is your first slightly &ccomplicated task&r."
+				""
+				"&aElectron tube&r are materials widely used for future &6machines&r. They are a primitive way of capturing the energy produced by &4redstone&r and using it for industrial purposes."
+				""
+				"You may have noticed that this craft requires quartz, and you do not have access to the &cNether&r at the moment. Because &3Flint and Steel&r surprisingly requires &3Steel&r, a material that you don't yet have."
+				""
+				"But it can also be crafted with &d&lrose salt&r&r."
+				""
+				"&6&lSo you have 2 options :&r&r"
+				""
+				"{@pagebreak}"
+				""
+				"&6&l1.&r&r You find rock salt and redstone in the &eoverworld&r and get the rose salt."
+				""
+				"&6&l2.&r&r You find a way to light a &cNether&r Portal through a found &3Flint and Steel&r or a &anatural source&r."
+			]
+			id: "75BFAB9765A0258A"
+			rewards: [{
+				id: "604D737804F51148"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Primitive science, but science nonetheless"
+			tasks: [{
+				count: 16L
+				id: "7B5F8AA7E68AF3A5"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Shiny Red Tubes"
+			x: 3.75d
+			y: -0.375d
+		}
+		{
+			dependencies: ["75BFAB9765A0258A"]
+			description: [
+				"Not very &cethical&r, not very &cpowerful&r and quite &cunstable&r, one of the only qualities of the Blaze Burner is that it allows the creation of very useful base &balloys&r in an era where no better alternative exists."
+				""
+				"From now on, the &6&lprogression&r&r is split into 2. You can continue in the &2Medieval Age&r and unlock the machines that use &eBrass&r or go directly to the &2Steam Age&r with &eBronze&r."
+			]
+			id: "6CA5415F33718F6A"
+			rewards: [{
+				id: "2877B1468A13697C"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Eternal suffering in small cage"
+			tasks: [{
+				id: "611F4A4854EA531D"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Esoteric Heat Source"
+			x: 4.875d
+			y: -0.375d
+		}
+		{
+			dependencies: ["6CA5415F33718F6A"]
+			description: [
+				"&6Brass&r has long been a &apopular material&r for its bright gold-like appearance, low melting point, high workability, durability, and electrical and thermal conductivity."
+				""
+				"But in &eMinecraft&r, this alloy is used in the creation of somewhat more complex primitive mechanical systems."
+				""
+				"It is advisable to make a &dlot&r of them because almost all the machines in the mod &2Create&r from this point on will require them."
+			]
+			id: "3E933149C96DA934"
+			rewards: [{
+				count: 12
+				id: "5B8E3D6BA0F732B9"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "The Factory Must Grow"
+			tasks: [{
+				id: "6428D6174DB874F3"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Gold-Like Alloy"
+			x: 5.8500000000000005d
+			y: -1.3d
+		}
+		{
+			dependencies: ["7A2B9D2011DA1765"]
+			description: ["&aPrecision mechanisms&r are impressive objects for their time, they are used in the creation of many advanced &6machines&r."]
+			id: "2D22A7A2E2991F82"
+			rewards: [{
+				id: "508FFB3411D3C601"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Industrial Artisanal"
+			tasks: [{
+				id: "110919FD5D436473"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Elegent Industrialization"
+			x: 1.5d
+			y: -2.625d
+		}
+		{
+			dependencies: ["3E933149C96DA934"]
+			description: ["From now on, the contraptions in &2Create&r are much more &aversatile&r and allow the creation of new, ever more imposing contraptions."]
+			icon: "create:deployer"
+			id: "34C99D9DF802DEC4"
+			rewards: [
+				{
+					count: 32
+					id: "23026143BBFD262F"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "18045B151D6DA430"
+					item: "create:linked_controller"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "There is so much more than a functional brain"
+			tasks: [
+				{
+					id: "2B053F99294E867C"
+					item: "create:content_observer"
+					type: "item"
+				}
+				{
+					id: "555AD5A3E8BB6C7A"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "3996A854B0C981A9"
+					item: "create:stockpile_switch"
+					type: "item"
+				}
+				{
+					id: "5F40ADC08EC4F3F4"
+					item: "create:elevator_pulley"
+					type: "item"
+				}
+				{
+					id: "2B93650C47D5CFCF"
+					item: "create:sequenced_gearshift"
+					type: "item"
+				}
+				{
+					id: "0AF11E0213391895"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "26329BD842FE743C"
+					item: "create:display_link"
+					type: "item"
+				}
+				{
+					id: "4BBDBAE4759B446C"
+					item: "create:nixie_tube"
+					type: "item"
+				}
+			]
+			title: "Toys But Smart"
+			x: 6.0d
+			y: -2.625d
+		}
+		{
+			dependencies: [
+				"3E933149C96DA934"
+				"2D22A7A2E2991F82"
+			]
+			description: ["These items are the most &asophisticated&r and complex that can be crafted in the &6Create&r mod."]
+			icon: "create:mechanical_arm"
+			id: "77F46B88B63711FA"
+			rewards: [
+				{
+					id: "07676058EF677B3D"
+					item: "numismatics:banking_guide"
+					type: "item"
+				}
+				{
+					id: "712DB8FB4C153BAF"
+					item: "numismatics:red_card"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "There is so much more than a... I'm starting to run out of ideas"
+			tasks: [
+				{
+					id: "5EC5E972A04BF7B6"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+				{
+					id: "70DC02D9B419919C"
+					item: "numismatics:bank_terminal"
+					type: "item"
+				}
+			]
+			title: "Smart and Elegent Toys"
+			x: 3.75d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3E933149C96DA934"
+				"2D22A7A2E2991F82"
+			]
+			description: ["The &aautomatic crafter&r allows you to create certain blocks which, due to their &esize or complexity&r, &ccannot be created&r in a traditional &bcrafting table&r."]
+			id: "691479CF7AE839B7"
+			rewards: [
+				{
+					count: 16
+					id: "67C4EADB38A8C125"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "30E28AB238B41F41"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "Endless Possibility"
+			tasks: [{
+				count: 16L
+				id: "7FA5979D002E7D46"
+				item: "create:mechanical_crafter"
+				title: "Automatic Crafter"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -2.625d
+		}
+		{
+			dependencies: ["08F0F455B2BC6E7C"]
+			description: ["The &dSturdy Sheet&r is a crafting component used in many crafts linked to the &btrain&r."]
+			id: "520AACFE3F316754"
+			rewards: [{
+				count: 16
+				id: "019CB83398F0F3F4"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Dont worry train are soon"
+			tasks: [{
+				id: "2B454F9954879C68"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			title: "Primitive Strongest Material"
+			x: 4.875d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"520AACFE3F316754"
+				"34C99D9DF802DEC4"
+			]
+			description: [
+				"&6Trains&r are Contraptions that travel on &eTrain Tracks&r. Unlike vanilla trains, Create Trains can be controlled by players riding on the train or by conductors, can go through unloaded chunks even when unmanned, and can pass through &dNether Portal&r."
+				""
+				"For more information about Create Mod Train you can watch &oUltimate Guide to Trains | Create .5&r by &opolartt&r on &c&lYoutube&r&r"
+			]
+			id: "771C2F9752CFACD4"
+			rewards: [
+				{
+					count: 128
+					id: "7B43E1465E3F334A"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "50B7F0F979EEF9D8"
+					item: "create:white_seat"
+					type: "item"
+				}
+				{
+					id: "3608F8AB5E4145C9"
+					item: "create:schedule"
+					type: "item"
+				}
+				{
+					id: "3B6F01342E8822D0"
+					item: "create:controls"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "Elegant Locomation For Elegant Farmer"
+			tasks: [{
+				id: "29F85842734F06F5"
+				item: "create:track_station"
+				type: "item"
+			}]
+			title: "Train"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6CA5415F33718F6A"]
+			description: [
+				"More resources are always nice. You're getting close to entering the &6age of Steam&r - Copper and Tin are required in many &6Steam Age&r machines, so check the ore tab to find out what veins they can be found in, and get mining!"
+				""
+				"If the different ore names are &bconfusing&r, you can tell which elements an ore holds at a glance by reading the &dmolecular formula&r in its tooltip. Copper is &oCu&r, Tin is &oSn&r, Iron is &oFe&r, and you can consult a &3periodic table&r for the rest. It's time to brush up on your chemistry - you'll need it for &llater&r."
+				""
+				"This quest can be completed with &9either metal&r, so you can claim the metal you're missinng as the reward. Be sure to find a source of both soon, as a &a&ocertain&r&a Copper-Tin alloy&r will be needed to get through the &6Steam Age&r."
+			]
+			icon: "minecraft:copper_ingot"
+			id: "223DA455AA59A36D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F9A98ED2529A8C7"
+				table_id: 1702176335602373230L
+				type: "choice"
+			}]
+			size: 0.75d
+			subtitle: "Gather more resources!"
+			tasks: [{
+				count: 32L
+				id: "06F2FC5375DCE4C3"
+				item: {
+					Count: 32
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:copper_ingot"
+							}
+							{
+								Count: 1b
+								id: "gtceu:tin_ingot"
+							}
+						]
+					}
+				}
+				title: "32 Copper or Tin"
+				type: "item"
+			}]
+			title: "Onwards to the Age of Bronze!"
+			x: 6.75d
+			y: -0.375d
+		}
+		{
+			dependencies: ["223DA455AA59A36D"]
+			description: [
+				"Don't worry, these crafts are actually useful - you'll be required to make &ehundreds more&r of these components. It's good to start building the habit."
+				""
+				"It's generally wise to get familiar with the idea of &o\"&bbulk-crafting&r&o\"&r - if you need 1 plate, try making 8, etc. This means you'll have lots of these &dintermediates&r ready for future crafts. It might seem unreasonable to craft &astacks of rods&r or &ascrews&r especially this early on, but they will always end up being used, saving you a lot of micro-crafting in the future."
+				""
+				"If you needed &6any more&r convincing, take a peek at the &drewards&r for this quest."
+			]
+			icon: "minecraft:bone_meal"
+			id: "798CC0F8301008E1"
+			rewards: [
+				{
+					count: 64
+					id: "71CCB4ECF7C749A2"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "1F1C6D7DCC070B2A"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "3C35B949343838F7"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "547B2B0FF386D601"
+					item: {
+						Count: 1
+						id: "gtceu:iron_shovel"
+						tag: {
+							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "796D27916F6E720D"
+					item: {
+						Count: 1
+						id: "gtceu:iron_axe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 4.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "Put your micro-crafting talent to the task!"
+			tasks: [
+				{
+					count: 16L
+					id: "2BDCC21099BFF2EE"
+					item: "gtceu:iron_bolt"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7BD5930EF6AFE84D"
+					item: "gtceu:iron_plate"
+					type: "item"
+				}
+			]
+			title: "A Minor Test of Strength"
+			x: 5.625d
+			y: 0.75d
+		}
+		{
+			dependencies: ["223DA455AA59A36D"]
+			description: [
+				"Iron, Copper and Tin will only get you so far. &4Redstone&r and &bDiamond&r will occasionally be required during the &6Steam Age&r, whereas Nickel, Lead and Silver are also nice to have. All will come in handy &asoon enough&r."
+				""
+				"&oConsult the ore tab if you're struggling to find these materials!&r"
+			]
+			icon: "gtceu:silver_ingot"
+			id: "7DB6A67B6141B305"
+			rewards: [
+				{
+					count: 128
+					id: "755686CA677938FB"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "5B41D0E30292D5A3"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "20D6789AA27F6A65"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "1A541A672780F230"
+					item: "gtceu:nickel_ingot"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "714EC0FFFD782B9F"
+					item: "gtceu:lead_ingot"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "155177AA2AB00949"
+					item: "gtceu:silver_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2AA16F86B9421E88"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "Sometimes, you gotta be inefficient... to be efficient!"
+			tasks: [
+				{
+					count: 64L
+					id: "6C6CD77DDA93DBC4"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "3E2093A84A098A30"
+					item: "gtceu:nickel_ingot"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "2E030FCE53649CEA"
+					item: "gtceu:lead_ingot"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "3D42F691FB3E39AE"
+					item: "gtceu:silver_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "442528EF2D83E4DB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Early Investments"
+			x: 6.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["223DA455AA59A36D"]
+			description: [
+				"&6Bronze&r is an &2alloy&r of Copper and Tin. Grind down 3 parts Copper and 1 part Tin into dust, then combine and smelt them. If you are confused on how this is done, take a look at the &o\"&dMore Tools&r&o\"&r quest."
+				""
+				"Aim to make &amany more&r Bronze Ingots than is called for here. This is the main material for the &6Steam Age&r, and you will need LOTS of it."
+				""
+				"&6&lThe progression now continues in the Steam Age chapter.&r"
+				"{@pagebreak}"
+				"&l&3Lore:&r&o Bronze in real life is closer to a ratio of 7:1 for Copper to Tin. Here (and in most of modded Minecraft) this is &4not&f the case for the sake of game balance. There are a lot of things like this that need to be tweaked - &eno realism here&f."
+			]
+			icon: "gtceu:bronze_ingot"
+			id: "6806626FA0ECF132"
+			rewards: [{
+				count: 32
+				id: "204F50D6DF1BCC0C"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Humanity's first alloy - and yours too!"
+			tasks: [{
+				count: 24L
+				id: "6D461C8FDB218AD0"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			title: "Bronze Age? No, &6Steam Age&r!"
+			x: 9.0d
+			y: -0.375d
+		}
+		{
+			dependencies: ["691479CF7AE839B7"]
+			description: ["&aCrushing Wheels&r are the more advanced version of the &eMillstone&r. It applies Crushing recipes to any items inserted from the direction they are spinning away from."]
+			id: "08F0F455B2BC6E7C"
+			size: 0.75d
+			subtitle: "Can we count that as a multiblock?"
+			tasks: [{
+				count: 2L
+				id: "59E765AA070B82B3"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Crushing Wheels"
+			x: 4.875d
+			y: -3.375d
+		}
+		{
+			dependencies: ["6CA5415F33718F6A"]
+			description: [
+				"Blaze Cake can be used to feed the &6Blaze Burner&r, making it &bSuper-Heated&r."
+				""
+				"&dSuper Heated Blaze Burners&r can be used with a &aBasin&r to access special recipes. They can also be used to provide more heat to a &6Steam Engine boiler&r."
+			]
+			id: "5BBAFFBFA612688E"
+			rewards: [{
+				id: "61869AF27638308F"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "It's not that bad if you give him cake"
+			tasks: [{
+				id: "086D9677E56575D8"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "Spicy Desert"
+			x: 4.875d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3E933149C96DA934"]
+			description: [
+				"The &6steam engine&r is the &d&lbest&r&r mod create su generator. This powerful machine can run a large network of machines all by itself."
+				""
+				"As indicated in the &btooltips&r, the hotter the water source below the boiler, the greater the amount of sugar produced. So, here is how the heat system works:"
+				""
+				"{@pagebreak}"
+				""
+				"&a&lPassive&r&r (0 heating levels)"
+				"&eFire Fire&r"
+				"&eCampfire Campfire&r"
+				"&eLava (fluid) Lava&r"
+				"&eMagma Block&r"
+				"&eEmpty Blaze Burner lit with Flint and Steel&r"
+				"&eBlaze Burner (smoldering)&r"
+				"&a&lActive&r&r (1 heating level per Blaze Burner)"
+				"&eBlaze Burner (heated)&r"
+				"&a&lOverclocked&r&r (2 heating levels per Blaze Burner)"
+				"&eBlaze Burner (super-heated)&r"
+			]
+			id: "1D93EAF907EC0FC0"
+			rewards: [{
+				id: "2446DA6DFF280948"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "The best su creator of the game"
+			tasks: [{
+				count: 6L
+				id: "2D3021A166EEFC44"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Rotational Steam Engine"
+			x: 7.125d
+			y: -2.625d
+		}
+		{
+			dependencies: ["3E933149C96DA934"]
+			description: ["The &aVendor&r is a block that allows items to be put on sale for trade with other players. This system has the advantage of being secure and preventing inflation, because the in-game currency is &cnot craftable&r."]
+			id: "51523B3A9D627D2D"
+			size: 0.75d
+			subtitle: "Block Game Capitalism"
+			tasks: [{
+				id: "4B86750F4FC2F2B5"
+				item: "numismatics:vendor"
+				type: "item"
+			}]
+			title: "Vendor Station"
+			x: 7.125d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2D22A7A2E2991F82"
+				"691479CF7AE839B7"
+			]
+			description: ["These objects are very interesting tools at your level. They make your life easier. For more information, look at the &btooltips&r for each object."]
+			id: "063B759E60F68816"
+			rewards: [
+				{
+					id: "6F192689E6346EF2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4EE878504E172C48"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "Trust me, they are fun to use"
+			tasks: [
+				{
+					id: "1AFFCE1530C73DD6"
+					item: {
+						Count: 1
+						id: "create:potato_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BD393A28276E70E"
+					item: {
+						Count: 1
+						id: "create:extendo_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "210FB6099B4F23B2"
+					item: "create:wand_of_symmetry"
+					type: "item"
+				}
+			]
+			title: "Precision Tool's"
+			x: 2.625d
+			y: -4.125d
+		}
+		{
+			dependencies: ["75BFAB9765A0258A"]
+			description: [
+				"With the &6temperature&r system the &cNether&r has become the kingdom of heat waves. You have to find a way to &9cool down&r, otherwise you're sure to &4&ldie&r&r!"
+				""
+				"You can try with &3water&r or &3armor&r but your best plan would be a &b&lSoulsSpring Lamp&r&r, a lamp that once in your hand, lowers your body &6temperature&r."
+				""
+				"Its fuel? &bSouls sprouts&r, a plant found exclusively in &b&lSoul Sand Valley&r&r. So finding this biome should be a &c&npriority&r&r!"
+			]
+			id: "2BD9495475602009"
+			rewards: [{
+				count: 32
+				id: "000FAD214E61668F"
+				item: "cold_sweat:soul_sprout"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Its really hot down here"
+			tasks: [{
+				id: "121E17E113909BF2"
+				item: {
+					Count: 1
+					id: "cold_sweat:soulspring_lamp"
+					tag: {
+						fuel: 64.0d
+						isOn: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "Air Conditioning"
+			x: 3.75d
+			y: 1.125d
+		}
+	]
+	subtitle: ["Tame the Mecanical Energy"]
+	title: "Medieval Age"
+}
