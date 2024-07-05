@@ -2,6 +2,17 @@
   "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
+    "totemic:totempedia": {
+      "viewedEntries": [
+        "totemic:basics/totem_poles",
+        "totemic:misc/tipi",
+        "totemic:misc/totem_torch",
+        "totemic:misc/medicine_bag",
+        "totemic:instruments/rattle"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "bloodmagic:guide": {
       "viewedEntries": [
         "bloodmagic:utility/changelog",

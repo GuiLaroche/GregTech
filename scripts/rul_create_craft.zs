@@ -11,7 +11,7 @@ import mods.create.CuttingManager;
 <recipetype:create:sandpaper_polishing>.addRecipe("gt_rose_quartz_polished", <item:create:polished_rose_quartz>, <item:gtceu:rose_quartz_gem>, 200);
 
 <recipetype:create:pressing>.remove(<item:minecraft:paper>);
-<recipetype:create:mixing>.remove(<item:create:andesite_alloy>);
+//<recipetype:create:mixing>.remove(<item:create:andesite_alloy>);
 
 <recipetype:create:mixing>.addRecipe("mixed_bark", <constant:create:heat_condition:none>, [<item:gtceu:paper_dust>], [<item:farmersdelight:tree_bark> * 3], [], 400);
 

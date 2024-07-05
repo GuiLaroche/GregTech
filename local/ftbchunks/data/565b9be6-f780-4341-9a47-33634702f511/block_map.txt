@@ -165,6 +165,7 @@
 #AA58B0 ad_astra:cheese_block
 #7A6313 vintagedelight:cheese_mold
 #CC00BA vinery:chenet_wine
+#408F91 minecraft:cherry_log
 #89F19E vinery:cherry_wine
 #F522F4 minecraft:chest
 #189A0B ad_astra:chiseled_moon_stone_bricks
@@ -256,10 +257,12 @@
 #D24907 architects_palette:dripstone_bricks
 #5F83ED handcrafted:dripstone_corner_trim
 #4E1038 handcrafted:dripstone_pillar_trim
+#BFC66B totemic:drum
 #0253FA abyssal_decor:dull_iron_bar_door
 #2534C0 abyssal_decor:dull_iron_post
 #C498D6 abyssal_decor:dull_iron_post_top
 #ECBAB1 abyssal_decor:dull_iron_sconce
+#5A472A totemic:dummy_tipi
 #1359FF fruitsdelight:durian
 #FF989A thermal:dynamo_compression
 #3EB748 thermal:dynamo_numismatic
@@ -316,6 +319,7 @@
 #EBA160 thermal:fluid_duct
 #DC0D87 create:fluid_pipe
 #DDC0C3 create:fluid_tank
+#0E31B2 create_new_age:fluxuated_magnetite
 #A4AB38 abyssal_decor:foghorn
 #47E1B3 createmetallurgy:foundry_basin
 #C28A81 createmetallurgy:foundry_lid
@@ -610,6 +614,7 @@
 #62A3CD farmersdelight:rope
 #E1FAA5 supplementaries:rope
 #48C768 supplementaries:rope_knot
+#7210AF gtceu:rubber_log
 #E238E9 supplementaries:sack
 #E23940 supplementaries:safe
 #6E618B farmersdelight:safety_net
@@ -705,6 +710,8 @@
 #47B47B cold_sweat:thermolith
 #52FD2D minecraft:tnt
 #517E95 bakery:toast_block
+#CAAB54 totemic:totem_base
+#D13C3B totemic:totem_pole
 #B96B58 alexsmobs:transmutation_table
 #F2AD56 bakery:tray
 #3C47F4 gtceu:treated_wood_door
