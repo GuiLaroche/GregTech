@@ -10,6 +10,7 @@ ServerEvents.recipes(event => {
     event.remove({ type: 'gtceu:assembler', input: 'minecraft:dropper' })
     event.remove({ type: 'gtceu:assembler', input: 'minecraft:note_block' })
     event.remove({ type: 'gtceu:assembler', input: 'supplementaries:altimeter' })
+    event.remove({ type: 'gtceu:assembler', input: 'minecraft:bow' })
     event.remove({ type: 'gtceu:alloy_smelter', input: 'minecraft:anvil' })
     event.remove({ type: 'gtceu:fluid_solidifier', input: 'minecraft:anvil' })
 
@@ -213,4 +214,28 @@ ServerEvents.recipes(event => {
         )
         .duration(100)
         .EUt(4)
+
+        event.recipes.gtceu.assembler('bow')
+        .itemInputs(
+            '3x #forge:rods/wood',
+            '3x #forge:ropes'
+        )
+        .itemOutputs(
+            'minecraft:bow'
+        )
+        .duration(100)
+        .EUt(4)
+
+        event.recipes.gtceu.assembler('crossbow')
+        .itemInputs(
+            '2x #forge:rods/wood',
+            '#forge:springs/iron',
+            'minecraft:bow',
+            '#forge:rings/wrought_iron'
+        )
+        .itemOutputs(
+            'minecraft:crossbow'
+        )
+        .duration(100)
+        .EUt(6)
 })

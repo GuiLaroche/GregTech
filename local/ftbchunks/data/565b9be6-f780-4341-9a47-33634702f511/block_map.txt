@@ -717,6 +717,7 @@
 #C7E32D architects_palette:twisted_door
 #D0862C architects_palette:twisted_wood
 #DA4418 minecraft:twisting_vines
+#36CBC5 extendedcrafting:ultimate_table
 #5E457C abyssal_decor:upsidedown_dull_iron_sconce
 #79AC8C abyssal_decor:velvet_barrier_ribbon
 #B8D9ED abyssal_decor:velvet_barrier_top

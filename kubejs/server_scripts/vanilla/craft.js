@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
                 D: "#minecraft:wooden_slabs",
               })
           })
-
+            
             event.shaped(`3x kubejs:furnace_clay`, ["CCC", "GMG", "GGG"], {
                 C: "minecraft:clay_ball",
                 G: "minecraft:gravel",
@@ -33,5 +33,24 @@ ServerEvents.recipes((event) => {
                 A: "minecraft:air",
                 W: "#minecraft:planks",
                 S: "gtceu:flint_axe",
+              });
+
+              event.remove({ id: `minecraft:bow` });
+              event.shaped(`minecraft:bow`, ["ASR", "SsR", "ASR"], {
+                A: "minecraft:air",
+                S: "#forge:rods/wood",
+                R: "#forge:ropes",
+                s: "#forge:tools/saws"
+              });
+
+              event.remove({ id: `minecraft:crossbow` });
+              event.shaped(`minecraft:crossbow`, ["SRS", "sBf", "APA"], {
+                A: "minecraft:air",
+                S: "#forge:rods/wood",
+                R: "#forge:rings/wrought_iron",
+                s: "#forge:tools/saws",
+                B: "minecraft:bow",
+                f: "#forge:tools/files",
+                P: "#forge:springs/iron"
               });
       });
