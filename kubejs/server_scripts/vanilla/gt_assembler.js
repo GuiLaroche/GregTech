@@ -238,4 +238,43 @@ ServerEvents.recipes(event => {
         )
         .duration(100)
         .EUt(6)
+
+        event.recipes.gtceu.assembler('engi_googles')
+        .itemInputs(
+            '2x #forge:screws/gold',
+            '#forge:ropes',
+            '2x #forge:plates/glass',
+            '#forge:plates/gold'
+        )
+        .itemOutputs(
+            'create:goggles'
+        )
+        .duration(120)
+        .EUt(8)
+
+        event.recipes.gtceu.assembler('grappling_squck')
+        .itemInputs(
+            '3x alexsmobs:lost_tentacle',
+            '2x #forge:plates/annealed_copper',
+            'minecraft:crossbow',
+            '#forge:silk'
+        )
+        .itemOutputs(
+            'alexsmobs:squid_grapple'
+        )
+        .duration(120)
+        .EUt(20)
+
+        event.recipes.gtceu.assembler('shears')
+        .itemInputs(
+            '2x #forge:leather',
+            '2x #forge:screws/iron',
+            '2x #forge:plates/iron',
+            'minecraft:iron_ingot',
+        )
+        .itemOutputs(
+            'minecraft:shears'
+        )
+        .duration(120)
+        .EUt(20)
 })

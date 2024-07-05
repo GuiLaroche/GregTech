@@ -8,7 +8,7 @@ recipes.remove(<item:create:steam_engine>);
 recipes.remove(<item:create:water_wheel>);
 recipes.remove(<item:create:large_water_wheel>);
 recipes.remove(<item:create:andesite_alloy>);
-recipes.remove(<item:create:goggles>);
+//recipes.remove(<item:create:goggles>);
 
 recipes.remove(<item:laendli_transport:vehicle_part_tire>);
 recipes.remove(<item:laendli_transport:vehicle_part_wheel>);
@@ -114,7 +114,7 @@ craftingTable.remove(<item:minecraft:shield>);
 craftingTable.remove(<item:minecraft:lantern>);
 craftingTable.remove(<item:minecraft:soul_lantern>);
 craftingTable.remove(<item:minecraft:brewing_stand>);
-craftingTable.remove(<item:minecraft:shears>);
+//craftingTable.remove(<item:minecraft:shears>);
 craftingTable.remove(<item:minecraft:spyglass>);
 craftingTable.remove(<item:minecraft:compass>);
 craftingTable.remove(<item:minecraft:clock>);
@@ -147,7 +147,7 @@ craftingTable.remove(<item:alexsmobs:stink_ray>);
 craftingTable.remove(<item:minecraft:brush>);
 craftingTable.remove(<item:supplementaries:relayer>);
 craftingTable.remove(<item:supplementaries:lock_block>);
-craftingTable.remove(<item:alexsmobs:squid_grapple>);
+//craftingTable.remove(<item:alexsmobs:squid_grapple>);
 craftingTable.remove(<item:minecraft:crafting_table>);
 craftingTable.remove(<item:minecraft:chest>);
 craftingTable.remove(<item:minecraft:furnace>);
@@ -155,6 +155,7 @@ craftingTable.remove(<item:minecraft:smithing_table>);
 craftingTable.remove(<item:minecraft:smoker>);
 craftingTable.remove(<item:minecraft:blast_furnace>);
 craftingTable.removeByName("minecraft:anvil");
+craftingTable.remove(<item:crittersandcompanions:grappling_hook>);
 
 craftingTable.remove(<item:gtceu:flint_pickaxe>);
 craftingTable.remove(<item:gtceu:flint_shovel>);
@@ -177,8 +178,8 @@ craftingTable.addShaped("n_steam_engine", <item:create:steam_engine>, [[<item:mi
 craftingTable.addShaped("n_water_wheel", <item:create:water_wheel>, [[<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>], [<tag:items:minecraft:logs>, <item:create:shaft>, <tag:items:minecraft:logs>], [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);
 craftingTable.addShaped("n_large_water_wheel", <item:create:large_water_wheel>, [[<item:create:andesite_alloy>, <tag:items:minecraft:logs>, <item:create:andesite_alloy>], [<tag:items:minecraft:logs>, <item:create:water_wheel>, <tag:items:minecraft:logs>], [<item:create:andesite_alloy>, <tag:items:minecraft:logs>, <item:create:andesite_alloy>]]);
 craftingTable.addShaped("n_create_wrench", <item:create:wrench>, [[<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <item:minecraft:air>], [<tag:items:forge:plates/iron>, <item:create:cogwheel>, <item:minecraft:air>], [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>]]);
-craftingTable.addShaped("n_andesite_alloy", <item:create:andesite_alloy>, [[<tag:items:forge:ingots/iron>, <item:minecraft:andesite>], [<item:minecraft:andesite>, <tag:items:forge:ingots/iron>]]);
-craftingTable.addShaped("n_engi_goggles", <item:create:goggles>, [[<tag:items:forge:screws/gold>, <tag:items:forge:ropes>, <tag:items:forge:screws/gold>], [<tag:items:forge:plates/glass>, <tag:items:forge:plates/gold>, <tag:items:forge:plates/glass>]]);
+craftingTable.addShaped("n_andesite_alloy", <item:create:andesite_alloy>, [[<tag:items:forge:nuggets/wrought_iron>, <item:minecraft:andesite>], [<item:minecraft:andesite>, <tag:items:forge:nuggets/wrought_iron>]]);
+//craftingTable.addShaped("n_engi_goggles", <item:create:goggles>, [[<tag:items:forge:screws/gold>, <tag:items:forge:ropes>, <tag:items:forge:screws/gold>], [<tag:items:forge:plates/glass>, <tag:items:forge:plates/gold>, <tag:items:forge:plates/glass>]]);
 
 #. Transport
 craftingTable.addShaped("n_tire", <item:laendli_transport:vehicle_part_tire>, [[<item:gtceu:rubber_ingot>, <item:gtceu:rubber_ingot>, <item:gtceu:rubber_ingot>], [<item:gtceu:rubber_ingot>, <item:minecraft:air>, <item:gtceu:rubber_ingot>], [<item:gtceu:rubber_ingot>, <item:gtceu:rubber_ingot>, <item:gtceu:rubber_ingot>]]);
@@ -271,7 +272,7 @@ craftingTable.addShaped("n_shield", <item:minecraft:shield>, [[<tag:items:forge:
 craftingTable.addShaped("n_lantern", <item:minecraft:lantern>, [[<item:minecraft:air>, <tag:items:forge:rings/steel>, <item:minecraft:air>], [<tag:items:forge:plates/steel>, <item:minecraft:torch>, <tag:items:forge:plates/steel>], [<item:minecraft:air>, <tag:items:forge:plates/steel>, <item:minecraft:air>]]);
 craftingTable.addShaped("n_soul_lantern", <item:minecraft:soul_lantern>, [[<item:minecraft:air>, <tag:items:forge:rings/steel>, <item:minecraft:air>], [<tag:items:forge:plates/steel>, <item:minecraft:soul_torch>, <tag:items:forge:plates/steel>], [<item:minecraft:air>, <tag:items:forge:plates/steel>, <item:minecraft:air>]]);
 craftingTable.addShaped("n_brewing_stand", <item:minecraft:brewing_stand>, [[<item:minecraft:air>,<tag:items:forge:rods/black_steel> ,<item:minecraft:air>], [<tag:items:forge:rods/black_steel>, <item:minecraft:blaze_rod>, <tag:items:forge:rods/black_steel>], [<tag:items:minecraft:stone_crafting_materials>, <tag:items:minecraft:stone_crafting_materials>, <tag:items:minecraft:stone_crafting_materials>]]);
-craftingTable.addShaped("n_shear", <item:minecraft:shears>, [[<tag:items:forge:leather>, <tag:items:forge:screws/iron>, <tag:items:forge:plates/iron>], [<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:air>], [<tag:items:forge:leather>, <tag:items:forge:screws/iron>, <tag:items:forge:plates/iron>]]);
+//craftingTable.addShaped("n_shear", <item:minecraft:shears>, [[<tag:items:forge:leather>, <tag:items:forge:screws/iron>, <tag:items:forge:plates/iron>], [<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:air>], [<tag:items:forge:leather>, <tag:items:forge:screws/iron>, <tag:items:forge:plates/iron>]]);
 craftingTable.addShaped("n_spyglass", <item:minecraft:spyglass>, [[<tag:items:forge:plates/copper>, <tag:items:forge:plates/glass>, <tag:items:forge:plates/copper>], [<tag:items:forge:leather>, <tag:items:forge:foils/gold>, <tag:items:forge:leather>], [<item:minecraft:air>, <tag:items:forge:rods/long/copper>, <item:minecraft:air>]]);
 craftingTable.addShaped("n_compass", <item:minecraft:compass>, [[<item:minecraft:air>, <tag:items:forge:plates/iron>, <item:minecraft:air>], [<tag:items:forge:plates/iron>, <tag:items:forge:bolts/red_alloy>, <tag:items:forge:plates/iron>], [<item:minecraft:air>, <tag:items:forge:plates/iron>, <item:minecraft:air>]]);
 craftingTable.addShaped("n_clock", <item:minecraft:clock>, [[<item:minecraft:air>, <tag:items:forge:plates/gold>, <item:minecraft:air>], [<tag:items:forge:plates/gold>, <item:create:precision_mechanism>, <tag:items:forge:plates/gold>], [<item:minecraft:air>, <tag:items:forge:plates/gold>, <item:minecraft:air>]]);
@@ -296,8 +297,6 @@ craftingTable.addShaped("n_moose_headgear", <item:alexsmobs:moose_headgear>, [[<
 craftingTable.addShaped("n_ship_cannon", <item:smallships:cannon>, [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ropes>], [<item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:iron_block>], [<item:minecraft:air>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);
 craftingTable.addShaped("n_soul_silk", <item:dungeonnowloading:soul_silk>, [[<item:dungeonnowloading:soul_cloth>, <tag:items:forge:silk>, <item:dungeonnowloading:soul_cloth>], [<tag:items:forge:silk>, <item:dungeonnowloading:soul_cloth>, <tag:items:forge:silk>], [<item:dungeonnowloading:soul_cloth>, <tag:items:forge:silk>, <item:dungeonnowloading:soul_cloth>]]);
 craftingTable.addShaped("n_minecart", <item:minecraft:minecart>, [[<tag:items:forge:double_plates/iron>, <item:minecraft:air>, <tag:items:forge:double_plates/iron>], [<tag:items:forge:double_plates/iron>, <tag:items:forge:double_plates/iron>, <tag:items:forge:double_plates/iron>]]);
-//craftingTable.addShaped("n_bow", <item:minecraft:bow>, [[<item:minecraft:air>, <tag:items:forge:rods/wooden>, <tag:items:forge:ropes>], [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <tag:items:forge:ropes>], [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <tag:items:forge:ropes>]]);
-//craftingTable.addShaped("n_crossbow", <item:minecraft:crossbow>, [[<tag:items:forge:rods/wooden>, <tag:items:forge:rings/iron>, <tag:items:forge:rods/wooden>], [<item:minecraft:air>, <item:minecraft:bow>, <item:minecraft:air>], [<item:minecraft:air>, <tag:items:forge:springs/iron>, <item:minecraft:air>]]);
 craftingTable.addShapeless("silk_to_string", <item:minecraft:string>, [<tag:items:forge:silk>, <tag:items:forge:silk>]);
 craftingTable.addShapeless("string_to_rope", <item:supplementaries:rope>, [<item:minecraft:string>, <item:minecraft:string>, <item:minecraft:string>]);
 craftingTable.addShaped("n_cage", <item:supplementaries:cage>, [[<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>], [<item:minecraft:iron_bars>, <item:minecraft:air>, <item:minecraft:iron_bars>], [<tag:items:minecraft:wooden_slabs>, <tag:items:minecraft:wooden_slabs>, <tag:items:minecraft:wooden_slabs>]]);
@@ -305,7 +304,7 @@ craftingTable.addShaped("n_hummingbird_feeder", <item:alexsmobs:hummingbird_feed
 craftingTable.addShaped("n_stink_ray", <item:alexsmobs:stink_ray>, [[<item:alexsmobs:stink_bottle>, <item:alexsmobs:stink_bottle>, <item:minecraft:air>], [<tag:items:forge:plates/invar>, <tag:items:forge:plates/invar>, <item:minecraft:hopper>], [<tag:items:forge:plates/invar>, <item:minecraft:air>, <item:minecraft:air>]]);
 craftingTable.addShaped("n_brush", <item:minecraft:brush>, [[<tag:items:forge:fur>], [<tag:items:forge:ingots/copper>], [<tag:items:forge:rods/wooden>]]);
 craftingTable.addShaped("n_lock_block", <item:supplementaries:lock_block>, [[<item:minecraft:iron_ingot>, <tag:items:minecraft:planks>, <item:minecraft:iron_ingot>], [<tag:items:minecraft:planks>, <tag:items:forge:ingots/red_alloy>, <tag:items:minecraft:planks>], [<item:minecraft:iron_ingot>, <tag:items:minecraft:planks>, <item:minecraft:iron_ingot>]]);
-craftingTable.addShaped("n_squid_grapple", <item:alexsmobs:squid_grapple>, [[<item:alexsmobs:lost_tentacle>, <item:alexsmobs:lost_tentacle>, <item:alexsmobs:lost_tentacle>], [<tag:items:forge:plates/annealed_copper>, <item:minecraft:crossbow>, <tag:items:forge:plates/annealed_copper>], [<item:minecraft:air>, <item:crittersandcompanions:grappling_hook>, <item:minecraft:air>]]);
+//craftingTable.addShaped("n_squid_grapple", <item:alexsmobs:squid_grapple>, [[<item:alexsmobs:lost_tentacle>, <item:alexsmobs:lost_tentacle>, <item:alexsmobs:lost_tentacle>], [<tag:items:forge:plates/annealed_copper>, <item:minecraft:crossbow>, <tag:items:forge:plates/annealed_copper>], [<item:minecraft:air>, <item:crittersandcompanions:grappling_hook>, <item:minecraft:air>]]);
 craftingTable.addShaped("n_crafting_table", <item:minecraft:crafting_table>, [[<tag:items:forge:gems/flint>, <tag:items:forge:gems/flint>], [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);
 craftingTable.addShaped("n_chest", <item:minecraft:chest>, [[<tag:items:minecraft:logs>, <tag:items:forge:rods/wood>, <tag:items:minecraft:logs>], [<tag:items:forge:rods/wood>, <tag:items:minecraft:stone_buttons>, <tag:items:forge:rods/wood>], [<tag:items:minecraft:logs>, <tag:items:forge:rods/wood>, <tag:items:minecraft:logs>]]);
 craftingTable.addShaped("flint_to_campfire", <item:minecraft:campfire>, [[<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>], [<tag:items:forge:rods/wooden>, <tag:items:forge:gems/flint>, <tag:items:forge:rods/wooden>], [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);

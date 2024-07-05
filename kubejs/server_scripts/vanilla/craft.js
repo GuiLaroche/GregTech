@@ -53,4 +53,33 @@ ServerEvents.recipes((event) => {
                 f: "#forge:tools/files",
                 P: "#forge:springs/iron"
               });
+              event.remove({ id: `create:crafting/kinetics/goggles` });
+              event.shaped(`create:goggles`, ["AsA", "SRS", "GPG"], {
+                A: "minecraft:air",
+                S: "#forge:screws/gold",
+                R: "#forge:ropes",
+                s: "#forge:tools/screwdrivers",
+                G: "#forge:plates/glass",
+                P: "#forge:plates/gold"
+              });
+
+              event.remove({ id: `alexsmobs:squid_grapple` });
+              event.shaped(`alexsmobs:squid_grapple`, ["TTT", "PCP", "wSf"], {
+                T: "alexsmobs:lost_tentacle",
+                P: "#forge:plates/annealed_copper",
+                C: "minecraft:crossbow",
+                w: "#forge:tools/wrenches",
+                S: "#forge:silk",
+                f: "#forge:tools/files"
+              });
+
+              event.remove({ id: `minecraft:shears` });
+              event.shaped(`minecraft:shears`, ["LSP", "IsA", "LSP"], {
+                L: "#forge:leather",
+                S: "#forge:screws/iron",
+                P: "#forge:plates/iron",
+                I: "minecraft:iron_ingot",
+                s: "#forge:tools/screwdrivers",
+                A: "minecraft:air"
+              });
       });

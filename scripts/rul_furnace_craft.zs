@@ -15,4 +15,5 @@ furnace.addRecipe("dough_to_bread", <item:minecraft:bread>, <tag:items:forge:dou
 smoker.addRecipe("s_dough_to_bread", <item:minecraft:bread>, <tag:items:forge:dough>, 0.35, 100);
 campfire.addRecipe("c_dough_to_bread", <item:minecraft:bread>, <tag:items:forge:dough>, 0.35, 200);
 campfire.addRecipe("furnace_clay_to_brick_clay", <item:kubejs:furnace_brick>, <item:kubejs:furnace_clay>, 0.35, 200);
+furnace.addRecipe("fur_furnace_clay_to_brick_clay", <item:kubejs:furnace_brick>, <item:kubejs:furnace_clay>, 0.35, 200);
 
