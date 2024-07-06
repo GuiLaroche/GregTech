@@ -27,6 +27,7 @@
 #5A585C irons_spellbooks:armor_pile
 #ADF429 supplementaries:ash
 #DC4327 gtceu:assembly_line
+#706E6E embers:automatic_hammer
 #4A6CCF sophisticatedbackpacks:backpack
 #D5E63B bakery:baguette_block
 #B9CECE bakery:baker_station
@@ -72,6 +73,7 @@
 #81BB27 create_new_age:basic_motor
 #52B4E7 create_new_age:basic_motor_extension
 #04BAFD create_new_age:basic_solar_heating_plate
+#E152BD create:basin
 #F4DCA1 farmersdelight:basket
 #51A075 vinery:basket
 #12A2E4 gtceu:bastnasite_indicator
@@ -84,6 +86,7 @@
 #8D86E5 minecraft:beehive
 #23E62E brewery:beer_wheat
 #4D515B supplementaries:bellows
+#521BEA vintageimprovements:belt_grinder
 #642A46 brewery:bench
 #A5E4C0 handcrafted:bench
 #F3AC01 gtceu:beryllium_indicator
@@ -154,6 +157,9 @@
 #AB512F bakery:cake_stand
 #AB978D handcrafted:calcite_pillar_trim
 #9E6C60 ad_astra:calorite_sliding_door
+#014005 embers:caminite_lever
+#C47AFD embers:caminite_ring
+#403367 embers:caminite_ring_edge
 #FC842A minecraft:campfire
 #CB6F00 minecraft:candle
 #E24A99 create_new_age:carbon_brushes
@@ -196,6 +202,7 @@
 #2BFCCE ae2:controller
 #3BEB0B farmersdelight:cooking_pot
 #AE3935 sophisticatedbackpacks:copper_backpack
+#EEB7DC embers:copper_cell
 #901287 gtceu:copper_double_wire
 #C4FE6B gtceu:copper_huge_fluid_pipe
 #1AC567 gtceu:copper_large_fluid_pipe
@@ -221,6 +228,7 @@
 #89A1AE minecraft:crimson_trapdoor
 #E9A8F5 minecraft:crying_obsidian
 #C85B7B ad_astra:cryo_fuel
+#C0ADCD create:cuckoo_clock
 #87D119 bakery:cupcake_display
 #05EFD1 gtceu:cupronickel_coil_block
 #1B74F2 farmersdelight:cutting_board
@@ -228,6 +236,7 @@
 #4600E6 handcrafted:dark_oak_chair
 #A4967C minecraft:dark_oak_slab
 #A3622B gtceu:data_bank
+#53A6F2 embers:dawnstone_anvil
 #7EAB5E minecraft:daylight_detector
 #6B66BF abyssal_decor:deepbronze_beam
 #F3448B abyssal_decor:deepbronze_block
@@ -273,6 +282,13 @@
 #231F2D upgrade_aquatic:elder_eye
 #4576E9 gtceu:electric_blast_furnace
 #9F98D9 create_new_age:electrical_connector
+#CFB4F8 gtceu:electrum_small_item_pipe
+#F01ED1 embers:ember_activator
+#811CAC embers:ember_bore
+#E04718 embers:ember_bore_edge
+#81ECDC embers:ember_dial
+#22192A embers:ember_emitter
+#D5DF5B embers:ember_receiver
 #548B83 create:encased_fan
 #6C253E create_optical:encased_mirror
 #2208EB minecraft:enchanting_table
@@ -306,6 +322,7 @@
 #28EB63 ad_astra:etrium_plateblock
 #E5368F gtceu:ev_kinetic_mixer
 #A370E5 handcrafted:evoker_trophy
+#8F956E embers:excavation_buckets
 #DC4A91 gtnn:exxonmobil_chemical_plant
 #009B14 minecraft:farmland
 #4860AB supplementaries:faucet
@@ -317,7 +334,9 @@
 #87648C abyssal_decor:floor_quartz_lamp_on
 #ADB0F7 ecologics:flowering_azalea_log
 #EBA160 thermal:fluid_duct
+#AB0D03 embers:fluid_extractor
 #DC0D87 create:fluid_pipe
+#F7CE17 embers:fluid_pipe
 #DDC0C3 create:fluid_tank
 #0E31B2 create_new_age:fluxuated_magnetite
 #A4AB38 abyssal_decor:foghorn
@@ -336,6 +355,7 @@
 #7D157F abyssal_decor:gargoyle_top
 #D60460 create:gearbox
 #9C3E7E create_new_age:generator_coil
+#AAB2E7 embers:geologic_separator
 #588FC4 abyssal_decor:gilded_black_pearl_door
 #D7571A abyssal_decor:gilded_blood_coral_pillar
 #DD2433 abyssal_decor:gilded_velvet_carpet
@@ -389,6 +409,8 @@
 #ADFAC1 ad_astra:iron_sliding_door
 #9197B7 bakery:iron_table
 #B611E5 minecraft:iron_trapdoor
+#66070C embers:item_extractor
+#C8F26E embers:item_pipe
 #17348A create:item_vault
 #F3A3B8 gcyr:iv_oxygen_spreader
 #5FFFB9 minecraft:jukebox
@@ -442,8 +464,12 @@
 #EF4287 gtceu:mars_stone_stibnite_ore
 #FB81FE gtceu:mars_stone_tetrahedrite_ore
 #D2630D createmetallurgy:mechanical_belt_grinder
+#7B3243 embers:mechanical_core
+#FB37C1 create:mechanical_crafter
+#E638FD create:mechanical_mixer
 #145137 create:mechanical_press
 #65707C create:mechanical_pump
+#2C98E1 embers:melter
 #7A9D58 gtceu:mercury_barium_calcium_cuprate_quadruple_wire
 #8919C4 ad_astra:mercury_stone
 #90CCFD create:metal_girder
@@ -453,6 +479,7 @@
 #4C1759 diagonalwindows:minecraft/purple_stained_glass_pane
 #840CE8 diagonalwindows:minecraft/red_stained_glass_pane
 #4CC7FF abyssal_decor:mixed_pearl_tiles
+#214156 embers:mixer_centrifuge
 #8AB83C createmetallurgy:molten_gold
 #8BACA4 createmetallurgy:molten_iron
 #34240F embers:molten_tin_block
@@ -487,6 +514,7 @@
 #6283A8 upgrade_aquatic:mulberry_jam_block
 #34688F gtceu:naquadah_double_wire
 #4C0EEB gtceu:naquadah_indicator
+#DAB037 gtceu:naquadah_normal_fluid_pipe
 #304FCC ad_astra:nasa_workbench
 #91453F minecraft:nether_brick_fence
 #0EFBB2 minecraft:nether_brick_slab
@@ -680,6 +708,8 @@
 #7E45A1 handcrafted:spruce_table
 #898FB6 handcrafted:stackable_book
 #09CC16 vinery:stackable_log
+#4B1CE1 embers:stamp_base
+#532AC4 embers:stamper
 #74A5D5 abyssal_decor:starfish_pink_2
 #C9C71D abyssal_decor:starry_pearl_tiles
 #A9622E gtceu:steam_machine_casing
@@ -761,7 +791,9 @@
 #FB59FD minecraft:water_cauldron
 #4BE21B ad_astra:water_pump
 #AAF4B7 create:water_wheel
+#7D38EB create:water_wheel_structure
 #549F25 minecraft:waxed_oxidized_copper
+#E2C9D0 create:weighted_ejector
 #A75B4F brewery:whiskey_jojannik
 #52A719 upgrade_aquatic:white_bedroll
 #7793B8 handcrafted:white_cup

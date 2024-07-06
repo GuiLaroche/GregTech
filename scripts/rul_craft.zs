@@ -3,7 +3,7 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 // Craft Remove
 recipes.remove(<item:jeg:scrap_workbench>);
 
-recipes.remove(<item:create:empty_blaze_burner>);
+//recipes.remove(<item:create:empty_blaze_burner>);
 recipes.remove(<item:create:steam_engine>);
 recipes.remove(<item:create:water_wheel>);
 recipes.remove(<item:create:large_water_wheel>);
@@ -173,7 +173,7 @@ craftingTable.addShapeless("tech_scrap", <item:jeg:tech_trash>, [<item:jeg:scrap
 craftingTable.addShaped("gun_table", <item:jeg:scrap_workbench>, [[<item:gtceu:treated_wood_planks>, <item:gtceu:treated_wood_planks>, <item:gtceu:treated_wood_planks>], [<item:gtceu:treated_wood_rod>, <item:jeg:scrap_block>, <item:gtceu:treated_wood_rod>], [<item:gtceu:treated_wood_rod>, <item:minecraft:air>, <item:gtceu:treated_wood_rod>]]);
 craftingTable.addShapeless("tempo_gunmetal_conv", <item:jeg:gunmetal_ingot>, [<item:gtceu:gunmetal_ingot>]);
 #. Create
-craftingTable.addShaped("n_blaze_burner", <item:create:empty_blaze_burner>, [[<item:minecraft:air>, <tag:items:forge:storage_blocks/iron>, <item:minecraft:air>], [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:netherrack>, <tag:items:forge:storage_blocks/iron>], [<item:minecraft:air>, <tag:items:forge:storage_blocks/iron>, <item:minecraft:air>]]);
+//craftingTable.addShaped("n_blaze_burner", <item:create:empty_blaze_burner>, [[<item:minecraft:air>, <tag:items:forge:storage_blocks/iron>, <item:minecraft:air>], [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:netherrack>, <tag:items:forge:storage_blocks/iron>], [<item:minecraft:air>, <tag:items:forge:storage_blocks/iron>, <item:minecraft:air>]]);
 craftingTable.addShaped("n_steam_engine", <item:create:steam_engine>, [[<item:minecraft:air>, <tag:items:forge:plates/brass>, <item:minecraft:air>], [<item:minecraft:air>, <item:create:andesite_alloy>, <item:minecraft:air>], [<item:minecraft:air>, <tag:items:forge:storage_blocks/copper>, <item:minecraft:air>]]);
 craftingTable.addShaped("n_water_wheel", <item:create:water_wheel>, [[<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>], [<tag:items:minecraft:logs>, <item:create:shaft>, <tag:items:minecraft:logs>], [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);
 craftingTable.addShaped("n_large_water_wheel", <item:create:large_water_wheel>, [[<item:create:andesite_alloy>, <tag:items:minecraft:logs>, <item:create:andesite_alloy>], [<tag:items:minecraft:logs>, <item:create:water_wheel>, <tag:items:minecraft:logs>], [<item:create:andesite_alloy>, <tag:items:minecraft:logs>, <item:create:andesite_alloy>]]);
