@@ -202,6 +202,7 @@
 #2BFCCE ae2:controller
 #3BEB0B farmersdelight:cooking_pot
 #AE3935 sophisticatedbackpacks:copper_backpack
+#62B857 create:copper_casing
 #EEB7DC embers:copper_cell
 #901287 gtceu:copper_double_wire
 #C4FE6B gtceu:copper_huge_fluid_pipe
@@ -209,6 +210,7 @@
 #1D002F gtceu:copper_normal_fluid_pipe
 #2D29A5 miners_delight:copper_pot
 #11141B gtceu:copper_small_fluid_pipe
+#E39FA1 create:copper_valve_handle
 #0A8B4E abyssal_decor:corrugated_iron
 #2E6C3D minecraft:cracked_deepslate_bricks
 #552826 minecraft:cracked_nether_bricks
@@ -262,6 +264,7 @@
 #EBD3A0 amendments:double_cake
 #136FCC minecraft:dragon_egg
 #D53311 bakery:drawer
+#E0B0EF iceandfire:dread_portal
 #795B74 herbalbrews:dried_out_green_tea_leaf_block
 #D24907 architects_palette:dripstone_bricks
 #5F83ED handcrafted:dripstone_corner_trim
@@ -409,6 +412,7 @@
 #ADFAC1 ad_astra:iron_sliding_door
 #9197B7 bakery:iron_table
 #B611E5 minecraft:iron_trapdoor
+#20FC50 create:item_drain
 #66070C embers:item_extractor
 #C8F26E embers:item_pipe
 #17348A create:item_vault
@@ -443,6 +447,7 @@
 #E3BCFD gtceu:lv_1a_energy_converter
 #FAF8E5 gtceu:lv_assembler
 #4F6C76 gtceu:lv_battery_buffer_4x
+#E8C498 gtceu:lv_distillery
 #1FAEC5 gtceu:lv_electric_furnace
 #4C9954 gtceu:lv_machine_hull
 #7421B0 gtceu:lv_wiremill
@@ -463,10 +468,12 @@
 #C394C9 gtceu:mars_stone_magnetite_ore
 #EF4287 gtceu:mars_stone_stibnite_ore
 #FB81FE gtceu:mars_stone_tetrahedrite_ore
+#EB48A2 create:mechanical_bearing
 #D2630D createmetallurgy:mechanical_belt_grinder
 #7B3243 embers:mechanical_core
 #FB37C1 create:mechanical_crafter
 #E638FD create:mechanical_mixer
+#CA8F8D create:mechanical_piston
 #145137 create:mechanical_press
 #65707C create:mechanical_pump
 #2C98E1 embers:melter
@@ -608,6 +615,7 @@
 #75D761 ad_astra:polished_moon_stone
 #A5528E ad_astra:polished_moon_stone_slab
 #90025E ad_astra:polished_moon_stone_stairs
+#E030A4 create:portable_fluid_interface
 #C34975 javd:portal_block
 #CB1F3C minecraft:powder_snow
 #D828D5 computercraft:printer
@@ -679,6 +687,7 @@
 #63AD48 abyssal_decor:small_pearl_bars
 #C4C4FA abyssal_decor:small_pearl_bars_corner
 #4D7C1B ad_astra:small_white_industrial_lamp
+#975FAF create:smart_chute
 #31A081 minecraft:smithing_table
 #C2A0D6 minecraft:smoker
 #30D23F minecraft:smooth_quartz
@@ -699,6 +708,8 @@
 #E2C01A cold_sweat:soul_stalk
 #6B495B minecraft:spawner
 #45A35A handcrafted:spider_trophy
+#D7A655 create:spout
+#D73526 vintageimprovements:spring_coiling_machine
 #829C03 handcrafted:spruce_bench
 #91E098 handcrafted:spruce_chair
 #B3EE5E handcrafted:spruce_fancy_bed
@@ -712,6 +723,7 @@
 #532AC4 embers:stamper
 #74A5D5 abyssal_decor:starfish_pink_2
 #C9C71D abyssal_decor:starry_pearl_tiles
+#8C8A95 create:steam_engine
 #A9622E gtceu:steam_machine_casing
 #1CC654 ad_astra:steel_cable
 #3E7273 gtceu:steel_frame
@@ -738,6 +750,7 @@
 #0DD877 abyssal_decor:telescope_top
 #97C716 abyssal_decor:terrestrial_rod
 #47B47B cold_sweat:thermolith
+#26670E powersuits:tinkertable
 #52FD2D minecraft:tnt
 #517E95 bakery:toast_block
 #CAAB54 totemic:totem_base
@@ -750,6 +763,7 @@
 #5896A1 gtceu:treated_wood_trapdoor
 #EBAEC0 biggerreactors:turbine_rotor_shaft
 #1A873F supplementaries:turn_table
+#05FFF5 create:turntable
 #750605 computercraft:turtle_normal
 #C7E32D architects_palette:twisted_door
 #D0862C architects_palette:twisted_wood
@@ -809,6 +823,7 @@
 #5ECF58 computercraft:wireless_modem_normal
 #87B038 handcrafted:witch_trophy
 #D066AA minecraft:wither_skeleton_skull
+#A89E72 gtceu:wood_drum
 #C24CF3 brewery:wooden_brewingstation
 #01031D gtceu:wrought_iron_block
 #B6B665 gtceu:yellow_stripes_block_a

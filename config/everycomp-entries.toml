@@ -59,6 +59,9 @@
 		[types.wood_type.witherstormmod]
 			tainted = true
 
+		[types.wood_type.iceandfire]
+			dreadwood = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.architects_palette]
