@@ -4,10 +4,10 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 recipes.remove(<item:jeg:scrap_workbench>);
 
 //recipes.remove(<item:create:empty_blaze_burner>);
-recipes.remove(<item:create:steam_engine>);
-recipes.remove(<item:create:water_wheel>);
-recipes.remove(<item:create:large_water_wheel>);
-recipes.remove(<item:create:andesite_alloy>);
+//recipes.remove(<item:create:steam_engine>);
+//recipes.remove(<item:create:water_wheel>);
+//recipes.remove(<item:create:large_water_wheel>);
+//recipes.remove(<item:create:andesite_alloy>);
 //recipes.remove(<item:create:goggles>);
 
 recipes.remove(<item:laendli_transport:vehicle_part_tire>);

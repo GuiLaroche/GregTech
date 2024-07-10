@@ -16,6 +16,8 @@
 #8F3580 abyssal_decor:amaranth_4_top
 #38394E minecraft:amethyst_block
 #A4683B create:andesite_casing
+#C7EA7C create:andesite_door
+#DA9404 create:andesite_funnel
 #DBECBF minecraft:anvil
 #EF49D1 bakery:apple_jam
 #785803 fruitsdelight:apple_jelly
@@ -141,7 +143,9 @@
 #7C992B brewery:brew_whistle
 #0F466A minecraft:brewing_stand
 #75CE1E bakery:brick_counter
+#53756B minecraft:brick_slab
 #0509FF bakery:brick_stove
+#551EFB minecraft:brick_wall
 #03DC45 minecraft:bricks
 #0B4DEF handcrafted:bricks_corner_trim
 #937008 jeg:brimstone_ore
@@ -200,6 +204,7 @@
 #DDBD08 gtceu:configurable_maintenance_hatch
 #EFD16B ad_astra:conglomerate
 #2BFCCE ae2:controller
+#83C53A create:controls
 #3BEB0B farmersdelight:cooking_pot
 #AE3935 sophisticatedbackpacks:copper_backpack
 #62B857 create:copper_casing
@@ -242,6 +247,7 @@
 #7EAB5E minecraft:daylight_detector
 #6B66BF abyssal_decor:deepbronze_beam
 #F3448B abyssal_decor:deepbronze_block
+#1C13FA abyssal_decor:deepbronze_pillar
 #5E9420 minecraft:deepslate
 #1784BD minecraft:deepslate_brick_slab
 #195ECD minecraft:deepslate_brick_stairs
@@ -261,6 +267,7 @@
 #CB716A minecraft:diamond_ore
 #80497A minecraft:dirt
 #910123 computercraft:disk_drive
+#91F7DB create:display_link
 #EBD3A0 amendments:double_cake
 #136FCC minecraft:dragon_egg
 #D53311 bakery:drawer
@@ -327,10 +334,12 @@
 #A370E5 handcrafted:evoker_trophy
 #8F956E embers:excavation_buckets
 #DC4A91 gtnn:exxonmobil_chemical_plant
+#271665 create:fake_track
 #009B14 minecraft:farmland
 #4860AB supplementaries:faucet
 #ACB8D0 vinery:fermentation_barrel
 #19B5BE vintagedelight:fermenting_jar
+#E3CAF1 supplementaries:flag_red
 #109A56 abyssal_decor:flaky_scales
 #252B1D architects_palette:flint_block
 #148D40 abyssal_decor:floor_quartz_lamp
@@ -342,6 +351,7 @@
 #F7CE17 embers:fluid_pipe
 #DDC0C3 create:fluid_tank
 #0E31B2 create_new_age:fluxuated_magnetite
+#5F7D4C create:flywheel
 #A4AB38 abyssal_decor:foghorn
 #47E1B3 createmetallurgy:foundry_basin
 #C28A81 createmetallurgy:foundry_lid
@@ -407,6 +417,7 @@
 #410A66 sophisticatedbackpacks:iron_backpack
 #C65D3F abyssal_decor:iron_ball_1
 #A532AE bakery:iron_chair
+#68DB6C ad_astra:iron_factory_block
 #DCE40C ad_astra:iron_pillar
 #7B0767 ad_astra:iron_plating
 #ADFAC1 ad_astra:iron_sliding_door
@@ -427,6 +438,7 @@
 #223855 fruitsdelight:kiwi_leaves
 #706606 gtceu:laminated_glass
 #3CAD79 minecraft:lantern
+#3B086E create:large_bogey
 #2C2C80 gtceu:large_circuit_assembler
 #030FBA abyssal_decor:large_deepbronze_pipe
 #13D86D gtnn:large_dehydrator
@@ -479,6 +491,7 @@
 #2C98E1 embers:melter
 #7A9D58 gtceu:mercury_barium_calcium_cuprate_quadruple_wire
 #8919C4 ad_astra:mercury_stone
+#ABA502 born_in_chaos_v1:mesh_door
 #90CCFD create:metal_girder
 #3FB545 herbalbrews:milk_coffee_block
 #C4844D create:millstone
@@ -626,7 +639,9 @@
 #281669 minecraft:quartz_bricks
 #431C61 minecraft:quartz_stairs
 #6124D9 bakery:quartz_stove
+#39D68A create:radial_chassis
 #D8BD86 ad_astra:radio
+#7C5ED3 create:railway_casing
 #2AC7DF abyssal_decor:rainbow_1
 #BFD3AB alexsmobs:rainbow_glass
 #079058 minecraft:raw_gold_block
@@ -646,7 +661,9 @@
 #3F92D4 architects_palette:redstone_cage_lantern
 #8A827E gtceu:redstone_indicator
 #162947 ad_astra:reinforced_door
+#DF7840 mininggadgets:renderblock
 #C79CC1 upgrade_aquatic:river_sign
+#7CA5CF abyssal_decor:riveted_deepbronze
 #62A3CD farmersdelight:rope
 #E1FAA5 supplementaries:rope
 #48C768 supplementaries:rope_knot
@@ -681,6 +698,7 @@
 #BDB68E amendments:skull_pile
 #C2CF94 ae2:sky_stone_tank
 #753445 gtceu:slicing_blades
+#13593A create:small_bogey
 #2EC3BE abyssal_decor:small_bronze_bars_corner
 #1CA318 bakery:small_cooking_pot
 #D1E213 create:small_dripstone_brick_wall
@@ -715,6 +733,7 @@
 #B3EE5E handcrafted:spruce_fancy_bed
 #55E4E8 vinery:spruce_lattice
 #6A8B3A minecraft:spruce_log
+#64EE0D minecraft:spruce_sign
 #64F88A minecraft:spruce_slab
 #7E45A1 handcrafted:spruce_table
 #898FB6 handcrafted:stackable_book
@@ -729,6 +748,7 @@
 #3E7273 gtceu:steel_frame
 #BEFC53 gtceu:steel_machine_casing
 #CD1A9E ad_astra:steel_sliding_door
+#375A43 supplementaries:stick
 #DC3458 minecraft:stone
 #852EEA bakery:stone_bricks_stove
 #3B5540 vinery:storage_pot
@@ -755,6 +775,10 @@
 #517E95 bakery:toast_block
 #CAAB54 totemic:totem_base
 #D13C3B totemic:totem_pole
+#E66FCF create:track
+#ED9CC4 create:track_station
+#EE6E09 create:train_door
+#A5BF36 create:train_trapdoor
 #B96B58 alexsmobs:transmutation_table
 #F2AD56 bakery:tray
 #3C47F4 gtceu:treated_wood_door
