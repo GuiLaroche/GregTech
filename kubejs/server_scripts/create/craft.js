@@ -101,5 +101,43 @@ ServerEvents.recipes((event) => {
                 B: 'minecraft:smooth_stone'
               });
 
+      event.remove({ id: `create:crafting/kinetics/cuckoo_clock` });
+      event.shaped('create:cuckoo_clock', ["sPt", "VCV", "SHS"], {
+                S: '#minecraft:wooden_slabs',
+                C: 'create:andesite_casing',
+                s: '#forge:tools/saws',
+                t: '#forge:tools/screwdrivers',
+                P: '#minecraft:planks',
+                V: '#forge:screws/wrought_iron',
+                H: '#forge:clocks'
+              });
+
+      event.remove({ id: `vintageimprovements:craft/belt_grinder` });
+      event.shaped('vintageimprovements:belt_grinder', ["ABA", "sSk", "ACA"], {
+                A: 'minecraft:air',
+                B: 'vintageimprovements:grinder_belt',
+                s: '#forge:tools/saws',
+                k: '#forge:tools/knives',
+                S: 'create:shaft',
+                C: 'create:andesite_casing',
+              });
+
+      event.shaped('kubejs:rough_spring_coiling_machine_wheel', ["ASA", "SWS", "ASA"], {
+                A: 'minecraft:air',
+                S: '#forge:plates/andesite_alloy',
+                W: '#forge:storage_blocks/wrought_iron',
+              });
+
+      event.remove({ id: `vintageimprovements:craft/spring_coiling_machine` });
+      event.shaped('vintageimprovements:spring_coiling_machine', ["RVh", "WCS", "RVt"], {
+                R: '#forge:rods/steel',
+                V: '#forge:screws/wrought_iron',
+                h: '#forge:tools/hammers',
+                t: '#forge:tools/screwdrivers',
+                S: 'create:shaft',
+                C: 'create:andesite_casing',
+                W: 'vintageimprovements:spring_coiling_machine_wheel',
+              });
+
       
   });
