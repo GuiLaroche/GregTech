@@ -37,5 +37,9 @@ ServerEvents.tags("item", (event) => {
   event.add("forge:fur", "alexsmobs:bison_fur");
   event.add("forge:fur", "alexsmobs:bear_fur");
 
+  event.add("forge:rods/andesite_alloy", "vintageimprovements:andesite_rod");
+  event.add("forge:springs/andesite_alloy", "vintageimprovements:andesite_spring");
+  event.add("forge:small_springs/andesite_alloy", "vintageimprovements:small_andesite_spring");
+  event.add("forge:plates/andesite_alloy", "vintageimprovements:andesite_sheet");
   //event.add("bakery:allows_cooking", "farmersdelight:stove");
 });
