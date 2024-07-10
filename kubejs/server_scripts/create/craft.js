@@ -65,4 +65,41 @@ ServerEvents.recipes((event) => {
                 w: '#forge:tools/wrench',
                 t: '#forge:tools/screwdrivers'
               });
+
+      event.remove({ id: `create:crafting/kinetics/cogwheel` });
+      event.shaped('create:cogwheel', ["sSW", "WWW"], {
+                s: '#forge:tools/saws',
+                S: 'create:shaft',
+                W:'#minecraft:planks'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/large_cogwheel_from_little` });
+      event.remove({ id: `create:crafting/kinetics/large_cogwheel` });
+      event.shaped('create:large_cogwheel', ["sSW", "WWW"], {
+                s: '#forge:tools/saws',
+                S: 'create:cogwheel',
+                W:'#minecraft:planks'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/mechanical_press` });
+      event.shaped('create:mechanical_press', ["ASA", "wCh", "ABA"], {
+                A: 'minecraft:air',
+                S: 'create:shaft',
+                C: 'create:andesite_casing',
+                w: '#forge:tools/wrench',
+                h: '#forge:tools/hammers',
+                B: '#forge:storage_blocks/wrought_iron'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/millstone` });
+      event.shaped('create:millstone', ["ACA", "sBf", "ASA"], {
+                A: 'minecraft:air',
+                S: 'minecraft:smooth_stone_slab',
+                C: 'create:andesite_casing',
+                s: '#forge:tools/saws',
+                f: '#forge:tools/files',
+                B: 'minecraft:smooth_stone'
+              });
+
+      
   });
