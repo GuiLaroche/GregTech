@@ -309,6 +309,46 @@ ServerEvents.recipes((event) => {
                 f: '#forge:tools/files'
               });
 
+      event.remove({ id: `create:crafting/kinetics/mechanical_piston` });
+      event.shaped('create:mechanical_piston', ["sPt", "VGV", "EEE"], {
+                P: '#forge:pistons',
+                V: '#forge:screws/wrought_iron',
+                G: 'create:gearbox',
+                E: 'create:piston_extension_pole',
+                s: '#forge:tools/saws',
+                t: '#forge:tools/screwdrivers'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/piston_extension_pole` });
+      event.shaped('3x create:piston_extension_pole', ["PWP", "sRf", "PWP"], {
+                P: '#forge:plates/andesite_alloy',
+                W: '#minecraft:planks',
+                R: '#forge:rods/andesite_alloy',
+                s: '#forge:tools/saws',
+                f: '#forge:tools/files'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/gantry_carriage` });
+      event.shaped('create:gantry_carriage', ["PBP", "sGw", "CSC"], {
+                P: '#forge:plates/wrought_iron',
+                B: '#forge:slimeballs',
+                G: 'create:gearbox',
+                C: 'create:cogwheel',
+                S: 'create:shaft',
+                s: '#forge:tools/saws',
+                w: '#forge:tools/wrenches'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/mechanical_bearing` });
+      event.shaped('create:mechanical_bearing', ["PBP", "VCV", "AtA"], {
+                P: '#forge:plates/wrought_iron',
+                B: '#forge:slimeballs',
+                V: '#forge:screws/wrought_iron',
+                C: 'create:andesite_casing',
+                A: 'minecraft:air',
+                t: '#forge:tools/screwdrivers',
+              });
+
       
 
 
