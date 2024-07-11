@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
         });
 
       event.remove({ id: `create:crafting/kinetics/mechanical_mixer` });
-      event.shaped('create:mechanical_mixer', ["ACA", "tBs", "SWs"], {
+      event.shaped('create:mechanical_mixer', ["ACA", "tBs", "SWS"], {
             A: 'minecraft:air',
             C: 'create:cogwheel',
             t: '#forge:tools/screwdrivers',
