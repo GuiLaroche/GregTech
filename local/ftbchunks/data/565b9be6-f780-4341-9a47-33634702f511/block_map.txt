@@ -88,6 +88,7 @@
 #8D86E5 minecraft:beehive
 #23E62E brewery:beer_wheat
 #4D515B supplementaries:bellows
+#7C938F create:belt
 #521BEA vintageimprovements:belt_grinder
 #642A46 brewery:bench
 #A5E4C0 handcrafted:bench
@@ -153,6 +154,7 @@
 #6A50A4 gtceu:bronze_machine_casing
 #983670 gtceu:bronze_normal_fluid_pipe
 #207534 minecraft:brown_mushroom
+#E29DAE create:brown_toolbox
 #F4FA6E brewery:cabinet
 #3B0CF8 computercraft:cable
 #208CB0 ae2:cable_bus
@@ -455,6 +457,7 @@
 #D8E882 minecraft:lime_terracotta
 #5EA8D2 minecraft:lime_wool
 #36A274 abyssal_decor:lion_statue_top
+#4BFE53 hostilenetworks:loot_fabricator
 #51F8F5 abyssal_decor:lunar_rod
 #E3BCFD gtceu:lv_1a_energy_converter
 #FAF8E5 gtceu:lv_assembler

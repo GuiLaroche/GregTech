@@ -154,6 +154,7 @@ ServerEvents.recipes((event) => {
                 h: '#forge:tools/hammers',
                 D:'#forge:double_plates/copper'
               });
+
       event.remove({ id: `create:crafting/kinetics/hose_pulley` });
       event.shaped('create:hose_pulley', ["wCR", "RRR", "RRP"], {
                 P: '#forge:plates/copper',
@@ -161,5 +162,83 @@ ServerEvents.recipes((event) => {
                 w: '#forge:tools/wrenches',
                 R: '#forge:ropes'
               });
+
+      event.remove({ id: `create:crafting/kinetics/smart_chute` });
+      event.shaped('create:smart_chute', ["hPt", "SCS", "AEA"], {
+                A: 'minecraft:air',
+                h: '#forge:tools/hammers',
+                t: '#forge:tools/screwdrivers',
+                P: '#forge:plates/brass',
+                S: '#forge:screws/steel',
+                C: 'create:chute',
+                E: 'create:electron_tube',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/smart_fluid_pipe` });
+      event.shaped('create:smart_fluid_pipe', ["hPt", "SCS", "AEA"], {
+                A: 'minecraft:air',
+                h: '#forge:tools/hammers',
+                t: '#forge:tools/screwdrivers',
+                P: '#forge:plates/brass',
+                S: '#forge:screws/steel',
+                C: 'create:fluid_pipe',
+                E: 'create:electron_tube',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/fluid_pipe_vertical` });
+      event.remove({ id: `create:crafting/kinetics/fluid_pipe` });
+      event.shaped('2x create:fluid_pipe', ["APA", "hIw", "APA"], {
+                A: 'minecraft:air',
+                h: '#forge:tools/hammers',
+                w: '#forge:tools/wrenches',
+                P: '#forge:plates/copper',
+                I: '#forge:ingots/copper',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/mechanical_pump` });
+      event.shaped('create:mechanical_pump', ["P", "S", "f"], {
+                P: 'create:fluid_pipe',
+                S: 'minecraft:smooth_stone_slab',
+                f: '#forge:tools/files',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/belt_connector` });
+      event.shaped('create:belt_connector', ["AkA", "KKK", "KKK"], {
+                A: 'minecraft:air',
+                K: 'minecraft:dried_kelp',
+                k: '#forge:tools/knives',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/chute` });
+      event.shaped('2x create:chute', ["PCP", "AfA"], {
+                A: 'minecraft:air',
+                P: '#forge:plates/wrought_iron',
+                f: '#forge:tools/files',
+                C: 'minecraft:cauldron',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/speedometer` });
+      event.shaped('create:speedometer', ["AGA", "sCw", "ARA"], {
+                A: 'minecraft:air',
+                G: '#forge:panes/glass',
+                s: '#forge:tools/saws',
+                C: 'create:andesite_casing',
+                w: '#forge:tools/wrenches',
+                R:'vintageimprovements:redstone_module',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/stressometer` });
+      event.shaped('create:stressometer', ["ARA", "sCw", "AGA"], {
+                A: 'minecraft:air',
+                G: '#forge:panes/glass',
+                s: '#forge:tools/saws',
+                C: 'create:andesite_casing',
+                w: '#forge:tools/wrenches',
+                R:'vintageimprovements:redstone_module',
+              });
+
+      
+
+
 
   });
