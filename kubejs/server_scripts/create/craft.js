@@ -139,5 +139,27 @@ ServerEvents.recipes((event) => {
                 W: 'vintageimprovements:spring_coiling_machine_wheel',
               });
 
-      
+      event.remove({ id: `create:crafting/kinetics/fluid_valve` });
+      event.shaped('create:fluid_valve', ["PFw"], {
+                P: '#forge:plates/steel',
+                F: 'create:fluid_pipe',
+                w: '#forge:tools/wrenches'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/fluid_tank` });
+      event.shaped('create:fluid_tank', ["PDP", "hBw", "PDP"], {
+                P: '#forge:plates/copper',
+                B: 'gtceu:wood_drum',
+                w: '#forge:tools/wrenches',
+                h: '#forge:tools/hammers',
+                D:'#forge:double_plates/copper'
+              });
+      event.remove({ id: `create:crafting/kinetics/hose_pulley` });
+      event.shaped('create:hose_pulley', ["wCR", "RRR", "RRP"], {
+                P: '#forge:plates/copper',
+                C: 'create:copper_casing',
+                w: '#forge:tools/wrenches',
+                R: '#forge:ropes'
+              });
+
   });
