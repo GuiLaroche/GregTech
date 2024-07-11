@@ -224,7 +224,7 @@ ServerEvents.recipes((event) => {
                 s: '#forge:tools/saws',
                 C: 'create:andesite_casing',
                 w: '#forge:tools/wrenches',
-                R:'vintageimprovements:redstone_module',
+                R: 'vintageimprovements:redstone_module',
               });
 
       event.remove({ id: `create:crafting/kinetics/stressometer` });
@@ -234,7 +234,79 @@ ServerEvents.recipes((event) => {
                 s: '#forge:tools/saws',
                 C: 'create:andesite_casing',
                 w: '#forge:tools/wrenches',
-                R:'vintageimprovements:redstone_module',
+                R: 'vintageimprovements:redstone_module',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/propeller` });
+      event.shaped('create:propeller', ["SPt", "PRP", "hPS"], {
+                S: '#forge:screws/iron',
+                P: '#forge:plates/iron',
+                R: '#forge:rods/andesite_alloy',
+                h: '#forge:tools/hammers',
+                t: '#forge:tools/screwdrivers'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/encased_fan` });
+      event.shaped('create:encased_fan', ["ASA", "hCs", "APA"], {
+                A: 'minecraft:air',
+                S: 'create:shaft',
+                P: 'create:propeller',
+                s: '#forge:tools/saws',
+                h: '#forge:tools/hammers',
+                C: 'create:andesite_casing',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/turntable` });
+      event.shaped('create:turntable', ["s", "D", "S"], {
+                S: 'create:shaft',
+                D: '#minecraft:wooden_slabs',
+                s: '#forge:tools/saws',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/nozzle` });
+      event.shaped('create:nozzle', ["fPh", "RSR", "PPP"], {
+                S: '#forge:string',
+                R: '#forge:rods/andesite_alloy',
+                P: '#forge:plates/andesite_alloy',
+                h: '#forge:tools/hammers',
+                f: '#forge:tools/files',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/item_drain` });
+      event.shaped('create:item_drain', ["SDS", "wft", "ACA"], {
+                S: '#forge:screws/steel',
+                D: 'gtceu:item_filter',
+                A: 'minecraft:air',
+                C: 'create:copper_casing',
+                w: '#forge:tools/wrenches',
+                f: '#forge:tools/files',
+                t: '#forge:tools/screwdrivers'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/spout` });
+      event.shaped('create:spout', ["AGA", "wCh", "ARA"], {
+                G: 'gtceu:glass_tube',
+                A: 'minecraft:air',
+                C: 'create:copper_casing',
+                h: '#forge:tools/hammers',
+                w: '#forge:tools/wrenches',
+                R: '#forge:plates/rubber',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/portable_fluid_interface` });
+      event.shaped('create:portable_fluid_interface', ["C", "H", "w"], {
+                H: 'create:chute',
+                C: 'create:copper_casing',
+                w: '#forge:tools/wrenches',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/steam_whistle` });
+      event.shaped('create:steam_whistle', ["AIA", "wIf", "APA"], {
+                A: 'minecraft:air',
+                w: '#forge:tools/wrenches',
+                I: '#forge:ingots/brass',
+                P: '#forge:plates/copper',
+                f: '#forge:tools/files'
               });
 
       
