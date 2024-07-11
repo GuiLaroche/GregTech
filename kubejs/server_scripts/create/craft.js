@@ -349,6 +349,74 @@ ServerEvents.recipes((event) => {
                 t: '#forge:tools/screwdrivers',
               });
 
+      event.remove({ id: `create:crafting/kinetics/windmill_bearing` });
+      event.shaped('create:windmill_bearing', ["PBP", "wRs", "ASA"], {
+                P: '#forge:plates/wrought_iron',
+                B: '#forge:slimeballs',
+                R: '#forge:stone',
+                S: 'create:shaft',
+                A: 'minecraft:air',
+                w: '#forge:tools/wrenches',
+                s: '#forge:tools/saws',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/rope_pulley` });
+      event.shaped('create:rope_pulley', ["wCR", "RRR", "RRP"], {
+                P: '#forge:plates/wrought_iron',
+                R: '#forge:ropes',
+                C: 'create:andesite_casing',
+                w: '#forge:tools/wrenches',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/elevator_pulley` });
+      event.shaped('create:elevator_pulley', ["wCR", "RRR", "RRP"], {
+                P: '#forge:plates/steel',
+                R: '#forge:ropes',
+                C: 'create:brass_casing',
+                w: '#forge:tools/wrenches',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/controller_rail` });
+      event.shaped('create:controller_rail', ["RwR", "RSR", "RER"], {
+                E: 'create:electron_tube',
+                R: '#forge:rods/long/gold',
+                S: '#forge:rods/wooden',
+                w: '#forge:tools/wrenches',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/clockwork_bearing` });
+      event.shaped('create:clockwork_bearing', ["PBP", "VCV", "wEt"], {
+                P: '#forge:plates/steel',
+                B: '#forge:slimeballs',
+                V: '#forge:screws/steel',
+                C: 'create:brass_casing',
+                w: '#forge:tools/wrenches',
+                t: '#forge:tools/screwdrivers',
+                E: 'create:electron_tube',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/cart_assembler` });
+      event.shaped('create:cart_assembler', ["ABA", "PPP", "WsW"], {
+                P: '#forge:plates/andesite_alloy',
+                B: '#forge:slimeballs',
+                W: '#minecraft:logs',
+                s: '#forge:tools/saws',
+                A: 'minecraft:air',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/linear_chassis` });
+      event.shaped('3x create:linear_chassis', ["PPP", "WWW", "PPP"], {
+                P: '#forge:plates/andesite_alloy',
+                W: '#forge:stripped_logs',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/radial_chassis` });
+      event.shaped('3x create:radial_chassis', ["PWP", "PWP", "PWP"], {
+                P: '#forge:plates/andesite_alloy',
+                W: '#forge:stripped_logs',
+              });
+
+
       
 
 
