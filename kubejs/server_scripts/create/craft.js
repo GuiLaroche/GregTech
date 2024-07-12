@@ -416,6 +416,82 @@ ServerEvents.recipes((event) => {
                 W: '#forge:stripped_logs',
               });
 
+      event.remove({ id: `create:crafting/kinetics/sticker` });
+      event.shaped('create:sticker', ["SSS", "PRP", "CEC"], {
+                S: '#forge:slimeballs',
+                P: '#forge:plates/andesite_alloy',
+                R: 'vintageimprovements:redstone_module',
+                C: '#forge:cobblestone',
+                E: 'create:piston_extension_pole'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/mechanical_saw` });
+      event.shaped('create:mechanical_saw', ["AtA", "sBw", "VCV"], {
+                A: 'minecraft:air',
+                t: '#forge:tools/screwdrivers',
+                B: 'gtceu:wrought_iron_buzz_saw_blade',
+                w: '#forge:tools/wrenches',
+                s: '#forge:tools/saws',
+                V: '#forge:screws/wrought_iron',
+                C: 'create:andesite_casing'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/mechanical_drill` });
+      event.shaped('create:mechanical_drill', ["APA", "PDP", "wCs"], {
+                A: 'minecraft:air',
+                s: '#forge:tools/saws',
+                P: '#forge:plates/steel',
+                w: '#forge:tools/wrenches',
+                D: 'gtceu:wrought_iron_drill_head',
+                C: 'create:andesite_casing'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/deployer` });
+      event.shaped('create:deployer', ["ETE", "wCt", "VHV"], {
+                E: 'create:electron_tube',
+                t: '#forge:tools/screwdrivers',
+                T: 'create:piston_extension_pole',
+                w: '#forge:tools/wrenches',
+                V: '#forge:screws/steel',
+                H: 'create:brass_hand',
+                C: 'create:andesite_casing'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/contraption_controls` });
+      event.shaped('create:contraption_controls', ["wBt", "ECE", "VRV"], {
+                E: 'create:electron_tube',
+                t: '#forge:tools/screwdrivers',
+                B: '#minecraft:stone_buttons',
+                w: '#forge:tools/wrenches',
+                V: '#forge:screws/steel',
+                R: 'vintageimprovements:redstone_module',
+                C: 'create:andesite_casing'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/portable_storage_interface` });
+      event.shaped('create:portable_storage_interface', ["A", "C", "w"], {
+                w: '#forge:tools/wrenches',
+                C: 'create:chute',
+                A: 'create:andesite_casing'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/mechanical_harvester` });
+      event.shaped('create:mechanical_harvester', ["TPT", "TPT", "fCh"], {
+                h: '#forge:tools/hammers',
+                f: '#forge:tools/files',
+                T: 'gtceu:wrought_iron_turbine_blade',
+                C: 'create:andesite_casing',
+                P: '#forge:plates/steel'
+              });
+
+      event.remove({ id: `create:crafting/logistics/redstone_contact` });
+      event.shaped('2x create:redstone_contact', ["PPP", "SES", "SRS"], {
+                E: 'create:electron_tube',
+                S: '#forge:stone',
+                P: '#forge:plates/wrought_iron',
+                R: 'vintageimprovements:redstone_module',
+              });
+
 
       
 
