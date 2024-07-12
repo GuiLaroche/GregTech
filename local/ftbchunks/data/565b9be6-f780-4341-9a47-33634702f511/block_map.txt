@@ -727,6 +727,7 @@
 #478C61 gtceu:soul_soil_certus_quartz_ore
 #ECD178 gtceu:soul_soil_ilmenite_ore
 #E2C01A cold_sweat:soul_stalk
+#FACF20 forbidden_arcanus:soulless_sand
 #6B495B minecraft:spawner
 #45A35A handcrafted:spider_trophy
 #D7A655 create:spout

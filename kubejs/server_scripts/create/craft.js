@@ -492,6 +492,83 @@ ServerEvents.recipes((event) => {
                 R: 'vintageimprovements:redstone_module',
               });
 
+      event.remove({ id: `create:crafting/kinetics/mechanical_plough` });
+      event.shaped('create:mechanical_plough', ["PPP", "RCR", "AsA"], {
+                s: '#forge:tools/saws',
+                A: 'minecraft:air',
+                R: '#forge:rods/andesite_alloy',
+                C: 'create:andesite_casing',
+                P: '#forge:plates/steel'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/mechanical_roller` });
+      event.shaped('create:mechanical_roller', ["AwA", "DCD", "RWR"], {
+                w: '#forge:tools/wrenches',
+                A: 'minecraft:air',
+                R: '#forge:rods/long/steel',
+                C: 'create:andesite_casing',
+                W: 'create:crushing_wheel',
+                D:'#forge:double_plates/steel'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/mechanical_crafter` });
+      event.shaped('create:mechanical_crafter', ["pEs", "wCt", "VTV"], {
+                w: '#forge:tools/wrenches',
+                p: '#forge:tools/wire_cutters',
+                s: '#forge:tools/saws',
+                t: '#forge:tools/screwdrivers',
+                T: 'minecraft:crafting_table',
+                C: 'create:brass_casing',
+                V: '#forge:screws/steel',
+                E: 'create:electron_tube'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/white_sail` });
+      event.shaped('4x create:white_sail', ["RRR", "RSR", "RRR"], {
+                R: '#forge:rods/treated_wood',
+                S: 'smallships:sail',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/sequenced_gearshift` });
+      event.shaped('create:sequenced_gearshift', ["ERE", "wCp", "AKA"], {
+                E: 'create:electron_tube',
+                R: 'vintageimprovements:redstone_module',
+                C: 'create:brass_casing',
+                w: '#forge:tools/wrenches',
+                p: '#forge:tools/wire_cutters',
+                A: 'minecraft:air',
+                K: 'create:cogwheel'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/rotation_speed_controller` });
+      event.shaped('create:rotation_speed_controller', ["APA", "MCw", "ASA"], {
+                P: 'create:precision_mechanism',
+                M: 'create:speedometer',
+                C: 'create:brass_casing',
+                w: '#forge:tools/wrenches',
+                S: 'create:shaft',
+                A: 'minecraft:air',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/mechanical_arm` });
+      event.shaped('create:mechanical_arm', ["RPV", "IVt", "LMC"], {
+                R: '#forge:rods/brass',
+                L: '#forge:rods/long/brass',
+                P: '#forge:plates/andesite_alloy',
+                V: '#forge:screws/steel',
+                I: '#forge:ingots/andesite_alloy',
+                t: '#forge:tools/screwdrivers',
+                M: 'create:precision_mechanism',
+                C: 'create:brass_casing',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/track_station` });
+      event.shaped('2x create:track_station', ["B", "C", "S"], {
+                B: 'minecraft:compass',
+                C: 'create:brass_casing',
+                S: 'gtceu:treated_wood_slab',
+              });
+
 
       
 
