@@ -569,6 +569,182 @@ ServerEvents.recipes((event) => {
                 S: 'gtceu:treated_wood_slab',
               });
 
+      event.remove({ id: `create:crafting/kinetics/track_signal` });
+      event.shaped('4x create:track_signal', ["E", "C", "S"], {
+                E: 'create:electron_tube',
+                C: 'create:brass_casing',
+                S: 'gtceu:treated_wood_slab',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/track_observer` });
+      event.remove({ id: `create:crafting/kinetics/track_observer_from_other_plates` });
+      event.shaped('create:track_observer', ["P", "C", "S"], {
+                P: 'minecraft:stone_pressure_plate',
+                C: 'create:brass_casing',
+                S: 'gtceu:treated_wood_slab',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/controls` });
+      event.shaped('create:controls', ["LwL", "RCR", "AMA"], {
+                L: 'minecraft:lever',
+                w: '#forge:tools/wrenches',
+                R: '#forge:rods/brass',
+                A: 'minecraft:air',
+                C: 'create:brass_casing',
+                M: 'create:precision_mechanism',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/item_vault` });
+      event.shaped('create:item_vault', ["PDP", "PBP", "PDP"], {
+                P: '#forge:plates/wrought_iron',
+                D: '#forge:dyes/blue',
+                B: '#forge:barrels/wooden',
+              });
+
+      event.remove({ id: `create:crafting/logistics/andesite_tunnel` });
+      event.shaped('create:andesite_tunnel', ["PPP", "RKR", "PkP"], {
+                P: '#forge:plates/andesite_alloy',
+                R: '#forge:rods/andesite_alloy',
+                K: 'minecraft:dried_kelp',
+                k: '#forge:tools/knives',
+              });
+
+      event.remove({ id: `create:crafting/logistics/andesite_funnel` });
+      event.shaped('create:andesite_funnel', ["PPP", "RKR", "AkA"], {
+                P: '#forge:plates/andesite_alloy',
+                R: '#forge:rods/andesite_alloy',
+                K: 'minecraft:dried_kelp',
+                A: 'minecraft:air',
+                k: '#forge:tools/knives',
+              });
+
+      event.remove({ id: `create:crafting/logistics/brass_funnel` });
+      event.shaped('create:brass_funnel', ["PPP", "RKR", "AkA"], {
+                P: '#forge:plates/brass',
+                R: '#forge:rods/brass',
+                K: 'minecraft:dried_kelp',
+                A: 'minecraft:air',
+                k: '#forge:tools/knives',
+              });
+
+      event.remove({ id: `create:crafting/logistics/brass_tunnel` });
+      event.shaped('create:brass_tunnel', ["PPP", "RKR", "PkP"], {
+                P: '#forge:plates/brass',
+                R: '#forge:rods/brass',
+                K: 'minecraft:dried_kelp',
+                k: '#forge:tools/knives',
+              });
+
+      event.remove({ id: `create:crafting/logistics/content_observer` });
+      event.shaped('create:content_observer', ["ERE", "pCw", "AOA"], {
+                E: 'create:electron_tube',
+                R: 'vintageimprovements:redstone_module',
+                p: '#forge:tools/wire_cutters',
+                C: 'create:brass_casing',
+                w: '#forge:tools/wrenches',
+                A: 'minecraft:air',
+                O: 'minecraft:observer',
+              });
+
+      event.remove({ id: `create:crafting/logistics/stockpile_switch` });
+      event.shaped('create:stockpile_switch', ["ERE", "pCw", "AOA"], {
+                E: 'create:electron_tube',
+                R: 'vintageimprovements:redstone_module',
+                p: '#forge:tools/wire_cutters',
+                C: 'create:brass_casing',
+                w: '#forge:tools/wrenches',
+                A: 'minecraft:air',
+                O: 'minecraft:comparator',
+              });
+
+
+      event.remove({ id: `create:crafting/logistics/display_link` });
+      event.shaped('create:display_link', ["VpV", "SRE", "tCs"], {
+                E: 'create:electron_tube',
+                R: 'vintageimprovements:redstone_module',
+                p: '#forge:tools/wire_cutters',
+                C: 'create:brass_casing',
+                t: '#forge:tools/screwdrivers',
+                s: '#forge:tools/saws',
+                S: '#forge:springs/copper',
+                V: '#forge:screws/wrought_iron',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/display_board` });
+      event.shaped('create:display_board', ["PEP", "PCP", "PPP"], {
+                P: '#forge:plates/andesite_alloy',
+                E: 'create:electron_tube',
+                C: 'create:cogwheel'
+              });
+
+      event.remove({ id: `create:crafting/materials/electron_tube` });
+      event.shaped('create:electron_tube', ["R", "P"], {
+                P: '#forge:plates/wrought_iron',
+                R: '#forge:storage_blocks/rose_salt',
+              });
+
+      event.shaped('create:electron_tube', ["R", "P"], {
+                P: '#forge:plates/wrought_iron',
+                R: 'create:polished_rose_quartz',
+              });
+
+      event.remove({ id: `sliceanddice:slicer` });
+      event.shaped('sliceanddice:slicer', ["AEA", "wCs", "ATA"], {
+                A: 'minecraft:air',
+                E: 'create:cogwheel',
+                w: '#forge:tools/wrenches',
+                s: '#forge:tools/saws',
+                T: 'create:turntable',
+                C: 'create:andesite_casing',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/whisk` });
+      event.shaped('create:whisk', ["AfA", "PRP", "PPP"], {
+                P: '#forge:plates/wrought_iron',
+                R: '#forge:rods/andesite_alloy',
+                f: '#forge:tools/files',
+                A: 'minecraft:air'
+              });
+
+      event.remove({ id: `sliceanddice:sprinkler` });
+      event.shaped('2x sliceanddice:sprinkler', ["AwA", "PTP", "PBP"], {
+                P: '#forge:plates/copper',
+                T: 'create:fluid_pipe',
+                B: 'minecraft:iron_bars',
+                w: '#forge:tools/wrenches',
+                A: 'minecraft:air'
+              });
+
+      event.remove({ id: `vintageimprovements:craft/vibrating_table` });
+      event.shaped('vintageimprovements:vibrating_table', ["wAs", "SDS", "SPS"], {
+                P: 'create:mechanical_piston',
+                D: 'gtceu:treated_wood_slab',
+                S: '#forge:springs/iron',
+                w: '#forge:tools/wrenches',
+                s: '#forge:tools/saws',
+                A: 'minecraft:air'
+              });
+
+      event.remove({ id: `create:crafting/curiosities/brown_toolbox` });
+      event.shaped('create:brown_toolbox', ["sWt", "PCP", "VLV"], {
+                P: '#forge:plates/gold',
+                C: '#forge:chests',
+                V: '#forge:screws/wrought_iron',
+                s: '#forge:tools/saws',
+                t: '#forge:tools/screwdrivers',
+                W: 'create:cogwheel',
+                L: '#forge:leather',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/large_water_wheel` });
+      event.shaped('create:large_water_wheel', ["BWB", "WCW", "BWB"], {
+                B: '#forge:storage_blocks/andesite_alloy',
+                W: '#minecraft:logs',
+                C: 'create:water_wheel'
+              });
+
+
+
 
       
 
