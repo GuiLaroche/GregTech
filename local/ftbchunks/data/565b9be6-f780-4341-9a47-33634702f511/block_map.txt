@@ -27,6 +27,7 @@
 #F805BF betterarcheology:archeology_table
 #801661 diagonalwindows:architects_palette/sunmetal_bars
 #5A585C irons_spellbooks:armor_pile
+#B28C78 protection_pixel:armorloadplatform
 #ADF429 supplementaries:ash
 #DC4327 gtceu:assembly_line
 #706E6E embers:automatic_hammer
@@ -189,6 +190,7 @@
 #0DA685 minecraft:chorus_plant
 #F2A1A5 create:chute
 #B0D0E6 vinery:clark_wine
+#6D3851 sgjourney:classic_ring
 #CACC15 gtceu:clean_machine_casing
 #584DCE gtnn:clean_machine_casing
 #C8BACF supplementaries:clock_block
@@ -727,6 +729,7 @@
 #478C61 gtceu:soul_soil_certus_quartz_ore
 #ECD178 gtceu:soul_soil_ilmenite_ore
 #E2C01A cold_sweat:soul_stalk
+#03C3C1 bloodmagic:soulforge
 #FACF20 forbidden_arcanus:soulless_sand
 #6B495B minecraft:spawner
 #45A35A handcrafted:spider_trophy
