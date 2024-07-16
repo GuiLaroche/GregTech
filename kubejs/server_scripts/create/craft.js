@@ -743,6 +743,54 @@ ServerEvents.recipes((event) => {
                 C: 'create:water_wheel'
               });
 
+      event.remove({ id: `create:crafting/kinetics/gearbox` });
+      event.shaped('create:gearbox', ["sEw", "ECE", "fEc"], {
+                E: 'create:cogwheel',
+                s: '#forge:tools/saws',
+                w: '#forge:tools/wrenches',
+                f: '#forge:tools/files',
+                c: '#forge:tools/crowbars',
+                C: 'create:andesite_casing'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/shaft` });
+      event.shaped('8x create:shaft', ["R", "R"], {
+                R: '#forge:rods/long/andesite_alloy'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/clutch` });
+      event.shaped('create:clutch', ["SRS", "RGR", "SRS"], {
+                S: 'create:shaft',
+                R: '#forge:storage_blocks/redstone',
+                G: 'create:gearbox'
+              });
+
+      event.remove({ id: `create:crafting/kinetics/gearshift` });
+      event.shaped('create:gearshift', ["SRS", "RGR", "SRS"], {
+                S: 'create:cogwheel',
+                R: '#forge:storage_blocks/redstone',
+                G: 'create:gearbox',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/adjustable_chain_gearshift` });
+      event.shaped('create:adjustable_chain_gearshift', ["AMA", "RpR", "ADA"], {
+                A: 'minecraft:air',
+                M: 'vintageimprovements:redstone_module',
+                p: '#forge:tools/wire_cutters',
+                R: '#forge:storage_blocks/redstone',
+                D: 'create:encased_chain_drive',
+              });
+
+      event.remove({ id: `create:crafting/kinetics/encased_chain_drive` });
+      event.shaped('create:encased_chain_drive', ["GPh", "PPV", "sVt"], {
+                G: 'create:gearbox',
+                P: '#forge:plates/wrought_iron',
+                h: '#forge:tools/hammers',
+                s: '#forge:tools/saws',
+                t: '#forge:tools/screwdrivers',
+                V: '#forge:screws/wrought_iron',
+              });
+
 
 
 

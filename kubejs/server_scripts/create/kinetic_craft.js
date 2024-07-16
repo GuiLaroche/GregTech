@@ -1,13 +1,6 @@
 ServerEvents.recipes(event => {
-    event.recipes.createMixing('create:bronze_smelting', [
-        '#forge:dusts/glowstone',
-        '#forge:dusts/glowstone',
-        '#forge:dusts/glowstone',
-        'create:powdered_obsidian',
-        'create:powdered_obsidian',
-        'create:powdered_obsidian',
-        'create:polished_rose_quartz'
-      ]).superheated()
+        const material_list = ["iron", "copper", "zinc", "lead", "aluminium", "gold", "silver", "tin", "brass", "bronze", "electrum", "invar",
+                            "steel", "wrought_iron"]
 
         function milling(output, input){
             event.recipes.create.milling(output, input)
@@ -16,7 +9,16 @@ ServerEvents.recipes(event => {
         function filling(output, input){
             event.recipes.create.filling(output, input)
         }
+
+        function cutting(output, input){
+            event.recipes.create.cutting(output, input)
+        }
+        //rod cutting
         
+        material_list.forEach((material) => {
+        cutting(`2x gtceu:${material}_rod`,`gtceu:long_${material}_rod`)
+        cutting(`2x gtceu:${material}_bolt`,`gtceu:${material}_rod`)
+        })
         milling('gtceu:clay_dust', 'minecraft:clay_ball')
         milling('4x gtceu:coal_dust', 'gtceu:exquisite_coal_gem')
         milling('gtceu:flint_dust', 'minecraft:flint')
