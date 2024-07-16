@@ -1,4 +1,14 @@
 ServerEvents.recipes(event => {
+    event.recipes.createMixing('create:bronze_smelting', [
+        '#forge:dusts/glowstone',
+        '#forge:dusts/glowstone',
+        '#forge:dusts/glowstone',
+        'create:powdered_obsidian',
+        'create:powdered_obsidian',
+        'create:powdered_obsidian',
+        'create:polished_rose_quartz'
+      ]).superheated()
+
         function milling(output, input){
             event.recipes.create.milling(output, input)
         }

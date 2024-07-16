@@ -1,8 +1,8 @@
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import crafttweaker.api.recipe.SmokerRecipeManager;
 
-furnace.remove(<item:gtceu:bronze_ingot>);
-furnace.remove(<tag:items:forge:ingots/brass>);
+//furnace.remove(<item:gtceu:bronze_ingot>);
+//furnace.remove(<tag:items:forge:ingots/brass>);
 furnace.remove(<item:laendli_transport:vehicle_part_rubber>);
 smoker.remove(<item:laendli_transport:vehicle_part_rubber>);
 furnace.remove(<item:gtceu:gunmetal_ingot>);
