@@ -466,6 +466,8 @@
 #4F6C76 gtceu:lv_battery_buffer_4x
 #E8C498 gtceu:lv_distillery
 #1FAEC5 gtceu:lv_electric_furnace
+#301A00 gtceu:lv_electric_gear_box_2a
+#E247A8 gtceu:lv_kinetic_mixer
 #4C9954 gtceu:lv_machine_hull
 #7421B0 gtceu:lv_wiremill
 #921F70 thermal:machine_brewer
