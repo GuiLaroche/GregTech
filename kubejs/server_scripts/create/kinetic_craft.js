@@ -1,7 +1,11 @@
 ServerEvents.recipes(event => {
         const material_list = ["iron", "copper", "zinc", "lead", "aluminium", "gold", "silver", "tin", "brass", "bronze", "electrum", "invar",
                             "steel", "wrought_iron"]
-
+                            
+                            
+        //event.recipes.createMixing('create:chromatic_compound', [
+            //'#forge:dusts/glowstone',
+            //]).superheated()
         function milling(output, input){
             event.recipes.create.milling(output, input)
         }
@@ -13,8 +17,8 @@ ServerEvents.recipes(event => {
         function cutting(output, input){
             event.recipes.create.cutting(output, input)
         }
-        //rod cutting
         
+        //rod cutting       
         material_list.forEach((material) => {
         cutting(`2x gtceu:${material}_rod`,`gtceu:long_${material}_rod`)
         cutting(`2x gtceu:${material}_bolt`,`gtceu:${material}_rod`)
@@ -54,4 +58,9 @@ ServerEvents.recipes(event => {
         milling('gtceu:annealed_copper_dust', 'gtceu:annealed_copper_ingot')
         milling('gtceu:electrum_dust', 'gtceu:electrum_ingot')
         filling('gtceu:treated_wood_planks', [Fluid.of(('gtceu:creosote'), 100), '#minecraft:planks'])
+
+        // removal
+        event.remove({ id: `create:mixing/brass_ingot` });
+        event.remove({ id: `create:mixing/andesite_alloy_from_zinc` });
+        event.remove({ id: `create:mixing/andesite_alloy` });
     })

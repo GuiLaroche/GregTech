@@ -137,6 +137,7 @@
 #FD87AE abyssal_decor:book_block
 #15C8D4 minecraft:bookshelf
 #A452F2 bakery:braided_bread_block
+#CCD23F create:brass_casing
 #F220A6 bakery:bread_block
 #02BFDC bakery:bread_crate
 #551BF3 bakery:breadbox
@@ -274,6 +275,7 @@
 #91F7DB create:display_link
 #EBD3A0 amendments:double_cake
 #136FCC minecraft:dragon_egg
+#372D81 iceandfire:dragonforge_fire_brick
 #D53311 bakery:drawer
 #E0B0EF iceandfire:dread_portal
 #795B74 herbalbrews:dried_out_green_tea_leaf_block
@@ -592,6 +594,7 @@
 #BBA6D1 minecraft:oak_log
 #64CE1F vinery:oak_wine_rack_mid
 #9F12DE vinery:oak_wine_rack_small
+#392E46 minecraft:oak_wood
 #4A5E4E minecraft:obsidian
 #4F53ED minecraft:ochre_froglight
 #E8F58E create_optical:optical_receptor

@@ -1,5 +1,14 @@
 ServerEvents.recipes((event) => {
 
+    event.remove({ id: `create:crafting/kinetics/goggles` });
+    event.shaped(`create:goggles`, ["AsA", "SRS", "GPG"], {
+      A: "minecraft:air",
+      S: "#forge:screws/gold",
+      R: "#forge:ropes",
+      s: "#forge:tools/screwdrivers",
+      G: "#forge:plates/glass",
+      P: "#forge:plates/gold"
+    });
     event.remove({ id: `create:crafting/kinetics/hand_crank` });
     event.shaped('create:hand_crank', ["LLL", "AsS"], {
         L: '#minecraft:logs',
@@ -17,7 +26,7 @@ ServerEvents.recipes((event) => {
 
       event.remove({ id: `create:crafting/materials/andesite_alloy` });
       event.remove({ id: `create:crafting/materials/andesite_alloy_from_zinc` });
-      event.shaped('create:andesite_alloy', ["AW", "WA"], {
+      event.shaped('gtceu:andesite_alloy_ingot', ["AW", "WA"], {
           W: '#forge:nuggets/wrought_iron',
           A: 'minecraft:andesite',
         });
