@@ -2,10 +2,12 @@ ServerEvents.recipes(event => {
         const material_list = ["iron", "copper", "zinc", "lead", "aluminium", "gold", "silver", "tin", "brass", "bronze", "electrum", "invar",
                             "steel", "wrought_iron"]
                             
-                            
-        //event.recipes.createMixing('create:chromatic_compound', [
-            //'#forge:dusts/glowstone',
-            //]).superheated()
+        //low heated mixing                    
+        event.recipes.createMixing('gtceu:andesite_alloy_ingot', [
+            'minecraft:andesite',
+            '#forge:nuggets/iron',
+            ]).lowheated()
+        
         function milling(output, input){
             event.recipes.create.milling(output, input)
         }
