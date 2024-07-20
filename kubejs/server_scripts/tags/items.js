@@ -42,4 +42,6 @@ ServerEvents.tags("item", (event) => {
   event.add("forge:small_springs/andesite_alloy", "vintageimprovements:small_andesite_spring");
   event.add("forge:plates/andesite_alloy", "vintageimprovements:andesite_sheet");
   //event.add("bakery:allows_cooking", "farmersdelight:stove");
+  event.add('createlowheated:burner_starters', 'kubejs:fire_starter');
+  event.add('supplementaries:fire_sources', 'kubejs:fire_starter');
 });

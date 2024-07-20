@@ -16,4 +16,10 @@ ServerEvents.recipes((event) => {
       A: 'minecraft:air',
       F: '#forge:gems/flint',
     });
+
+    event.shaped(`gtceu:wood_bolt`, ["aAA", "ASA"], {
+      S: 'minecraft:stick',
+      A: 'minecraft:air',
+      a: 'gtceu:flint_axe',
+    });
   });
