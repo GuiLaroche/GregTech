@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
                 G: "minecraft:gravel",
                 M: "gtceu:brick_wooden_form",
               });
-
+              event.remove({ id: `gtceu:shaped/anvil` });
               event.shaped(`minecraft:anvil`, ["BBB", "HDF", "DRD"], {
                 B: "#forge:storage_blocks/wrought_iron",
                 H: "#forge:tools/hammers",

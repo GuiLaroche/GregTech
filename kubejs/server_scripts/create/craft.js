@@ -71,7 +71,7 @@ ServerEvents.recipes((event) => {
                 E: 'kubejs:polished_ember_crystal',
                 R: '#forge:rods/long/andesite_alloy',
                 C: '#forge:storage_blocks/copper',
-                w: '#forge:tools/wrench',
+                w: '#forge:tools/wrenches',
                 t: '#forge:tools/screwdrivers'
               });
 
@@ -95,7 +95,7 @@ ServerEvents.recipes((event) => {
                 A: 'minecraft:air',
                 S: 'create:shaft',
                 C: 'create:andesite_casing',
-                w: '#forge:tools/wrench',
+                w: '#forge:tools/wrenches',
                 h: '#forge:tools/hammers',
                 B: '#forge:storage_blocks/wrought_iron'
               });
@@ -130,7 +130,7 @@ ServerEvents.recipes((event) => {
                 S: 'create:shaft',
                 C: 'create:andesite_casing',
               });
-
+      event.remove({ id:  'vintageimprovements:craft/spring_coiling_machine_wheel' });
       event.shaped('kubejs:rough_spring_coiling_machine_wheel', ["ASA", "SWS", "ASA"], {
                 A: 'minecraft:air',
                 S: '#forge:plates/andesite_alloy',
@@ -293,13 +293,14 @@ ServerEvents.recipes((event) => {
               });
 
       event.remove({ id: `create:crafting/kinetics/spout` });
-      event.shaped('create:spout', ["AGA", "wCh", "ARA"], {
-                G: 'gtceu:glass_tube',
+      event.shaped('create:spout', ["AGA", "wCh", "PKP"], {
+                G: '#forge:double_plates/copper',
                 A: 'minecraft:air',
-                C: 'create:copper_casing',
+                C: 'create:fluid_tank',
                 h: '#forge:tools/hammers',
                 w: '#forge:tools/wrenches',
-                R: '#forge:plates/rubber',
+                K: 'minecraft:dried_kelp',
+                P: '#forge:plates/copper',
               });
 
       event.remove({ id: `create:crafting/kinetics/portable_fluid_interface` });
@@ -798,6 +799,14 @@ ServerEvents.recipes((event) => {
                 s: '#forge:tools/saws',
                 t: '#forge:tools/screwdrivers',
                 V: '#forge:screws/wrought_iron',
+              });
+
+      event.remove({ id: `createlowheated:basic_burner` });
+      event.shaped('createlowheated:basic_burner', ["RAR", "RhR", "RCR"], {
+                R: '#forge:rods/wrought_iron',
+                h: '#forge:tools/hammers',
+                C: '#forge:storage_blocks/coal',
+                A: 'minecraft:air'
               });
 
 

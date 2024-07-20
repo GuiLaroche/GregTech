@@ -8,6 +8,16 @@ ServerEvents.recipes(event => {
             '#forge:nuggets/iron',
             ]).lowheated()
         
+        function wrought_iron(input, tempitem, output){
+            event.recipes.create.sequenced_assembly([
+                Item.of(output).withChance(85.0),
+            ], input, [
+            event.recipes.createFilling(tempitem, [tempitem, Fluid.of('minecraft:lava', 250)]),
+            event.recipes.createPressing(tempitem, [tempitem]),
+            event.recipes.createPressing(tempitem, [tempitem]),
+            event.recipes.createPressing(tempitem, [tempitem])
+        ]).transitionalItem(tempitem).loops(1)
+    }
         function milling(output, input){
             event.recipes.create.milling(output, input)
         }
@@ -18,6 +28,10 @@ ServerEvents.recipes(event => {
 
         function cutting(output, input){
             event.recipes.create.cutting(output, input)
+        }
+
+        function polishing(output, input){
+            event.recipes.create.sandpaper_polishing(output, input)
         }
         
         //rod cutting       
@@ -60,6 +74,15 @@ ServerEvents.recipes(event => {
         milling('gtceu:annealed_copper_dust', 'gtceu:annealed_copper_ingot')
         milling('gtceu:electrum_dust', 'gtceu:electrum_ingot')
         filling('gtceu:treated_wood_planks', [Fluid.of(('gtceu:creosote'), 100), '#minecraft:planks'])
+        polishing('kubejs:polished_ember_crystal', 'embers:ember_crystal');
+        polishing('vintageimprovements:spring_coiling_machine_wheel', 'kubejs:rough_spring_coiling_machine_wheel');
+        wrought_iron('minecraft:iron_ingot', 'minecraft:iron_ingot', 'gtceu:wrought_iron_ingot');
+        wrought_iron('gtceu:double_iron_plate', 'gtceu:double_iron_plate', 'gtceu:double_wrought_iron_plate');
+        wrought_iron('gtceu:iron_plate', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate');
+        wrought_iron('gtceu:iron_rod', 'gtceu:iron_rod', 'gtceu:wrought_iron_rod');
+        wrought_iron('gtceu:long_iron_rod', 'gtceu:long_iron_rod', 'gtceu:long_wrought_iron_rod');
+        wrought_iron('gtceu:iron_screw', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw');
+        wrought_iron('gtceu:iron_bolt', 'gtceu:iron_bolt', 'gtceu:wrought_iron_bolt');
 
         // removal
         event.remove({ id: `create:mixing/brass_ingot` });
