@@ -4,4 +4,5 @@ StartupEvents.registry('item', event => {
     event.create('rough_spring_coiling_machine_wheel').texture('kubejs:item/rough_spring_coiling_machine_wheel')
     event.create('polished_ember_crystal').texture('kubejs:item/polished_ember_crystal')
     event.create('fire_starter').texture('kubejs:item/fire_starter')
+    event.create('treated_leather').texture('kubejs:item/treated_leather')
   })
