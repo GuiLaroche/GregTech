@@ -402,6 +402,7 @@
 #3639FE herbalbrews:green_tea_leaf_block
 #A93A77 gtceu:greenhouse
 #32E756 gtceu:grossular_indicator
+#4F494E scguns:gun_bench
 #330C9B gtceu:gunmetal_alloy_block
 #280F09 jeg:gunmetal_block
 #AED43B jeg:gunmetal_workbench
@@ -472,6 +473,7 @@
 #E247A8 gtceu:lv_kinetic_mixer
 #4C9954 gtceu:lv_machine_hull
 #7421B0 gtceu:lv_wiremill
+#8AA86F scguns:macerator
 #921F70 thermal:machine_brewer
 #165822 thermal:machine_chiller
 #083550 thermal:machine_crucible
@@ -682,6 +684,7 @@
 #E23940 supplementaries:safe
 #6E618B farmersdelight:safety_net
 #83AD00 gtceu:saltpeter_indicator
+#6E6FE1 scguns:sandbag
 #53BE55 cataclysm:sandstone_poison_dart_trap
 #4140F0 gtceu:scheelite_indicator
 #90FE84 supplementaries:sconce
