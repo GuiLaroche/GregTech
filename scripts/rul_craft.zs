@@ -1,7 +1,7 @@
 import crafttweaker.api.recipe.CraftingTableRecipeManager;
 
 // Craft Remove
-recipes.remove(<item:jeg:scrap_workbench>);
+
 
 //recipes.remove(<item:create:empty_blaze_burner>);
 //recipes.remove(<item:create:steam_engine>);
@@ -166,12 +166,12 @@ craftingTable.remove(<item:farmersdelight:flint_knife>);
 
 // Craft Added
 #. Just Enough Guns
-craftingTable.addShaped("gun_metal_dust", <item:jeg:gunmetal_grit>, [[<tag:items:forge:dusts/copper>, <tag:items:forge:dusts/copper>, <tag:items:forge:dusts/copper>], [<tag:items:forge:dusts/copper>, <tag:items:forge:dusts/copper>, <tag:items:forge:dusts/copper>], [<tag:items:forge:dusts/copper>, <tag:items:forge:dusts/tin>, <tag:items:forge:dusts/zinc>]]);
-craftingTable.addShaped("bristone_crystal", <item:jeg:raw_brimstone>, [[<tag:items:forge:dusts/sulfur>, <tag:items:forge:dusts/sulfur>, <tag:items:forge:dusts/sulfur>], [<tag:items:forge:dusts/sulfur>, <tag:items:forge:dusts/sulfur>, <tag:items:forge:dusts/sulfur>], [<tag:items:forge:dusts/sulfur>, <tag:items:forge:dusts/sulfur>, <tag:items:forge:dusts/sulfur>]]);
-craftingTable.addShapeless("scrap", <item:jeg:scrap>, [<tag:items:forge:dusts/steel>, <tag:items:forge:dusts/tin>, <tag:items:forge:dusts/nickel>]);
-craftingTable.addShapeless("tech_scrap", <item:jeg:tech_trash>, [<item:jeg:scrap>, <item:jeg:scrap>, <tag:items:forge:dusts/aluminium>]);
-craftingTable.addShaped("gun_table", <item:jeg:scrap_workbench>, [[<item:gtceu:treated_wood_planks>, <item:gtceu:treated_wood_planks>, <item:gtceu:treated_wood_planks>], [<item:gtceu:treated_wood_rod>, <item:jeg:scrap_block>, <item:gtceu:treated_wood_rod>], [<item:gtceu:treated_wood_rod>, <item:minecraft:air>, <item:gtceu:treated_wood_rod>]]);
-craftingTable.addShapeless("tempo_gunmetal_conv", <item:jeg:gunmetal_ingot>, [<item:gtceu:gunmetal_ingot>]);
+//craftingTable.addShaped("gun_metal_dust", <item:jeg:gunmetal_grit>, [[<tag:items:forge:dusts/copper>, <tag:items:forge:dusts/copper>, <tag:items:forge:dusts/copper>], [<tag:items:forge:dusts/copper>, <tag:items:forge:dusts/copper>, <tag:items:forge:dusts/copper>], [<tag:items:forge:dusts/copper>, <tag:items:forge:dusts/tin>, <tag:items:forge:dusts/zinc>]]);
+//craftingTable.addShaped("bristone_crystal", <item:jeg:raw_brimstone>, [[<tag:items:forge:dusts/sulfur>, <tag:items:forge:dusts/sulfur>, <tag:items:forge:dusts/sulfur>], [<tag:items:forge:dusts/sulfur>, <tag:items:forge:dusts/sulfur>, <tag:items:forge:dusts/sulfur>], [<tag:items:forge:dusts/sulfur>, <tag:items:forge:dusts/sulfur>, <tag:items:forge:dusts/sulfur>]]);
+//craftingTable.addShapeless("scrap", <item:jeg:scrap>, [<tag:items:forge:dusts/steel>, <tag:items:forge:dusts/tin>, <tag:items:forge:dusts/nickel>]);
+//craftingTable.addShapeless("tech_scrap", <item:jeg:tech_trash>, [<item:jeg:scrap>, <item:jeg:scrap>, <tag:items:forge:dusts/aluminium>]);
+//craftingTable.addShaped("gun_table", <item:jeg:scrap_workbench>, [[<item:gtceu:treated_wood_planks>, <item:gtceu:treated_wood_planks>, <item:gtceu:treated_wood_planks>], [<item:gtceu:treated_wood_rod>, <item:jeg:scrap_block>, <item:gtceu:treated_wood_rod>], [<item:gtceu:treated_wood_rod>, <item:minecraft:air>, <item:gtceu:treated_wood_rod>]]);
+//craftingTable.addShapeless("tempo_gunmetal_conv", <item:jeg:gunmetal_ingot>, [<item:gtceu:gunmetal_ingot>]);
 #. Create
 //craftingTable.addShaped("n_blaze_burner", <item:create:empty_blaze_burner>, [[<item:minecraft:air>, <tag:items:forge:storage_blocks/iron>, <item:minecraft:air>], [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:netherrack>, <tag:items:forge:storage_blocks/iron>], [<item:minecraft:air>, <tag:items:forge:storage_blocks/iron>, <item:minecraft:air>]]);
 //craftingTable.addShaped("n_steam_engine", <item:create:steam_engine>, [[<item:minecraft:air>, <tag:items:forge:plates/brass>, <item:minecraft:air>], [<item:minecraft:air>, <item:create:andesite_alloy>, <item:minecraft:air>], [<item:minecraft:air>, <tag:items:forge:storage_blocks/copper>, <item:minecraft:air>]]);

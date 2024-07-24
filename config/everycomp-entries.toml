@@ -62,6 +62,10 @@
 		[types.wood_type.iceandfire]
 			dreadwood = true
 
+		[types.wood_type.botania]
+			livingwood = true
+			dreamwood = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.architects_palette]
