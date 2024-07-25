@@ -3,7 +3,8 @@ ServerEvents.recipes((event) => {
             color_list.forEach((color) => {
               event.remove({ id: `upgrade_aquatic:${color}_bedroll` });
               event.remove({ id: `minecraft:${color}_bed` });
-              
+              event.remove({ id: `gtceu:shaped/${color}_bed` });
+
               event.shaped(`minecraft:${color}_bed`, ["sSs", "WBA", "FDF"], {
                 s: "#forge:screws/iron",
                 S: "#forge:tools/screwdrivers",

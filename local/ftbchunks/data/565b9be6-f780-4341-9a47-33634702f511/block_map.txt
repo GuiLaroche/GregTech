@@ -168,6 +168,9 @@
 #AB512F bakery:cake_stand
 #AB978D handcrafted:calcite_pillar_trim
 #9E6C60 ad_astra:calorite_sliding_door
+#5426DF embers:caminite_bricks
+#711F42 embers:caminite_bricks_slab
+#72C8D2 embers:caminite_bricks_wall
 #014005 embers:caminite_lever
 #C47AFD embers:caminite_ring
 #403367 embers:caminite_ring_edge
@@ -244,6 +247,8 @@
 #89A1AE minecraft:crimson_trapdoor
 #E9A8F5 minecraft:crying_obsidian
 #C85B7B ad_astra:cryo_fuel
+#628FDF embers:crystal_cell
+#F5DBC5 embers:crystal_cell_edge
 #C0ADCD create:cuckoo_clock
 #87D119 bakery:cupcake_display
 #05EFD1 gtceu:cupronickel_coil_block
