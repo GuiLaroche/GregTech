@@ -5,5 +5,5 @@
 	#.
 	#Defines default Belt Grinder appearance
 	#Range: 0 ~ 4
-	defaultBeltGrinderSkin = 0
+	defaultBeltGrinderSkin = 4
 

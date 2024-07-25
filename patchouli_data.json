@@ -13,6 +13,17 @@
       "bookmarks": [],
       "completedManualQuests": []
     },
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:tools/terrasteel_armor",
+        "botania:basics/terrasteel",
+        "botania:tools/laputa_shard",
+        "botania:basics/black_lotus",
+        "botania:tools/livingwood_bow"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "bloodmagic:guide": {
       "viewedEntries": [
         "bloodmagic:utility/changelog",
@@ -22,7 +33,9 @@
       "completedManualQuests": []
     },
     "extendedcrafting:guide": {
-      "viewedEntries": [],
+      "viewedEntries": [
+        "extendedcrafting:crafting/combination"
+      ],
       "bookmarks": [],
       "completedManualQuests": []
     }

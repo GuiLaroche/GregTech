@@ -5,8 +5,10 @@
 #46AA49 diagonalwindows:abyssal_decor/seabrass_bars
 #B3DA24 diagonalfences:abyssal_decor/white_wood_fence
 #74FB32 handcrafted:acacia_chair
+#D61A27 bloodmagic:accelerationrune
 #AD17BC diagonalfences:ad_astra/strophar_fence
 #5BCCF1 create_new_age:advanced_solar_heating_plate
+#C2FED6 extendedcrafting:advanced_table
 #52B53D minecraft:air
 #363DE3 gcyr:airlock_door
 #86D561 architects_palette:algal_cage_lantern
@@ -76,6 +78,7 @@
 #81BB27 create_new_age:basic_motor
 #52B4E7 create_new_age:basic_motor_extension
 #04BAFD create_new_age:basic_solar_heating_plate
+#B831E2 extendedcrafting:basic_table
 #E152BD create:basin
 #F4DCA1 farmersdelight:basket
 #51A075 vinery:basket
@@ -176,6 +179,7 @@
 #899529 herbalbrews:cauldron
 #6A23D5 minecraft:cauldron
 #F512B4 minecraft:chain
+#D3C798 bloodmagic:chargingrune
 #AA58B0 ad_astra:cheese_block
 #7A6313 vintagedelight:cheese_mold
 #CC00BA vinery:chenet_wine
@@ -268,6 +272,7 @@
 #FB5A57 thermal:device_fisher
 #289067 thermal:device_hive_extractor
 #CCCDDC thermal:device_potion_diffuser
+#5720C8 thermal:device_water_gen
 #77BB5A sophisticatedbackpacks:diamond_backpack
 #CB716A minecraft:diamond_ore
 #80497A minecraft:dirt
@@ -305,6 +310,7 @@
 #81ECDC embers:ember_dial
 #22192A embers:ember_emitter
 #D5DF5B embers:ember_receiver
+#B58D89 cataclysm:emp
 #548B83 create:encased_fan
 #6C253E create_optical:encased_mirror
 #2208EB minecraft:enchanting_table
@@ -421,6 +427,7 @@
 #CCD281 gtceu:hv_1a_energy_converter
 #DC76EE gtceu:industrial_tnt
 #581284 ad_astra:infernal_spire_block
+#F3CB56 bloodmagic:inversion_pillar_cap
 #410A66 sophisticatedbackpacks:iron_backpack
 #C65D3F abyssal_decor:iron_ball_1
 #A532AE bakery:iron_chair
@@ -547,6 +554,7 @@
 #4C0EEB gtceu:naquadah_indicator
 #DAB037 gtceu:naquadah_normal_fluid_pipe
 #304FCC ad_astra:nasa_workbench
+#100B3A botania:natura_pylon
 #91453F minecraft:nether_brick_fence
 #0EFBB2 minecraft:nether_brick_slab
 #0EEC82 minecraft:nether_brick_stairs
@@ -556,6 +564,7 @@
 #6B6354 minecraft:nether_wart_block
 #EFF72C sophisticatedbackpacks:netherite_backpack
 #FABA47 brewery:netherite_brewingstation
+#84C30A create_new_age:netherite_magnet
 #454322 minecraft:netherrack
 #3880A3 gtceu:netherrack_alunite_ore
 #4F95D4 gtceu:netherrack_barite_ore
@@ -605,6 +614,7 @@
 #07E250 minecraft:orange_banner
 #57E868 ad_astra:orange_flag
 #C88528 abyssal_decor:orange_wallpaper
+#4C4219 minecraft:orange_wool
 #A71E20 architects_palette:osseous_bricks
 #AA2F4F ad_astra:ostrum_sliding_door
 #458F60 handcrafted:oven
