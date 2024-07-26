@@ -367,6 +367,7 @@
 #DC0D87 create:fluid_pipe
 #F7CE17 embers:fluid_pipe
 #DDC0C3 create:fluid_tank
+#D66D5F embers:fluid_vessel
 #0E31B2 create_new_age:fluxuated_magnetite
 #5F7D4C create:flywheel
 #A4AB38 abyssal_decor:foghorn
