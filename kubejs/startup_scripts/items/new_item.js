@@ -5,4 +5,5 @@ StartupEvents.registry('item', event => {
     event.create('polished_ember_crystal').texture('kubejs:item/polished_ember_crystal')
     event.create('fire_starter').texture('kubejs:item/fire_starter')
     event.create('treated_leather').texture('kubejs:item/treated_leather')
+    event.create('compressed_caminite').texture('kubejs:item/compressed_caminite')
   })

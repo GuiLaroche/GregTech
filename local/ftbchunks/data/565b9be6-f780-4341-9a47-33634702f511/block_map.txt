@@ -227,6 +227,7 @@
 #1D002F gtceu:copper_normal_fluid_pipe
 #2D29A5 miners_delight:copper_pot
 #11141B gtceu:copper_small_fluid_pipe
+#1E9EF6 gtceu:copper_tiny_fluid_pipe
 #E39FA1 create:copper_valve_handle
 #0A8B4E abyssal_decor:corrugated_iron
 #2E6C3D minecraft:cracked_deepslate_bricks
@@ -599,6 +600,7 @@
 #7B3686 gtceu:netherrack_wulfenite_ore
 #D5A3C3 gtceu:netherrack_yellow_limonite_ore
 #46E184 gtnn:neutron_activator
+#5F17A7 gtceu:nickel_small_item_pipe
 #F1D6CC born_in_chaos_v1:nightmare_stalker_skull
 #7F3B20 abyssal_decor:nithing_top
 #08AD74 gtceu:normal_laser_pipe
